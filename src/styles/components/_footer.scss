@@ -1,0 +1,14 @@
+@import "../defaults/base";
+
+footer {
+    // border: 2px solid black;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    .copyright {
+        font-family: $font-clashDisplayVariable;
+        padding: 10px 20px;
+    }
+}

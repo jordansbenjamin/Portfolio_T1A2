@@ -1,16 +1,16 @@
 @import "../defaults/base";
 @import "../components/background";
 @import "../components/header";
-
+@import "../components/footer";
 
 
 .intro {
-    border: 2px solid black;
+    // border: 2px solid black;
     height: 80vh;    
     @include flexLayoutCenter;
 
     .intro-container {
-        border: 2px solid black;
+        // border: 2px solid black;
         width: 70vw;
         height: 60vh;
         
@@ -22,8 +22,9 @@
         .intro-heading {
             font-family: $font-clashDisplayVariable;
             text-transform: uppercase;
-            font-size: 7rem;
+            font-size: 8rem;
             // text-align: center;
+            margin-bottom: 25px;
             position: relative;
 
             .hello2 {
