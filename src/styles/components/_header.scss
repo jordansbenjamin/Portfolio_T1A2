@@ -1,0 +1,57 @@
+@import "../defaults/base";
+@import "../components/utils";
+
+.header {
+	// border: 2px solid black;
+	height: 10rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.logo {
+		// border: 2px solid black;
+		width: 300px;
+		font-family: $font-clashDisplayVariable;
+		font-size: 3rem;
+		font-weight: 700;
+        position: relative;
+        @include flexLayoutCenter;
+
+        .jb2 {
+            display: inline-block;
+            color: $secondary-color;
+            position: absolute;
+            top: -5px;
+            left: 125px;
+            z-index: -10;
+        }
+
+		a {
+			text-decoration: none;
+			color: $primary-color;
+		}
+
+		
+	}
+
+	.nav-items {
+		// border: 2px solid black;
+		width: 500px;
+		display: flex;
+		justify-content: space-evenly;
+
+		margin-right: 80px;
+
+		a {
+			font-family: $font-clashDisplayVariable;
+			font-size: 1.1rem;
+			letter-spacing: 0.5px;
+			text-decoration: none;
+			color: $primary-color;
+
+			&:hover {
+				text-decoration: line-through;
+			}
+		}
+	}
+}

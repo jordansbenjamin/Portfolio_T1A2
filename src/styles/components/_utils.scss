@@ -1,0 +1,7 @@
+// Mixins for resuable components
+
+@mixin flexLayoutCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
