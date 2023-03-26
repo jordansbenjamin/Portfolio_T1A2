@@ -173,7 +173,7 @@ body {
   src: url(/fonts/FogtwoNo5.otf) format("opentype");
 }
 footer {
-  height: 90px;
+  margin-top: auto;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -181,6 +181,13 @@ footer {
 footer .copyright {
   font-family: "Clash Display Variable", sans-serif;
   padding: 10px 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100svh;
 }
 
 .intro {
