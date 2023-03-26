@@ -3,22 +3,20 @@
 @import "../components/header";
 @import "../components/footer";
 
-.main-container {
-    display: flex;
-    flex-direction: column;
+body {
+    @include flexLayoutColumn;
     min-height: 100vh;
-    min-height: 100svh;
 }
 
 .intro {
     // border: 2px solid black;
-    height: 80vh;    
+    height: 70vh;    
     @include flexLayoutCenter;
 
     .intro-container {
         // border: 2px solid black;
-        width: 70vw;
-        height: 60vh;
+        width: 70%;
+        height: 70%;
         
         // display: flex;
         // flex-direction: column;
@@ -26,7 +24,7 @@
         // align-items: center;
         
         .intro-heading {
-            font-family: $font-clashDisplayVariable;
+            font-family: $font-cameoSans;
             text-transform: uppercase;
             font-size: 8rem;
             // text-align: center;
@@ -43,18 +41,17 @@
         }
         .intro-subheading {
             font-family: $font-clashDisplayVariable;
-            font-size: 3.5rem;
+            font-weight: 600;
+            font-size: 3.2rem;
             text-transform: uppercase;
-            // letter-spacing: 1px;
+            letter-spacing: 1px;
         }
 
         .intro-text1 {
             font-family: $font-montserrat;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             font-weight: 700;
             margin: 30px 0;
         }
-        
-        
     }
 }

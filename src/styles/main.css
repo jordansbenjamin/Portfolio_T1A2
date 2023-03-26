@@ -74,7 +74,7 @@
   src: url(/fonts/FogtwoNo5.otf) format("opentype");
 }
 body {
-  background-color: #bg-color;
+  background-color: #F8F3F1;
 }
 
 * {
@@ -109,7 +109,8 @@ body {
   align-items: center;
 }
 .header .logo {
-  width: 300px;
+  width: 100px;
+  margin-left: 100px;
   font-family: "Clash Display Variable", sans-serif;
   font-size: 3rem;
   font-weight: 700;
@@ -123,7 +124,7 @@ body {
   color: #e7e7e7;
   position: absolute;
   top: -5px;
-  left: 125px;
+  left: 25px;
   z-index: -10;
 }
 .header .logo a {
@@ -132,9 +133,9 @@ body {
 }
 .header .nav-items {
   width: 500px;
+  margin-right: 80px;
   display: flex;
   justify-content: space-evenly;
-  margin-right: 80px;
 }
 .header .nav-items a {
   font-family: "Clash Display Variable", sans-serif;
@@ -173,35 +174,35 @@ body {
   src: url(/fonts/FogtwoNo5.otf) format("opentype");
 }
 footer {
-  margin-top: auto;
+  margin: auto 0 5px 0;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
 }
 footer .copyright {
   font-family: "Clash Display Variable", sans-serif;
+  font-size: 0.9rem;
   padding: 10px 20px;
 }
 
-.main-container {
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  min-height: 100svh;
 }
 
 .intro {
-  height: 80vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .intro .intro-container {
-  width: 70vw;
-  height: 60vh;
+  width: 70%;
+  height: 70%;
 }
 .intro .intro-container .intro-heading {
-  font-family: "Clash Display Variable", sans-serif;
+  font-family: "Cameo Sans", serif;
   text-transform: uppercase;
   font-size: 8rem;
   margin-bottom: 25px;
@@ -216,12 +217,14 @@ footer .copyright {
 }
 .intro .intro-container .intro-subheading {
   font-family: "Clash Display Variable", sans-serif;
-  font-size: 3.5rem;
+  font-weight: 600;
+  font-size: 3.2rem;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .intro .intro-container .intro-text1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   margin: 30px 0;
 }/*# sourceMappingURL=main.css.map */

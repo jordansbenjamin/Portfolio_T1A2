@@ -2,13 +2,14 @@
 
 footer {
     // border: 2px solid black;
-    margin-top: auto;
+    margin: auto 0 5px 0;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
 
     .copyright {
         font-family: $font-clashDisplayVariable;
+        font-size: .9rem;
         padding: 10px 20px;
     }
 }
