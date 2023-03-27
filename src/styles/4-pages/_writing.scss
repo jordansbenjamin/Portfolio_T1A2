@@ -1,0 +1,9 @@
+@import "../1-defaults/base";
+@import "../2-components/mixins";
+@import "../2-components/background";
+@import "../3-layout/header";
+@import "../3-layout/footer";
+
+body {
+    @include bodySetUp;
+}
