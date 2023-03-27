@@ -1,20 +1,22 @@
-@import "../defaults/base";
-@import "../components/background";
-@import "../components/header";
-@import "../components/footer";
+@import "../1-defaults/base";
+@import "../2-components/background";
+@import "../2-components/mixins";
+@import "../3-layout/header";
+@import "../3-layout/footer";
+
 
 body {
-    @include flexLayoutColumn;
-    min-height: 100vh;
+    @include bodySetUp;
 }
 
 .intro {
     // border: 2px solid black;
-    height: 70vh;    
+    @include mainContainer;
     @include flexLayoutCenter;
 
     .intro-container {
         // border: 2px solid black;
+        @include contentContainer;
         width: 70%;
         height: 70%;
         
@@ -37,7 +39,7 @@ body {
                 position: absolute;
                 top: -10px;
                 left: 20px;
-                opacity: .6;
+                opacity: .8;
                 z-index: -10;
             }
         }

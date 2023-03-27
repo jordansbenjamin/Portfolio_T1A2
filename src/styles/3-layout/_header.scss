@@ -1,5 +1,5 @@
-@import "../defaults/base";
-@import "../components/utils";
+@import "../1-defaults/base";
+@import "../2-components/mixins";
 
 .header {
 	// border: 2px solid black;
@@ -17,7 +17,7 @@
 		font-weight: 700;
         position: relative;
         @include flexLayoutCenter;
-		transition: all .5s ease-in-out;
+		@include transition5;
 
         .jb2 {
             display: inline-block;
@@ -53,7 +53,7 @@
 			letter-spacing: 0.5px;
 			text-decoration: none;
 			color: $primary-color;
-			transition: all .2s ease-in-out;
+			@include transition5;
 
 			&:hover {
 				text-decoration: line-through;

@@ -1,13 +1,11 @@
 // Default styles
-@import './defaults/base';
-
-// Pages styles
-@import './pages/home';
-@import './pages/about';
-@import './pages/projects';
-@import './pages/skills';
-@import './pages/writing';
-@import './pages/writing-post';
-@import './pages/contact';
+@import "./1-defaults/base";
 
 // Component styles
+@import "./2-components/mixins";
+
+// Layout styles
+
+@import "./3-layout/header";
+@import "./3-layout/footer";
+

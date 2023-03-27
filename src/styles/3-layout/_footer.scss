@@ -1,8 +1,9 @@
-@import "../defaults/base";
+@import "../1-defaults/base";
+
 
 footer {
     // border: 2px solid black;
-    margin: auto 0 5px 0;
+    margin: auto 0 0 0;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;

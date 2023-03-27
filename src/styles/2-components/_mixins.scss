@@ -1,0 +1,26 @@
+// Mixins for resuable components
+
+@mixin flexLayoutCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin bodySetUp {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin transition5 {
+    transition: all .5s ease-in-out;
+}
+
+@mixin mainContainer {
+    height: 70vh;
+}
+
+@mixin contentContainer {
+    width: 70%;
+    height: 70%;
+}
