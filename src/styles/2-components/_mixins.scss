@@ -1,26 +1,46 @@
 // Mixins for resuable components
 
+// Flex layout to center containers or items
 @mixin flexLayoutCenter {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+// Sets up body to determine nested children containers
 @mixin bodySetUp {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-@mixin transition5 {
-    transition: all .5s ease-in-out;
-}
-
+// Main container that holds child content container
 @mixin mainContainer {
     height: 70vh;
 }
 
-@mixin contentContainer {
+// Container nested within parent main container
+@mixin homepageContentContainer {
     width: 70%;
     height: 70%;
+}
+
+@mixin contentContainer {
+    width: 85%;
+    height: 95%;
+}
+
+// Subheading styles
+
+@mixin subheading3 {
+    font-family: $font-gallient;
+    font-weight: 600;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    padding: 16px 0 0 0;
+}
+
+// Transition 1
+@mixin transition5 {
+    transition: all .3s ease-in-out;
 }

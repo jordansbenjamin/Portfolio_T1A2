@@ -194,7 +194,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .header .logo .jb2 {
   display: inline-block;
@@ -223,7 +223,7 @@ body {
   letter-spacing: 0.5px;
   text-decoration: none;
   color: #141414;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .header .nav-items a:hover {
   text-decoration: line-through;
@@ -296,8 +296,6 @@ body {
   align-items: center;
 }
 .intro .intro-container {
-  width: 70%;
-  height: 70%;
   width: 70%;
   height: 70%;
 }

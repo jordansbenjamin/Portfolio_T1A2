@@ -16,18 +16,10 @@ body {
 
     .intro-container {
         // border: 2px solid black;
-        @include contentContainer;
-        width: 70%;
-        height: 70%;
-        
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        // align-items: center;
+        @include homepageContentContainer;
         
         .intro-heading {
             font-family: $font-gallient;
-            // text-transform: uppercase;
             font-size: 14rem;
             letter-spacing: 8px;
             line-height: 1.4;
@@ -48,7 +40,6 @@ body {
             font-weight: 600;
             // font-size: 3.2rem;
             font-size: 4rem;
-            // text-transform: uppercase;
             letter-spacing: 1px;
         }
 

@@ -80,6 +80,104 @@
   font-family: "Tenor Sans";
   src: url(/fonts/TenorSans.ttf) format("truetype");
 }
+body {
+  background-color: #F8F3F1;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.bg {
+  position: fixed;
+  z-index: -100;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: transparent url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
+  background-repeat: repeat;
+  animation: bg-animation 0.2s infinite;
+  opacity: 0.9;
+  visibility: visible;
+}
+
+@keyframes bg-animation {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-5%, -5%);
+  }
+  20% {
+    transform: translate(-10%, 5%);
+  }
+  30% {
+    transform: translate(5%, -10%);
+  }
+  40% {
+    transform: translate(-5%, 15%);
+  }
+  50% {
+    transform: translate(-10%, 5%);
+  }
+  60% {
+    transform: translate(15%, 0);
+  }
+  70% {
+    transform: translate(0, 10%);
+  }
+  80% {
+    transform: translate(-15%, 0);
+  }
+  90% {
+    transform: translate(10%, 5%);
+  }
+  100% {
+    transform: translate(5%, 0);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Clash Display Variable";
+  src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cameo Sans";
+  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS Outline";
+  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS";
+  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
+}
+@font-face {
+  font-family: "FTN5";
+  src: url(/fonts/FogtwoNo5.otf) format("opentype");
+}
+@font-face {
+  font-family: "Gallient";
+  src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Hookana";
+  src: url(/fonts/Hookana.otf) format("opentype");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Tenor Sans";
+  src: url(/fonts/TenorSans.ttf) format("truetype");
+}
 .header {
   height: 10rem;
   display: flex;
@@ -96,7 +194,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .header .logo .jb2 {
   display: inline-block;
@@ -125,7 +223,7 @@
   letter-spacing: 0.5px;
   text-decoration: none;
   color: #141414;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .header .nav-items a:hover {
   text-decoration: line-through;
@@ -183,4 +281,57 @@ footer .copyright {
   font-family: "Clash Display Variable", sans-serif;
   font-size: 0.9rem;
   padding: 10px 20px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .about-container {
+  width: 85%;
+  height: 95%;
+}
+.about .about-container .about-heading {
+  font-family: "Gallient", serif;
+  font-size: 11rem;
+  letter-spacing: 8px;
+  line-height: 1.4;
+  opacity: 0.9;
+  position: relative;
+}
+.about .about-container .about-heading .about2 {
+  color: #faf9f9;
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  opacity: 0.8;
+  z-index: -10;
+}
+.about .about-container .about-subheading {
+  font-family: "Gallient", serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+.about .about-container .about-text {
+  width: 70%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.08rem;
+  font-weight: 700;
+  margin: 30px 0;
+}
+.about .about-container .about-subheading3 {
+  font-family: "Gallient", serif;
+  font-weight: 600;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  padding: 16px 0 0 0;
 }/*# sourceMappingURL=about.css.map */

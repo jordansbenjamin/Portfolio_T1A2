@@ -1,7 +1,61 @@
 @import "../1-defaults/base";
 @import "../2-components/mixins";
-// @import "../2-components/background";
+@import "../2-components/background";
 @import "../3-layout/header";
 @import "../3-layout/footer";
+
+body {
+    @include bodySetUp;
+}
+
+.about {
+    // border: 2px solid black;
+    @include mainContainer;
+    @include flexLayoutCenter;
+
+    .about-container {
+        // border: 2px solid black;
+        @include contentContainer;
+        
+        .about-heading {
+            font-family: $font-gallient;
+            font-size: 11rem;
+            letter-spacing: 8px;
+            line-height: 1.4;
+            opacity: .9;
+            position: relative;
+            // padding-bottom: 50px;
+
+            .about2 {
+                color: $secondary-color;
+                position: absolute;
+                top: -10px;
+                left: 15px;
+                opacity: .8;
+                z-index: -10;
+            }
+        }
+        .about-subheading {
+            font-family: $font-gallient;
+            font-weight: 600;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        .about-text {
+            // border: 2px solid black;
+            width: 70%;
+            font-family: $font-montserrat;
+            font-size: 1.08rem;
+            font-weight: 700;
+            margin: 30px 0;
+        }
+
+        .about-subheading3 {
+            @include subheading3;
+        }
+    }
+}
+
 
 
