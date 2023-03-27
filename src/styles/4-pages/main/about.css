@@ -298,12 +298,13 @@ body {
 .about .about-container {
   width: 85%;
   height: 95%;
+  position: relative;
 }
 .about .about-container .profile-photo {
   height: 350px;
   border-radius: 25px;
-  margin-left: 20px;
-  float: right;
+  position: absolute;
+  right: 0px;
 }
 .about .about-container .about-heading {
   font-family: "Gallient", serif;

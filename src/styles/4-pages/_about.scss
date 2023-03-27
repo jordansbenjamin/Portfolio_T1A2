@@ -16,12 +16,17 @@ body {
     .about-container {
         // border: 2px solid black;
         @include contentContainer;
+        position: relative;
 
         .profile-photo {
             height: 350px;
+            // max-width: 40%;
+            // height: auto;
             border-radius: 25px;
-            margin-left: 20px;
-            float: right;
+            position: absolute;
+            right: 0px;
+            // margin-left: 20px;
+            // float: right;
         }
         
         .about-heading {
