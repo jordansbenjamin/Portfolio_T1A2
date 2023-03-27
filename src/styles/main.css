@@ -175,28 +175,32 @@ body {
 .header .logo {
   width: 100px;
   margin-left: 100px;
-  font-family: "Clash Display Variable", sans-serif;
-  font-size: 3rem;
+  font-family: "Gallient", serif;
+  font-size: 2.5rem;
   font-weight: 700;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s;
 }
 .header .logo .jb2 {
   display: inline-block;
   color: #e7e7e7;
   position: absolute;
   top: -5px;
-  left: 25px;
+  left: 35px;
   z-index: -10;
 }
 .header .logo a {
   text-decoration: none;
   color: #141414;
 }
+.header .logo:hover {
+  font-size: 2.8rem;
+}
 .header .nav-items {
-  width: 500px;
+  width: 550px;
   margin-right: 80px;
   display: flex;
   justify-content: space-evenly;
@@ -282,10 +286,10 @@ body {
   height: 70%;
 }
 .intro .intro-container .intro-heading {
-  font-family: "Cameo Sans", sans-serif;
-  text-transform: uppercase;
-  font-size: 8rem;
-  margin-bottom: 25px;
+  font-family: "Gallient", serif;
+  font-size: 14rem;
+  letter-spacing: 8px;
+  line-height: 1.4;
   position: relative;
 }
 .intro .intro-container .intro-heading .hello2 {
@@ -296,13 +300,12 @@ body {
   z-index: -10;
 }
 .intro .intro-container .intro-subheading {
-  font-family: "Clash Display Variable", sans-serif;
+  font-family: "Gallient", serif;
   font-weight: 600;
-  font-size: 3.2rem;
-  text-transform: uppercase;
+  font-size: 4rem;
   letter-spacing: 1px;
 }
-.intro .intro-container .intro-text1 {
+.intro .intro-container .intro-text {
   font-family: "Montserrat", sans-serif;
   font-size: 1.05rem;
   font-weight: 700;

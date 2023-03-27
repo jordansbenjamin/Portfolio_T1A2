@@ -12,18 +12,19 @@
 		// border: 2px solid black;
 		width: 100px;
 		margin-left: 100px;
-		font-family: $font-clashDisplayVariable;
-		font-size: 3rem;
+		font-family: $font-gallient;
+		font-size: 2.5rem;
 		font-weight: 700;
         position: relative;
         @include flexLayoutCenter;
+		transition: all .5s;
 
         .jb2 {
             display: inline-block;
             color: $secondary-color;
             position: absolute;
             top: -5px;
-            left: 25px;
+            left: 35px;
             z-index: -10;
         }
 
@@ -32,12 +33,16 @@
 			color: $primary-color;
 		}
 
+		&:hover {
+			font-size: 2.8rem;
+		}
+
 		
 	}
 
 	.nav-items {
 		// border: 2px solid black;
-		width: 500px;
+		width: 550px;
 		margin-right: 80px;
 		display: flex;
 		justify-content: space-evenly;

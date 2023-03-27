@@ -24,11 +24,12 @@ body {
         // align-items: center;
         
         .intro-heading {
-            font-family: $font-cameoSans;
-            text-transform: uppercase;
-            font-size: 8rem;
-            // text-align: center;
-            margin-bottom: 25px;
+            font-family: $font-gallient;
+            // text-transform: uppercase;
+            font-size: 14rem;
+            letter-spacing: 8px;
+            line-height: 1.4;
+            // margin-bottom: 25px;
             position: relative;
 
             .hello2 {
@@ -40,14 +41,15 @@ body {
             }
         }
         .intro-subheading {
-            font-family: $font-clashDisplayVariable;
+            font-family: $font-gallient;
             font-weight: 600;
-            font-size: 3.2rem;
-            text-transform: uppercase;
+            // font-size: 3.2rem;
+            font-size: 4rem;
+            // text-transform: uppercase;
             letter-spacing: 1px;
         }
 
-        .intro-text1 {
+        .intro-text {
             font-family: $font-montserrat;
             font-size: 1.05rem;
             font-weight: 700;
