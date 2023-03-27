@@ -188,6 +188,7 @@ body {
   width: 100px;
   margin-left: 100px;
   font-family: "Gallient", serif;
+  color: #1A1818;
   font-size: 2.5rem;
   font-weight: 700;
   position: relative;
@@ -301,6 +302,7 @@ body {
 }
 .intro .intro-container .intro-heading {
   font-family: "Gallient", serif;
+  color: #1A1818;
   font-size: 14rem;
   letter-spacing: 8px;
   line-height: 1.4;
@@ -318,6 +320,7 @@ body {
 .intro .intro-container .intro-subheading {
   font-family: "Gallient", serif;
   font-weight: 600;
+  color: #1A1818;
   font-size: 4rem;
   letter-spacing: 1px;
 }

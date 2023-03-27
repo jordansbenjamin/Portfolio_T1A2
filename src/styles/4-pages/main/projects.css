@@ -287,4 +287,40 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.projects {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects .projects-container {
+  width: 85%;
+  height: 95%;
+  position: relative;
+}
+.projects .projects-container .projects-heading {
+  font-family: "Gallient", serif;
+  color: #1A1818;
+  font-size: 11rem;
+  letter-spacing: 8px;
+  line-height: 1.4;
+  opacity: 0.9;
+  position: relative;
+  padding-bottom: 20px;
+}
+.projects .projects-container .projects-heading .projects2 {
+  color: #faf9f9;
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  opacity: 0.8;
+  z-index: -10;
+}
+.projects .projects-container .projects-subheading {
+  font-family: "Gallient", serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=projects.css.map */

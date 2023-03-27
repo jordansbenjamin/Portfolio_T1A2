@@ -7,3 +7,43 @@
 body {
     @include bodySetUp;
 }
+
+.projects {
+    // border: 2px solid black;
+    @include mainContainer;
+    @include flexLayoutCenter;
+
+    .projects-container {
+        // border: 2px solid black;
+        @include contentContainer;
+        position: relative;
+        
+        .projects-heading {
+            font-family: $font-gallient;
+            color: $dark-color;
+            font-size: 11rem;
+            letter-spacing: 8px;
+            line-height: 1.4;
+            opacity: .9;
+            position: relative;
+            padding-bottom: 20px;
+
+            .projects2 {
+                color: $secondary-color;
+                position: absolute;
+                top: -10px;
+                left: 15px;
+                opacity: .8;
+                z-index: -10;
+            }
+        }
+
+        .projects-subheading {
+            font-family: $font-gallient;
+            color: $slate-color;
+            font-weight: 600;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+    }
+}

@@ -188,6 +188,7 @@ body {
   width: 100px;
   margin-left: 100px;
   font-family: "Gallient", serif;
+  color: #1A1818;
   font-size: 2.5rem;
   font-weight: 700;
   position: relative;
@@ -308,6 +309,7 @@ body {
 }
 .about .about-container .about-heading {
   font-family: "Gallient", serif;
+  color: #1A1818;
   font-size: 11rem;
   letter-spacing: 8px;
   line-height: 1.4;
@@ -324,6 +326,7 @@ body {
 }
 .about .about-container .about-subheading {
   font-family: "Gallient", serif;
+  color: #1A1818;
   font-weight: 600;
   font-size: 2.5rem;
   letter-spacing: 1px;
