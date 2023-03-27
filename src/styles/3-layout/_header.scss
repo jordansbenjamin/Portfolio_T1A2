@@ -51,14 +51,14 @@
 		a {
 			font-family: $font-clashDisplayVariable;
 			font-size: 1.1rem;
-			letter-spacing: 0.5px;
+			letter-spacing: 1px;
 			text-decoration: none;
 			color: $primary-color;
 			@include transition5;
 
 			&:hover {
 				text-decoration: line-through;
-				letter-spacing: 1.2px;
+				letter-spacing: 2.5px;
 			}
 		}
 	}
