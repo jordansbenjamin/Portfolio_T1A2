@@ -16,6 +16,13 @@ body {
     .about-container {
         // border: 2px solid black;
         @include contentContainer;
+
+        .profile-photo {
+            height: 350px;
+            border-radius: 25px;
+            margin-left: 20px;
+            float: right;
+        }
         
         .about-heading {
             font-family: $font-gallient;

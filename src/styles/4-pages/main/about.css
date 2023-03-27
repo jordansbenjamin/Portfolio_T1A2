@@ -299,6 +299,12 @@ body {
   width: 85%;
   height: 95%;
 }
+.about .about-container .profile-photo {
+  height: 350px;
+  border-radius: 25px;
+  margin-left: 20px;
+  float: right;
+}
 .about .about-container .about-heading {
   font-family: "Gallient", serif;
   font-size: 11rem;
