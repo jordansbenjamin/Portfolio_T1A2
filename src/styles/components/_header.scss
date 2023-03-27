@@ -17,14 +17,14 @@
 		font-weight: 700;
         position: relative;
         @include flexLayoutCenter;
-		transition: all .5s;
+		transition: all .5s ease-in-out;
 
         .jb2 {
             display: inline-block;
             color: $secondary-color;
             position: absolute;
-            top: -5px;
-            left: 35px;
+            top: -4px;
+            left: 34px;
             z-index: -10;
         }
 
@@ -53,9 +53,11 @@
 			letter-spacing: 0.5px;
 			text-decoration: none;
 			color: $primary-color;
+			transition: all .2s ease-in-out;
 
 			&:hover {
 				text-decoration: line-through;
+				letter-spacing: 1.2px;
 			}
 		}
 	}

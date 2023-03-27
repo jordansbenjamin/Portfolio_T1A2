@@ -29,7 +29,7 @@ body {
             font-size: 14rem;
             letter-spacing: 8px;
             line-height: 1.4;
-            // margin-bottom: 25px;
+            opacity: .9;
             position: relative;
 
             .hello2 {
@@ -37,6 +37,7 @@ body {
                 position: absolute;
                 top: -10px;
                 left: 20px;
+                opacity: .6;
                 z-index: -10;
             }
         }
@@ -51,9 +52,14 @@ body {
 
         .intro-text {
             font-family: $font-montserrat;
-            font-size: 1.05rem;
+            font-size: 1.08rem;
             font-weight: 700;
             margin: 30px 0;
+        }
+
+        .learn-more {
+            font-family: $font-gallient;
+            font-size: 2rem;
         }
     }
 }
