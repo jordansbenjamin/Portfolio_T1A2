@@ -9,12 +9,12 @@ body {
 }
 
 .about {
-    // border: 2px solid black;
-    @include mainContainer;
+    border: 2px solid black;
+    @include aboutMainContainer;
     @include flexLayoutCenter;
 
     .about-container {
-        // border: 2px solid black;
+        border: 2px solid black;
         @include contentContainer;
         position: relative;
 

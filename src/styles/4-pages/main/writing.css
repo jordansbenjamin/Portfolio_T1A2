@@ -284,24 +284,75 @@ footer .copyright {
   padding: 10px 20px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Clash Display Variable";
+  src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cameo Sans";
+  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS Outline";
+  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS";
+  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
+}
+@font-face {
+  font-family: "FTN5";
+  src: url(/fonts/FogtwoNo5.otf) format("opentype");
+}
+@font-face {
+  font-family: "Gallient";
+  src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Hookana";
+  src: url(/fonts/Hookana.otf) format("opentype");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Tenor Sans";
+  src: url(/fonts/TenorSans.ttf) format("truetype");
+}
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-.writing {
-  height: 70vh;
+.main-container {
+  border: 2px solid black;
+  height: 80vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
 }
-.writing .writing-container {
+.main-container .hero-container {
+  border: 2px solid black;
   width: 85%;
-  height: 95%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+}
+.main-container .hero-container .hero-wrapper {
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
   position: relative;
 }
-.writing .writing-container .writing-heading {
+.main-container .hero-container .hero-wrapper .hero-heading {
   font-family: "Gallient", serif;
   color: #1A1818;
   font-size: 11rem;
@@ -309,9 +360,8 @@ body {
   line-height: 1.4;
   opacity: 0.9;
   position: relative;
-  padding-bottom: 20px;
 }
-.writing .writing-container .writing-heading .writing2 {
+.main-container .hero-container .hero-wrapper .hero-heading .writing2 {
   color: #faf9f9;
   position: absolute;
   top: -10px;
@@ -319,10 +369,26 @@ body {
   opacity: 0.8;
   z-index: -10;
 }
-.writing .writing-container .writing-subheading {
+.main-container .hero-container .hero-wrapper .hero-subheading {
   font-family: "Gallient", serif;
   color: #1A1818;
   font-weight: 600;
   font-size: 2.5rem;
   letter-spacing: 1px;
+  padding-left: 8px;
+}
+.main-container .content-container {
+  border: 2px solid red;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main-container .content-container .content {
+  width: 350px;
+  height: 40%;
+  border: 2px solid blue;
 }/*# sourceMappingURL=writing.css.map */
