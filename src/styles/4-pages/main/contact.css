@@ -333,7 +333,11 @@ body {
 
 .main-container {
   border: 2px solid black;
-  height: 70vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .main-container .hero-container {
   border: 2px solid black;
