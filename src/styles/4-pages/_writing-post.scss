@@ -1,0 +1,72 @@
+@import "../1-defaults/base";
+@import "../2-components/mixins";
+@import "../2-components/background";
+@import "../3-layout/header";
+@import "../3-layout/footer";
+@import "../3-layout/hero";
+
+body {
+	@include bodySetUp;
+}
+
+.main-container {
+	border: 2px solid black;
+	@include newMainContainer;
+	// @include flexLayoutCenter;
+
+	.hero-container {
+		border: 2px solid black;
+        width: 85%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+
+		.hero-wrapper {
+			border: 2px solid black;
+			@include heroContentContainer;
+			position: relative;
+
+			.hero-heading {
+				font-family: $font-gallient;
+				color: $slate-color;
+				font-size: 6rem;
+				letter-spacing: 8px;
+				line-height: 1.4;
+				opacity: 0.9;
+				position: relative;
+				// padding-bottom: 5px;
+
+				.writing2 {
+					color: $secondary-color;
+					position: absolute;
+					top: -10px;
+					left: 15px;
+					opacity: 0.8;
+					z-index: -10;
+				}
+			}
+
+			.hero-subheading {
+				font-family: $font-gallient;
+				color: $slate-color;
+				font-weight: 600;
+				font-size: 2.5rem;
+				letter-spacing: 1px;
+				// padding-left: 8px;
+			}
+		}
+	}
+
+    .content-container {
+        border: 2px solid red;
+        height: 60%;
+        width: 85%;        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+
+        
+    }
+}

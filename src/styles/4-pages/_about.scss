@@ -13,13 +13,13 @@ body {
     @include aboutMainContainer;
     @include flexLayoutCenter;
 
-    .about-container {
+    .about-wrapper {
         border: 2px solid black;
         @include contentContainer;
         position: relative;
 
         .profile-photo {
-            height: 350px;
+            height: 300px;
             // max-width: 40%;
             // height: auto;
             border-radius: 25px;
