@@ -6,22 +6,22 @@
 @import "../3-layout/hero";
 
 body {
-	min-height: 180vh;
+	// min-height: 180vh;
 	display: flex;
 	flex-direction: column;
 }
 
 .main-container {
-	border: 2px solid black;
+	// border: 2px solid black;
 	// @include newMainContainer;
-	height: 170vh;
+	// height: 170vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 
 	.hero-container {
-		border: 2px solid black;
+		// border: 2px solid black;
 		width: 85%;
 		height: 13%;
 		display: flex;
@@ -29,7 +29,7 @@ body {
 		margin: 25px 0;
 
 		.hero-wrapper {
-			border: 2px solid black;
+			// border: 2px solid black;
 			@include heroContentContainer;
 			position: relative;
 
@@ -73,7 +73,7 @@ body {
 	}
 
 	.content-container {
-		border: 2px solid red;
+		// border: 2px solid red;
 		height: 80%;
 		width: 85%;
 		margin-bottom: 80px;

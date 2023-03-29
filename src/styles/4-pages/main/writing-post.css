@@ -326,21 +326,17 @@ footer .copyright {
   src: url(/fonts/TenorSans.ttf) format("truetype");
 }
 body {
-  min-height: 180vh;
   display: flex;
   flex-direction: column;
 }
 
 .main-container {
-  border: 2px solid black;
-  height: 170vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 .main-container .hero-container {
-  border: 2px solid black;
   width: 85%;
   height: 13%;
   display: flex;
@@ -348,7 +344,6 @@ body {
   margin: 25px 0;
 }
 .main-container .hero-container .hero-wrapper {
-  border: 2px solid black;
   width: 100%;
   height: 100%;
   position: relative;
@@ -386,7 +381,6 @@ body {
   padding-top: 20px;
 }
 .main-container .content-container {
-  border: 2px solid red;
   height: 80%;
   width: 85%;
   margin-bottom: 80px;
