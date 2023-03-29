@@ -24,11 +24,19 @@ body {
 		.intro-heading {
 			font-family: $font-gallient;
 			color: $slate-color;
-			font-size: 14rem;
+			font-size: 14.5rem;
 			letter-spacing: 8px;
 			line-height: 1.4;
 			opacity: 0.9;
 			position: relative;
+
+			@media only screen and (max-width: 1100px) {
+				font-size: 13rem;
+			}
+
+			@media only screen and (max-width: 760px) {
+				font-size: 10rem;
+			}
 
 			.intro-heading-2 {
 				color: $secondary-color;
@@ -46,18 +54,42 @@ body {
 			color: $slate-color;
 			font-size: 4rem;
 			letter-spacing: 1px;
+
+			@media only screen and (max-width: 1100px) {
+				font-size: 3.5rem;
+			}
+
+			@media only screen and (max-width: 760px) {
+				font-size: 2.69rem;
+			}
 		}
 
 		.intro-text {
 			font-family: $font-montserrat;
-			font-size: 1.08rem;
+			font-size: 1.1rem;
 			font-weight: 700;
 			margin: 30px 0;
+
+			@media only screen and (max-width: 1100px) {
+				font-size: 1rem;
+			}
+
+			@media only screen and (max-width: 760px) {
+				font-size: .9rem;
+			}
 		}
 
 		.learn-more {
 			font-family: $font-gallient;
 			font-size: 2rem;
+
+			@media only screen and (max-width: 1100px) {
+				font-size: 1.8rem;
+			}
+
+			@media only screen and (max-width: 760px) {
+				font-size: 1.4rem;
+			}
 		}
 	}
 }
