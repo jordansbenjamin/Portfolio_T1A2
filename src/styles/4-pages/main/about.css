@@ -291,13 +291,11 @@ body {
 }
 
 .about {
-  border: 2px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .about .about-wrapper {
-  border: 2px solid black;
   width: 85%;
   height: 95%;
   position: relative;

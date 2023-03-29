@@ -385,4 +385,53 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+}
+.main-container .content-container .contact-form {
+  font-family: "Gallient", serif;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  width: 350px;
+  margin: auto;
+}
+.main-container .content-container .contact-form label {
+  display: block;
+  padding: 10px 0;
+}
+.main-container .content-container .contact-form .form-input {
+  display: block;
+  width: 100%;
+  border-style: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+.main-container .content-container .contact-form .form-input:not(.form-textarea) {
+  height: 32px;
+}
+.main-container .content-container .contact-form .form-input.form-textarea {
+  resize: none;
+  height: 100px;
+}
+.main-container .content-container .contact-form .form-input:focus {
+  outline: none;
+  box-shadow: 0 0 8px 3px #bbbbbb;
+}
+.main-container .content-container .contact-form .btn {
+  text-align: center;
+}
+.main-container .content-container .contact-form .btn #submit {
+  font-family: "Gallient", serif;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #1A1818;
+  width: auto;
+  color: #faf9f9;
+  padding: 10px 20px;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.main-container .content-container .contact-form .btn #submit:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=contact.css.map */

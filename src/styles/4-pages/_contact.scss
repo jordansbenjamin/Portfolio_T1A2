@@ -67,6 +67,66 @@ body {
         align-items: center;
         flex-wrap: wrap;
 
-        
+        .contact-form {
+			font-family: $font-gallient;
+			font-size: 1.4rem;
+			letter-spacing: 2px;
+			// border: 2px solid black;
+			width: 350px;
+			// margin-bottom: 40px;
+			margin: auto;
+
+			label {
+				display: block;
+				padding: 10px 0;
+			}
+
+			.form-input {
+				display: block;
+				width: 100%;
+				border-style: none;
+				border-radius: 5px;
+				font-family: $font-montserrat;
+
+				&:not(.form-textarea) {
+					height: 32px;
+				}
+
+				&.form-textarea {
+					resize: none;
+					height: 100px;
+				}
+
+				&:focus {
+					outline: none;
+					box-shadow: 0 0 8px 3px $circle-color1;
+				}
+			}
+
+			.btn {
+				text-align: center;
+
+				#submit {
+					font-family: $font-gallient;
+					font-size: 1.4rem;
+					letter-spacing: 2px;
+					border: none;
+					outline: none;
+					border-radius: 10px;
+					background-color: $slate-color;
+					width: auto;
+					color: $secondary-color;
+					padding: 10px 20px;
+					margin: 20px 0;
+					text-transform: uppercase;
+	
+					&:hover {
+						cursor: pointer;
+	
+					}
+				}
+			}
+			
+		}
     }
 }

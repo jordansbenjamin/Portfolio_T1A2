@@ -11,12 +11,12 @@ body {
 }
 
 .about {
-	border: 2px solid black;
+	// border: 2px solid black;
 	// height: 80vh;
 	@include flexLayoutCenter;
 
 	.about-wrapper {
-		border: 2px solid black;
+		// border: 2px solid black;
 		width: 85%;
 		height: 95%;
 		position: relative;
