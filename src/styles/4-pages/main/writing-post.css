@@ -326,25 +326,26 @@ footer .copyright {
   src: url(/fonts/TenorSans.ttf) format("truetype");
 }
 body {
-  min-height: 100vh;
+  min-height: 180vh;
   display: flex;
   flex-direction: column;
 }
 
 .main-container {
   border: 2px solid black;
-  height: 80vh;
+  height: 170vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .main-container .hero-container {
   border: 2px solid black;
   width: 85%;
-  height: 30%;
+  height: 13%;
   display: flex;
   justify-content: center;
+  margin: 25px 0;
 }
 .main-container .hero-container .hero-wrapper {
   border: 2px solid black;
@@ -373,16 +374,61 @@ body {
   font-family: "Gallient", serif;
   color: #1A1818;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   letter-spacing: 1px;
+  padding-top: 10px;
+}
+.main-container .hero-container .hero-wrapper .date {
+  font-family: "Gallient", serif;
+  color: #1A1818;
+  font-size: 1.2rem;
+  letter-spacing: 0.8px;
+  padding-top: 20px;
 }
 .main-container .content-container {
   border: 2px solid red;
-  height: 60%;
+  height: 80%;
   width: 85%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.main-container .content-container figure {
+  width: 30%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.main-container .content-container figure img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.main-container .content-container figure figcaption {
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.main-container .content-container .content {
+  width: 90%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 30px 0;
+  padding: 0 20px;
+}
+.main-container .content-container .content .subheading3 {
+  font-family: "Gallient", serif;
+  font-weight: 600;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  padding: 16px 0;
+}
+.main-container .content-container .content .blog-text {
+  margin: 0 0 20px 0;
+  line-height: 1.8;
+}
+.main-container .content-container .content q {
+  font-family: "Gallient", serif;
+  font-size: 3rem;
+  padding: 50px 100px;
+  display: block;
+  letter-spacing: 1.8px;
 }/*# sourceMappingURL=writing-post.css.map */

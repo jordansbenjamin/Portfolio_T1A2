@@ -6,20 +6,27 @@
 @import "../3-layout/hero";
 
 body {
-	@include bodySetUp;
+	min-height: 180vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .main-container {
 	border: 2px solid black;
-	@include newMainContainer;
-	// @include flexLayoutCenter;
+	// @include newMainContainer;
+	height: 170vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 
 	.hero-container {
 		border: 2px solid black;
-        width: 85%;
-        height: 30%;
-        display: flex;
-        justify-content: center;
+		width: 85%;
+		height: 13%;
+		display: flex;
+		justify-content: center;
+		margin: 25px 0;
 
 		.hero-wrapper {
 			border: 2px solid black;
@@ -50,23 +57,77 @@ body {
 				font-family: $font-gallient;
 				color: $slate-color;
 				font-weight: 600;
-				font-size: 2.5rem;
+				font-size: 2.2rem;
 				letter-spacing: 1px;
-				// padding-left: 8px;
+				padding-top: 10px;
+			}
+
+			.date {
+				font-family: $font-gallient;
+				color: $slate-color;
+				font-size: 1.2rem;
+				letter-spacing: 0.8px;
+				padding-top: 20px;
 			}
 		}
 	}
 
-    .content-container {
-        border: 2px solid red;
-        height: 60%;
-        width: 85%;        
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap;
+	.content-container {
+		border: 2px solid red;
+		height: 80%;
+		width: 85%;
+		margin-bottom: 80px;
+		// display: flex;
+		// flex-direction: column;
+		// justify-content: center;
+		// align-items: center;
 
-        
-    }
+		figure {
+			width: 30%;
+			margin: 0 auto;
+			box-sizing: border-box;
+
+			img {
+				width: 100%;
+				max-width: 600px;
+				border-radius: 10px;
+			}
+
+			figcaption {
+				margin-top: 15px;
+				text-align: center;
+				font-family: $font-montserrat;
+			}
+		}
+
+		.content {
+			width: 90%;
+			font-family: $font-montserrat;
+			font-size: 1.1rem;
+			font-weight: 700;
+			margin: 30px 0;
+			padding: 0 20px;
+
+			.subheading3 {
+				font-family: $font-gallient;
+				font-weight: 600;
+				font-size: 1.7rem;
+				letter-spacing: 1px;
+				padding: 16px 0;
+			}
+
+			.blog-text {
+				margin: 0 0 20px 0;
+				line-height: 1.8;
+			}
+
+			q {
+				font-family: $font-gallient;
+				font-size: 3rem;
+				padding: 50px 100px;
+				display: block;
+				letter-spacing: 1.8px;
+			}
+		}
+	}
 }
