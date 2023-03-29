@@ -290,17 +290,18 @@ body {
   flex-direction: column;
 }
 
-.intro {
+.intro-container {
   height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.intro .intro-container {
-  width: 70%;
+.intro-container .intro-wrapper {
+  width: 100%;
+  max-width: 70%;
   height: 70%;
 }
-.intro .intro-container .intro-heading {
+.intro-container .intro-wrapper .intro-heading {
   font-family: "Gallient", serif;
   color: #1A1818;
   font-size: 14rem;
@@ -309,7 +310,7 @@ body {
   opacity: 0.9;
   position: relative;
 }
-.intro .intro-container .intro-heading .hello2 {
+.intro-container .intro-wrapper .intro-heading .intro-heading-2 {
   color: #faf9f9;
   position: absolute;
   top: -10px;
@@ -317,20 +318,20 @@ body {
   opacity: 0.8;
   z-index: -10;
 }
-.intro .intro-container .intro-subheading {
+.intro-container .intro-wrapper .intro-subheading {
   font-family: "Gallient", serif;
   font-weight: 600;
   color: #1A1818;
   font-size: 4rem;
   letter-spacing: 1px;
 }
-.intro .intro-container .intro-text {
+.intro-container .intro-wrapper .intro-text {
   font-family: "Montserrat", sans-serif;
   font-size: 1.08rem;
   font-weight: 700;
   margin: 30px 0;
 }
-.intro .intro-container .learn-more {
+.intro-container .intro-wrapper .learn-more {
   font-family: "Gallient", serif;
   font-size: 2rem;
 }/*# sourceMappingURL=home.css.map */

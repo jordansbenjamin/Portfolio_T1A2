@@ -4,56 +4,60 @@
 @import "../3-layout/header";
 @import "../3-layout/footer";
 
-
 body {
-    @include bodySetUp;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
-.intro {
-    // border: 2px solid black;
-    @include mainContainer;
-    @include flexLayoutCenter;
+.intro-container {
+	// border: 2px solid red;
+	height: 70vh;
+	@include flexLayoutCenter;
 
-    .intro-container {
-        // border: 2px solid black;
-        @include homepageContentContainer;
-        
-        .intro-heading {
-            font-family: $font-gallient;
-            color: $slate-color;
-            font-size: 14rem;
-            letter-spacing: 8px;
-            line-height: 1.4;
-            opacity: .9;
-            position: relative;
+	.intro-wrapper {
+		// border: 2px solid blue;
+		width: 100%;
+		max-width: 70%;
+		height: 70%;
 
-            .hello2 {
-                color: $secondary-color;
-                position: absolute;
-                top: -10px;
-                left: 20px;
-                opacity: .8;
-                z-index: -10;
-            }
-        }
-        .intro-subheading {
-            font-family: $font-gallient;
-            font-weight: 600;
-            color: $slate-color;
-            font-size: 4rem;
-            letter-spacing: 1px;
-        }
+		.intro-heading {
+			font-family: $font-gallient;
+			color: $slate-color;
+			font-size: 14rem;
+			letter-spacing: 8px;
+			line-height: 1.4;
+			opacity: 0.9;
+			position: relative;
 
-        .intro-text {
-            font-family: $font-montserrat;
-            font-size: 1.08rem;
-            font-weight: 700;
-            margin: 30px 0;
-        }
+			.intro-heading-2 {
+				color: $secondary-color;
+				position: absolute;
+				top: -10px;
+				left: 20px;
+				opacity: 0.8;
+				z-index: -10;
+			}
+		}
 
-        .learn-more {
-            font-family: $font-gallient;
-            font-size: 2rem;
-        }
-    }
+		.intro-subheading {
+			font-family: $font-gallient;
+			font-weight: 600;
+			color: $slate-color;
+			font-size: 4rem;
+			letter-spacing: 1px;
+		}
+
+		.intro-text {
+			font-family: $font-montserrat;
+			font-size: 1.08rem;
+			font-weight: 700;
+			margin: 30px 0;
+		}
+
+		.learn-more {
+			font-family: $font-gallient;
+			font-size: 2rem;
+		}
+	}
 }
