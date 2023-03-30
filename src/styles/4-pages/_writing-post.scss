@@ -72,23 +72,17 @@ body {
 		}
 	}
 
-	.content-container {
+	.post-container {
 		// border: 2px solid red;
 		height: 80%;
 		width: 85%;
 		margin-bottom: 80px;
-		// display: flex;
-		// flex-direction: column;
-		// justify-content: center;
-		// align-items: center;
 
 		figure {
 			// border: 2px solid red;
 			height: 400px;
 			width: 600px;
-			// width: 30%;
-			margin: 0 auto;
-			// box-sizing: border-box;
+			margin: 20px auto 70px;
 
 			img {
 				width: 100%;
@@ -103,7 +97,7 @@ body {
 			}
 		}
 
-		.content {
+		.post {
 			width: 90%;
 			font-family: $font-montserrat;
 			font-size: 1.1rem;

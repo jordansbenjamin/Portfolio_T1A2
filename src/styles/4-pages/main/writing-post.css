@@ -424,27 +424,27 @@ body {
   letter-spacing: 1px;
   padding-top: 20px;
 }
-.main-container .content-container {
+.main-container .post-container {
   height: 80%;
   width: 85%;
   margin-bottom: 80px;
 }
-.main-container .content-container figure {
+.main-container .post-container figure {
   height: 400px;
   width: 600px;
-  margin: 0 auto;
+  margin: 20px auto 70px;
 }
-.main-container .content-container figure img {
+.main-container .post-container figure img {
   width: 100%;
   border-radius: 10px;
 }
-.main-container .content-container figure figcaption {
+.main-container .post-container figure figcaption {
   margin-top: 15px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
 }
-.main-container .content-container .content {
+.main-container .post-container .post {
   width: 90%;
   font-family: "Montserrat", sans-serif;
   font-size: 1.1rem;
@@ -452,18 +452,18 @@ body {
   margin: 30px 0;
   padding: 0 20px;
 }
-.main-container .content-container .content .subheading3 {
+.main-container .post-container .post .subheading3 {
   font-family: "Gallient", serif;
   font-weight: 600;
   font-size: 1.7rem;
   letter-spacing: 1px;
   padding: 16px 0;
 }
-.main-container .content-container .content .blog-text {
+.main-container .post-container .post .blog-text {
   margin: 0 0 20px 0;
   line-height: 1.8;
 }
-.main-container .content-container .content .quote {
+.main-container .post-container .post .quote {
   font-family: "Gallient", serif;
   font-size: 3rem;
   padding: 50px 100px;
@@ -471,7 +471,7 @@ body {
   letter-spacing: 1.8px;
   position: relative;
 }
-.main-container .content-container .content .quote p {
+.main-container .post-container .post .quote p {
   display: inline-block;
   padding: 0 0 0 40px;
 }/*# sourceMappingURL=writing-post.css.map */
