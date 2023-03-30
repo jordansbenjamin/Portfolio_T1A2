@@ -39,6 +39,13 @@
 	flex-wrap: wrap;
 }
 
+// Flex space-between align-center
+@mixin flexRowBetweenAlignCenter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 // *****NEEDS TO BE REFACTORED*****
 
 // Sets up body to determine nested children containers
