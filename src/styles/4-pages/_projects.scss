@@ -12,70 +12,82 @@ body {
 }
 
 .main-container {
-	border: 2px solid black;
-	height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+	border: 2px solid red;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5em;
+	
 	.hero-container {
 		border: 2px solid black;
-        width: 85%;
-        height: 30%;
-        display: flex;
-        justify-content: center;
+		width: 80%;
+		height: 30%;
+		// margin: 0 auto;
 
-		.hero-wrapper {
-			border: 2px solid black;
-			@include heroContentContainer;
+		@media only screen and (max-width: 900px) {
+			flex-direction: column;
+		}
+
+		.hero-heading {
+			font-family: $font-gallient;
+			color: $slate-color;
+			font-size: 11rem;
+			letter-spacing: 8px;
+			line-height: 1.4;
+			opacity: 0.9;
 			position: relative;
+			padding-bottom: 10px;
 
-			.hero-heading {
-				font-family: $font-gallient;
-				color: $slate-color;
-				font-size: 11rem;
-				letter-spacing: 8px;
-				line-height: 1.4;
-				opacity: 0.9;
-				position: relative;
-				padding-bottom: 10px;
-
-				.writing2 {
-					color: $secondary-color;
-					position: absolute;
-					top: -10px;
-					left: 15px;
-					opacity: 0.8;
-					z-index: -10;
-				}
+			@media only screen and (max-width: 1100px) {
+				font-size: 10rem;
 			}
 
-			.hero-subheading {
-				font-family: $font-gallient;
-				color: $slate-color;
-				font-weight: 600;
-				font-size: 2.5rem;
-				letter-spacing: 1px;
-				padding-left: 8px;
+			.hero-heading2 {
+				color: $secondary-color;
+				position: absolute;
+				top: -10px;
+				left: 15px;
+				opacity: 0.8;
+				z-index: -10;
+			}
+		}
+
+		.hero-subheading {
+			font-family: $font-gallient;
+			color: $slate-color;
+			font-weight: 600;
+			font-size: 2.5rem;
+			letter-spacing: 1px;
+			padding-left: 8px;
+
+			@media only screen and (max-width: 1100px) {
+				font-size: 2.2rem;
 			}
 		}
 	}
 
-    .content-container {
-        border: 2px solid red;
-        height: 50%;
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap;
+	.projects-container {
+		border: 2px solid red;
+		width: 80%;
+		margin-bottom: 50px;
+		padding: 30px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 3em;
 
-        .content {
-            width: 350px;
-            height: 35%;
-            border: 2px solid blue;
-        }
-    }
+		.content {
+			border: 2px solid blue;
+			height: 200px;
+			width: 300px;
+
+			.content-img {
+				object-fit: cover;
+				width: 100%;
+			}
+		}
+	}
 }
