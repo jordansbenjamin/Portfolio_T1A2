@@ -13,17 +13,13 @@ body {
 
 .main-container {
 	// border: 2px solid red;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@include flexColumnCenter;
 	gap: 3em;
 	
 	.hero-container {
 		// border: 2px solid black;
 		width: 80%;
 		height: 30%;
-		// margin: 0 auto;
 
 		.hero-heading {
 			font-family: $font-gallient;
@@ -69,17 +65,17 @@ body {
 		margin-bottom: 50px;
 		padding: 30px;
 		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
+		@include flexRowCenterWrap;
 		gap: 3em;
 
 		.content {
 			// border: 2px solid blue;
 			height: 250px;
-			width: 380px;
+			width: 400px;
 			position: relative;
+			border-radius: 10px;
+			@include boxShadow1;
+			@include transition1;
 
 			.content-img {
 				border-radius: 10px;
@@ -87,24 +83,27 @@ body {
 				width: 100%;
 				height: 100%;
 			}
+
+			@include hover1;
 		}
 
 		.overlay {
 			font-family: $font-clashDisplayVariable;
+			font-size: 1.4rem;
 			font-weight: 600;
 			letter-spacing: 1.5px;
 			text-transform: uppercase;
-			background-color: rgba(255, 255, 255, 0.1);
-			color: white;
+			background-color: rgba(100, 100, 100, 0.2);
+			color: $bg-color;
 			width: 100%;
 			height: 100%;
+			border-radius: 10px;
 			margin: 0;
 			position: absolute;
 			top: 0;
 			left: 0;
 			display: flex;
-			justify-content: center;
-			align-items: center;
+			@include flexCenter;
 			opacity: 0;
 			transition: all 0.25s ease;
 

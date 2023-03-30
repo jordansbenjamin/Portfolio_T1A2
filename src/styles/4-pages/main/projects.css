@@ -435,8 +435,11 @@ body {
 }
 .main-container .projects-container .content {
   height: 250px;
-  width: 380px;
+  width: 400px;
   position: relative;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .main-container .projects-container .content .content-img {
   border-radius: 10px;
@@ -445,19 +448,26 @@ body {
   width: 100%;
   height: 100%;
 }
+.main-container .projects-container .content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
+}
 .main-container .projects-container .overlay {
   font-family: "Clash Display Variable", sans-serif;
+  font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: white;
+  background-color: rgba(100, 100, 100, 0.2);
+  color: #F8F3F1;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
   margin: 0;
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
   display: flex;
   justify-content: center;
   align-items: center;
