@@ -428,8 +428,9 @@ body {
 }
 .intro-container .intro-wrapper .intro-text {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 700;
+  color: #1A1818;
   margin: 30px 0;
 }
 @media only screen and (max-width: 1100px) {
