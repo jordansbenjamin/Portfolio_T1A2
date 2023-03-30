@@ -10,90 +10,119 @@ body {
 }
 
 .main-container {
-	border: 2px solid black;
-	height: 80vh;
+	border: 2px solid green;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
-	// @include flexLayoutCenter;
-
+	flex-wrap: wrap;
+	gap: 2rem;
+	
 	.hero-container {
-		border: 2px solid black;
-		width: 85%;
+		border: 2px solid blue;
+		width: 80%;
 		height: 30%;
-		display: flex;
-		justify-content: center;
+		// margin: 0 auto;
 
-		.hero-wrapper {
-			border: 2px solid black;
-			@include heroContentContainer;
+		.hero-heading {
+			font-family: $font-gallient;
+			color: $slate-color;
+			font-size: 11rem;
+			letter-spacing: 8px;
+			line-height: 1.4;
+			opacity: 0.9;
 			position: relative;
+			padding-bottom: 10px;
 
-			.hero-heading {
-				font-family: $font-gallient;
-				color: $slate-color;
-				font-size: 9.5rem;
-				letter-spacing: 8px;
-				line-height: 1.4;
-				opacity: 0.9;
-				position: relative;
-				padding-bottom: 5px;
-
-				.writing2 {
-					color: $secondary-color;
-					position: absolute;
-					top: -10px;
-					left: 15px;
-					opacity: 0.8;
-					z-index: -10;
-				}
+			@media only screen and (max-width: 1100px) {
+				font-size: 10rem;
 			}
 
-			.hero-subheading {
-				font-family: $font-gallient;
-				color: $slate-color;
-				font-weight: 600;
-				font-size: 2.5rem;
-				letter-spacing: 1px;
+			.hero-heading2 {
+				color: $secondary-color;
+				position: absolute;
+				top: -10px;
+				left: 15px;
+				opacity: 0.8;
+				z-index: -10;
+			}
+		}
+
+		.hero-subheading {
+			font-family: $font-gallient;
+			color: $slate-color;
+			font-weight: 600;
+			font-size: 2.5rem;
+			letter-spacing: 1px;
+			padding-left: 8px;
+
+			@media only screen and (max-width: 1100px) {
+				font-size: 2.2rem;
 			}
 		}
 	}
 
-	.content-container {
-		border: 2px solid red;
-		height: 60%;
-		width: 40%;
+	.experience-text {
+		border: 2px solid purple;
+		width: 60%;
 
 		.text {
-			// border: 2px solid black;
-			width: 90%;
+			width: 100%;
 			font-family: $font-montserrat;
 			font-size: 1.08rem;
 			font-weight: 700;
 			margin: 30px 0;
-            padding-left: 15px;
 		}
 	}
 
-	.skills-container {
+	.projects-container {
 		border: 2px solid red;
-		height: 60%;
-		width: 40%;
+		width: 80%;
+		margin-bottom: 50px;
+		padding: 30px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 3em;
 
-		.card-wrapper {
-			height: 100%;
+		.content {
+			// border: 2px solid blue;
+			height: 250px;
+			width: 380px;
+			position: relative;
+
+			.content-img {
+				border-radius: 10px;
+				object-fit: cover;
+				width: 100%;
+				height: 100%;
+			}
+		}
+					
+		.overlay {
+			font-family: $font-clashDisplayVariable;
+			font-weight: 600;
+			letter-spacing: 1.5px;
+			text-transform: uppercase;
+			background-color: rgba(255, 255, 255, 0.1);
+			color: white;
 			width: 100%;
+			height: 100%;
+			margin: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
 			display: flex;
-			flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
+			justify-content: center;
+			align-items: center;
+			opacity: 0;
+			transition: all 0.25s ease;
 
-			.card {
-				border: 2px solid black;
-				height: 125px;
-				width: 50%;
+			&:hover {
+				cursor: pointer;
+				opacity: 1;
 			}
 		}
 	}

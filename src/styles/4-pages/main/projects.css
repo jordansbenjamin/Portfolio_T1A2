@@ -434,8 +434,8 @@ body {
   gap: 3em;
 }
 .main-container .projects-container .content {
-  height: 280px;
-  width: 400px;
+  height: 250px;
+  width: 380px;
   position: relative;
 }
 .main-container .projects-container .content .content-img {
