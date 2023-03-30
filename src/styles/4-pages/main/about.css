@@ -335,24 +335,25 @@ body {
   flex-direction: column;
 }
 
-.about-container {
+.main-container .hero-container {
+  width: 80%;
+  height: 30%;
+  margin: 20px auto 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2em;
 }
-.about-container .about-wrapper {
-  width: 85%;
-  height: 95%;
-  position: relative;
+@media only screen and (max-width: 900px) {
+  .main-container .hero-container {
+    flex-direction: column;
+  }
 }
-.about-container .about-wrapper .profile-photo {
-  width: 100%;
-  max-width: 30%;
-  border-radius: 25px;
-  position: absolute;
-  right: 0px;
+.main-container .hero-container .heading-container {
+  display: flex;
+  flex-direction: column;
 }
-.about-container .about-wrapper .about-heading {
+.main-container .hero-container .heading-container .hero-heading {
   font-family: "Gallient", serif;
   color: #1A1818;
   font-size: 11rem;
@@ -360,8 +361,14 @@ body {
   line-height: 1.4;
   opacity: 0.9;
   position: relative;
+  padding-bottom: 10px;
 }
-.about-container .about-wrapper .about-heading .about2 {
+@media only screen and (max-width: 1100px) {
+  .main-container .hero-container .heading-container .hero-heading {
+    font-size: 10rem;
+  }
+}
+.main-container .hero-container .heading-container .hero-heading .hero-heading2 {
   color: #faf9f9;
   position: absolute;
   top: -10px;
@@ -369,21 +376,49 @@ body {
   opacity: 0.8;
   z-index: -10;
 }
-.about-container .about-wrapper .about-subheading {
+.main-container .hero-container .heading-container .hero-subheading {
   font-family: "Gallient", serif;
   color: #1A1818;
   font-weight: 600;
   font-size: 2.5rem;
   letter-spacing: 1px;
+  padding-left: 8px;
 }
-.about-container .about-wrapper .about-text {
+@media only screen and (max-width: 1100px) {
+  .main-container .hero-container .heading-container .hero-subheading {
+    font-size: 2.2rem;
+  }
+}
+.main-container .hero-container .image-wrapper {
+  position: relative;
+  width: 300px;
+  display: flex;
+}
+.main-container .hero-container .image-wrapper .profile-photo {
+  width: 100%;
+  border-radius: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media only screen and (max-width: 900px) {
+  .main-container .hero-container .image-wrapper {
+    align-self: center;
+  }
+}
+.main-container .about-text-container {
+  width: 80%;
+  height: 30%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.main-container .about-text-container .about-text {
   width: 70%;
   font-family: "Montserrat", sans-serif;
   font-size: 1.08rem;
   font-weight: 700;
   margin: 30px 0;
 }
-.about-container .about-wrapper .about-subheading3 {
+.main-container .about-text-container .about-subheading3 {
   font-family: "Gallient", serif;
   font-weight: 600;
   font-size: 1.7rem;
