@@ -377,10 +377,9 @@ body {
 
 .main-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   gap: 2rem;
 }
 .main-container .hero-container {
@@ -424,9 +423,7 @@ body {
   }
 }
 .main-container .experience-text {
-  border: 2px solid purple;
   width: 60%;
-  margin-right: 260px;
 }
 .main-container .experience-text .text {
   width: 100%;
@@ -435,73 +432,83 @@ body {
   font-weight: 700;
   margin: 30px 0;
 }
-.main-container .projects-container {
+.main-container .skills-container {
   width: 80%;
-  margin-bottom: 50px;
   padding: 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 3em;
+  gap: 2rem;
 }
-.main-container .projects-container .content {
+.main-container .skills-container .skills-content {
   height: 250px;
-  width: 380px;
+  width: 400px;
   position: relative;
-}
-.main-container .projects-container .content .content-img {
-  border-radius: 10px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-.main-container .projects-container .resume {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  gap: 1rem;
+}
+.main-container .skills-container .skills-content .card-header-wrapper {
+  display: flex;
   justify-content: center;
 }
-.main-container .projects-container .resume a {
+.main-container .skills-container .skills-content .card-header-wrapper .heading-icon {
+  font-size: 1.8rem;
+  padding: 10px;
+  color: #1A1818;
+}
+.main-container .skills-container .skills-content .card-header-wrapper h3 {
+  font-family: "Clash Display Variable", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #1A1818;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.main-container .skills-container .skills-content .skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.main-container .skills-container .skills-content .skills .skills-icon {
+  font-size: 4rem;
+  padding: 12px;
+  color: #1A1818;
+}
+.main-container .skills-container .skills-content .skills .skills-icon:hover {
+  color: none;
+}
+.main-container .skills-container .skills-content .skills .devicon-javascript-plain {
+  font-size: 3.5rem;
+}
+.main-container .resume-container .resume {
+  height: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container .resume-container .resume a {
   text-decoration: none;
 }
-.main-container .projects-container .resume .download-resume {
+.main-container .resume-container .resume .download-resume {
   font-family: "Gallient", serif;
   font-size: 2rem;
   color: #F8F3F1;
   background-color: #1A1818;
   text-align: center;
-  width: 180px;
+  width: 150px;
   padding: 10px 30px;
   border-radius: 40px;
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
   transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.main-container .projects-container .resume .download-resume:hover {
+.main-container .resume-container .resume .download-resume:hover {
   cursor: pointer;
-  width: 220px;
-}
-.main-container .projects-container .overlay {
-  font-family: "Clash Display Variable", sans-serif;
-  font-weight: 600;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: white;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: all 0.25s ease;
-}
-.main-container .projects-container .overlay:hover {
-  cursor: pointer;
-  opacity: 1;
+  width: 200px;
 }/*# sourceMappingURL=experience.css.map */

@@ -11,22 +11,29 @@
 
 // Flex column
 @mixin flexColumn {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
-// Flex column center 
+// Flex column center
 @mixin flexColumnCenter {
-    display: flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+}
+
+// Flex column align center only
+@mixin flexColumnAlignCenter {
+	display: flex;
+	flex-direction: column;
 	align-items: center;
 }
 
 // Flex row center wrap
 @mixin flexRowCenterWrap {
 	display: flex;
-    flex-direction: row;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
@@ -113,22 +120,21 @@
 // Box Shadow 1
 
 @mixin boxShadow1 {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 // Transition 1
 @mixin transition1 {
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 // Hover 1
 
 @mixin hover1 {
-    &:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
-    }
+	&:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
+	}
 }
 
 // CARD HOVER EFFECT 2
-
