@@ -6,6 +6,7 @@
 
 body {
 	min-height: 100vh;
+	max-width: 100%;
 	display: flex;
 	flex-direction: column;
 }
@@ -21,6 +22,11 @@ body {
 		max-width: 70%;
 		height: 70%;
 
+		@media only screen and (max-width: 400px) {
+			max-width: 80%;
+			height: 80%;
+		}
+
 		.intro-heading {
 			font-family: $font-gallient;
 			color: $slate-color;
@@ -34,8 +40,12 @@ body {
 				font-size: 13rem;
 			}
 
-			@media only screen and (max-width: 760px) {
-				font-size: 10rem;
+			// @media only screen and (max-width: 760px) {
+			// 	font-size: 10rem;
+			// }
+
+			@media only screen and (max-width: 400px) {
+				font-size: 7rem;
 			}
 
 			.intro-heading-2 {
@@ -59,8 +69,12 @@ body {
 				font-size: 3.5rem;
 			}
 
-			@media only screen and (max-width: 760px) {
-				font-size: 2.69rem;
+			// @media only screen and (max-width: 760px) {
+			// 	font-size: 2.69rem;
+			// }
+
+			@media only screen and (max-width: 400px) {
+				font-size: 2.1rem;
 			}
 		}
 
@@ -74,9 +88,9 @@ body {
 				font-size: 1rem;
 			}
 
-			@media only screen and (max-width: 760px) {
-				font-size: .9rem;
-			}
+			// @media only screen and (max-width: 760px) {
+			// 	font-size: .9rem;
+			// }
 		}
 
 		.learn-more {
@@ -87,9 +101,9 @@ body {
 				font-size: 1.8rem;
 			}
 
-			@media only screen and (max-width: 760px) {
-				font-size: 1.4rem;
-			}
+			// @media only screen and (max-width: 760px) {
+			// 	font-size: 1.4rem;
+			// }
 		}
 	}
 }

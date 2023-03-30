@@ -179,14 +179,21 @@ body {
   src: url(/fonts/TenorSans.ttf) format("truetype");
 }
 .header {
-  height: 10rem;
+  height: 150px;
+  margin: 0 auto;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+@media only screen and (max-width: 400px) {
+  .header {
+    height: 100px;
+  }
+}
 .header .logo {
   width: 100px;
-  margin-left: 100px;
+  margin-left: 50px;
   font-family: "Gallient", serif;
   color: #1A1818;
   font-size: 2.5rem;
@@ -196,6 +203,11 @@ body {
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 400px) {
+  .header .logo {
+    margin-left: 0;
+  }
 }
 .header .logo .jb2 {
   display: inline-block;
@@ -214,9 +226,14 @@ body {
 }
 .header .nav-items {
   width: 550px;
-  margin-right: 80px;
+  margin-right: 70px;
   display: flex;
   justify-content: space-evenly;
+}
+@media only screen and (max-width: 1100px) {
+  .header .nav-items {
+    display: none;
+  }
 }
 .header .nav-items a {
   font-family: "Clash Display Variable", sans-serif;
@@ -229,6 +246,34 @@ body {
 .header .nav-items a:hover {
   text-decoration: line-through;
   letter-spacing: 2.5px;
+}
+.header .hamburger {
+  height: 50px;
+  width: 50px;
+  display: none;
+}
+@media only screen and (max-width: 1100px) {
+  .header .hamburger {
+    display: block;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header .hamburger {
+    margin-right: 10px;
+  }
+}
+.header .bar {
+  background-color: black;
+  height: 4px;
+  width: 36px;
+  margin: 3px;
+  border-radius: 10px;
 }
 
 * {
@@ -286,6 +331,7 @@ footer .copyright {
 
 body {
   min-height: 100vh;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -301,6 +347,12 @@ body {
   max-width: 70%;
   height: 70%;
 }
+@media only screen and (max-width: 400px) {
+  .intro-container .intro-wrapper {
+    max-width: 80%;
+    height: 80%;
+  }
+}
 .intro-container .intro-wrapper .intro-heading {
   font-family: "Gallient", serif;
   color: #1A1818;
@@ -315,9 +367,9 @@ body {
     font-size: 13rem;
   }
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 400px) {
   .intro-container .intro-wrapper .intro-heading {
-    font-size: 10rem;
+    font-size: 7rem;
   }
 }
 .intro-container .intro-wrapper .intro-heading .intro-heading-2 {
@@ -340,9 +392,9 @@ body {
     font-size: 3.5rem;
   }
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 400px) {
   .intro-container .intro-wrapper .intro-subheading {
-    font-size: 2.69rem;
+    font-size: 2.1rem;
   }
 }
 .intro-container .intro-wrapper .intro-text {
@@ -356,11 +408,6 @@ body {
     font-size: 1rem;
   }
 }
-@media only screen and (max-width: 760px) {
-  .intro-container .intro-wrapper .intro-text {
-    font-size: 0.9rem;
-  }
-}
 .intro-container .intro-wrapper .learn-more {
   font-family: "Gallient", serif;
   font-size: 2rem;
@@ -368,10 +415,5 @@ body {
 @media only screen and (max-width: 1100px) {
   .intro-container .intro-wrapper .learn-more {
     font-size: 1.8rem;
-  }
-}
-@media only screen and (max-width: 760px) {
-  .intro-container .intro-wrapper .learn-more {
-    font-size: 1.4rem;
   }
 }/*# sourceMappingURL=home.css.map */
