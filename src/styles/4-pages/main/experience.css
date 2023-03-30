@@ -376,7 +376,6 @@ body {
 }
 
 .main-container {
-  border: 2px solid green;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -385,7 +384,6 @@ body {
   gap: 2rem;
 }
 .main-container .hero-container {
-  border: 2px solid blue;
   width: 80%;
   height: 30%;
 }
@@ -428,6 +426,7 @@ body {
 .main-container .experience-text {
   border: 2px solid purple;
   width: 60%;
+  margin-right: 260px;
 }
 .main-container .experience-text .text {
   width: 100%;
@@ -437,7 +436,6 @@ body {
   margin: 30px 0;
 }
 .main-container .projects-container {
-  border: 2px solid red;
   width: 80%;
   margin-bottom: 50px;
   padding: 30px;
@@ -459,6 +457,30 @@ body {
      object-fit: cover;
   width: 100%;
   height: 100%;
+}
+.main-container .projects-container .resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-container .projects-container .resume a {
+  text-decoration: none;
+}
+.main-container .projects-container .resume .download-resume {
+  font-family: "Gallient", serif;
+  font-size: 2rem;
+  color: #F8F3F1;
+  background-color: #1A1818;
+  text-align: center;
+  width: 180px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
+  transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.main-container .projects-container .resume .download-resume:hover {
+  cursor: pointer;
+  width: 220px;
 }
 .main-container .projects-container .overlay {
   font-family: "Clash Display Variable", sans-serif;

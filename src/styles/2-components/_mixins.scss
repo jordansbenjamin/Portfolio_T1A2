@@ -9,6 +9,12 @@
 	align-items: center;
 }
 
+// Flex column
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
 // Flex column center 
 @mixin flexColumnCenter {
     display: flex;
@@ -19,13 +25,14 @@
 
 // Flex row center wrap
 @mixin flexRowCenterWrap {
-	flex-direction: row;
+	display: flex;
+    flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 }
 
-// NEEDS TO BE REFACTORED
+// *****NEEDS TO BE REFACTORED*****
 
 // Sets up body to determine nested children containers
 @mixin bodySetUp {
