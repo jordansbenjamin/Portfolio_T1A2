@@ -50,6 +50,30 @@
     }
 }
 
+// *** Back button ***
+
+.back-btn {
+    display: block;
+    font-family: $font-gallient;
+    font-size: 2rem;
+    color: $bg-color;
+    background-color: $slate-color;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    margin: 100px auto 0;
+    border: none;
+    box-shadow: 1px 4px 8px 0 rgba(0,0,0,0.07);
+    transition: width 0.2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+
+    &:hover {
+        cursor: pointer;
+        width: 200px;
+    }
+}
+
 // *** Social Buttons ***
 
 .social-btn {

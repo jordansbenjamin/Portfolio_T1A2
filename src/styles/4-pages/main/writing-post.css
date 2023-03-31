@@ -178,6 +178,148 @@ body {
   font-family: "Tenor Sans";
   src: url(/fonts/TenorSans.ttf) format("truetype");
 }
+.learn-more-btn {
+  display: block;
+  font-family: "Gallient", serif;
+  font-size: 2rem;
+  color: #F8F3F1;
+  background-color: #1A1818;
+  text-align: center;
+  text-decoration: none;
+  width: 300px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 50px;
+  border: none;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
+  transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.learn-more-btn:hover {
+  cursor: pointer;
+  width: 380px;
+}
+
+.resume-btn {
+  display: block;
+  font-family: "Gallient", serif;
+  font-size: 2rem;
+  color: #F8F3F1;
+  background-color: #1A1818;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 50px;
+  border: none;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
+  transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.resume-btn:hover {
+  cursor: pointer;
+  width: 200px;
+}
+
+.back-btn {
+  display: block;
+  font-family: "Gallient", serif;
+  font-size: 2rem;
+  color: #F8F3F1;
+  background-color: #1A1818;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin: 100px auto 0;
+  border: none;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
+  transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.back-btn:hover {
+  cursor: pointer;
+  width: 200px;
+}
+
+.social-btn {
+  font-family: "Gallient", serif;
+  font-size: 2rem;
+  color: #F8F3F1;
+  background-color: #1A1818;
+  text-align: center;
+  width: 200px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 50px;
+  border: none;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
+  transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.social-btn:hover {
+  cursor: pointer;
+  width: 250px;
+}
+
+.contact-btn {
+  font-family: "Gallient", serif;
+  font-size: 1.6rem;
+  color: #F8F3F1;
+  background-color: #1A1818;
+  text-align: center;
+  width: 130px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 50px;
+  border: none;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
+  transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.contact-btn:hover {
+  cursor: pointer;
+  width: 160px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Clash Display Variable";
+  src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cameo Sans";
+  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS Outline";
+  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS";
+  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
+}
+@font-face {
+  font-family: "FTN5";
+  src: url(/fonts/FogtwoNo5.otf) format("opentype");
+}
+@font-face {
+  font-family: "Gallient";
+  src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Hookana";
+  src: url(/fonts/Hookana.otf) format("opentype");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Tenor Sans";
+  src: url(/fonts/TenorSans.ttf) format("truetype");
+}
 .header {
   height: 150px;
   margin: 0 auto;
