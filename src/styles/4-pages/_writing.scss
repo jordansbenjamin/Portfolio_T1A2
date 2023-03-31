@@ -11,18 +11,13 @@ body {
 
 .main-container {
 	border: 2px solid green;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+	@include flexRowCenterWrap;
 	gap: 2rem;
 	
 	.hero-container {
 		border: 2px solid blue;
 		width: 80%;
 		height: 30%;
-		// margin: 0 auto;
 
 		.hero-heading {
 			font-family: $font-gallient;
@@ -62,35 +57,18 @@ body {
 		}
 	}
 
-	.experience-text {
-		border: 2px solid purple;
-		width: 60%;
-
-		.text {
-			width: 100%;
-			font-family: $font-montserrat;
-			font-size: 1.08rem;
-			font-weight: 700;
-			margin: 30px 0;
-		}
-	}
-
 	.blog-container {
 		border: 2px solid red;
 		width: 100%;
 		margin-bottom: 50px;
 		padding: 30px;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-		gap: 3em;
+		@include flexRowCenterWrap;
+		gap: 2rem;
 
-		.blog-content {
+		.blog-card {
 			// border: 2px solid blue;
-			height: 250px;
-			width: 380px;
+			height: 500px;
+			width: 350px;
 			position: relative;
 
 			.content-img {
@@ -99,14 +77,41 @@ body {
 				width: 100%;
 				height: 100%;
 			}
+
+			.blog-post-container {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding-left: 20px;
+				font-family: $font-gallient;
+				font-weight: 600;
+				font-size: 2.8rem;
+				letter-spacing: 2px;
+				color: $bg-color;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				box-sizing: border-box;
+
+				.title {
+					padding-top: 5px;
+				}
+
+				.date {
+					font-size: 1.4rem;
+					padding-bottom: 5px;
+				}
+			}
 		}
 					
 		.overlay {
 			font-family: $font-clashDisplayVariable;
+			font-size: 1.3rem;
 			font-weight: 600;
 			letter-spacing: 1.5px;
 			text-transform: uppercase;
-			background-color: rgba(255, 255, 255, 0.1);
+			background-color: rgba(255, 255, 255, 0.09);
 			color: white;
 			width: 100%;
 			height: 100%;
