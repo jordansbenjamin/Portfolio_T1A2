@@ -16,13 +16,15 @@
     // right: 0;
     border-radius: 50px;
     transition: transform 0.3s;
+    z-index: 1;
 
     a {
         font-family: $font-clashDisplayVariable;
         font-size: 1.1rem;
+        font-weight: 500;
         letter-spacing: 1px;
         text-decoration: none;
-        color: $primary-color;
+        color: $slate-color;
         @include transition5;
         margin: 20px 0;
 
