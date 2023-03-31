@@ -70,6 +70,9 @@ body {
 			height: 500px;
 			width: 350px;
 			position: relative;
+			border-radius: 10px;
+			@include boxShadow2;
+			@include transition1;
 
 			.content-img {
 				border-radius: 10px;
@@ -102,6 +105,10 @@ body {
 					font-size: 1.4rem;
 					padding-bottom: 5px;
 				}
+			}
+
+			&:hover {
+				@include hover2;
 			}
 		}
 					

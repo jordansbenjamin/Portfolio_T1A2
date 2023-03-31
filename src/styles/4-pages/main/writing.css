@@ -441,6 +441,9 @@ body {
   height: 500px;
   width: 350px;
   position: relative;
+  border-radius: 10px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .main-container .blog-container .blog-card .content-img {
   border-radius: 10px;
@@ -471,6 +474,10 @@ body {
 .main-container .blog-container .blog-card .blog-post-container .date {
   font-size: 1.4rem;
   padding-bottom: 5px;
+}
+.main-container .blog-container .blog-card:hover {
+  transform: scale(0.95);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18), 0 6px 6px rgba(0, 0, 0, 0.22);
 }
 .main-container .blog-container .overlay {
   font-family: "Clash Display Variable", sans-serif;
