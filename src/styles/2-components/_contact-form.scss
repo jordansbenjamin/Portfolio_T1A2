@@ -12,18 +12,16 @@
         font-family: $font-gallient;
         font-size: 2rem;
         letter-spacing: 1px;
-        padding: 25px 0 20px 0;
+        padding: 48px 0 20px 0;
     }
 }
 
 .contact-form {
     // border: 2px solid blue;
     font-family: $font-gallient;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     letter-spacing: 2px;
     width: 350px;
-    // margin-bottom: 40px;
-    // margin: auto;
 
     label {
         display: block;
@@ -36,6 +34,7 @@
         border-style: none;
         border-radius: 5px;
         font-family: $font-montserrat;
+        font-size: 1.2rem;
 
         &:not(.form-textarea) {
             height: 32px;
