@@ -178,6 +178,251 @@ body {
   font-family: "Tenor Sans";
   src: url(/fonts/TenorSans.ttf) format("truetype");
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Clash Display Variable";
+  src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cameo Sans";
+  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS Outline";
+  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS";
+  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
+}
+@font-face {
+  font-family: "FTN5";
+  src: url(/fonts/FogtwoNo5.otf) format("opentype");
+}
+@font-face {
+  font-family: "Gallient";
+  src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Hookana";
+  src: url(/fonts/Hookana.otf) format("opentype");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Tenor Sans";
+  src: url(/fonts/TenorSans.ttf) format("truetype");
+}
+.social-btn {
+  font-family: "Gallient", serif;
+  font-size: 2rem;
+  color: #F8F3F1;
+  background-color: #1A1818;
+  text-align: center;
+  width: 200px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 50px;
+  border: none;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
+  transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.social-btn:hover {
+  cursor: pointer;
+  width: 250px;
+}
+
+.contact-btn {
+  font-family: "Gallient", serif;
+  font-size: 1.6rem;
+  color: #F8F3F1;
+  background-color: #1A1818;
+  text-align: center;
+  width: 130px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 50px;
+  border: none;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
+  transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.contact-btn:hover {
+  cursor: pointer;
+  width: 160px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.form-container h3 {
+  font-family: "Gallient", serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  padding: 25px 0 20px 0;
+}
+
+.contact-form {
+  font-family: "Gallient", serif;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  width: 350px;
+}
+.contact-form label {
+  display: block;
+  padding: 10px 0;
+}
+.contact-form .form-input {
+  display: block;
+  width: 100%;
+  border-style: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+.contact-form .form-input:not(.form-textarea) {
+  height: 32px;
+}
+.contact-form .form-input.form-textarea {
+  resize: none;
+  height: 100px;
+}
+.contact-form .form-input:focus {
+  outline: none;
+  box-shadow: 0 0 8px 3px #bbbbbb;
+}
+.contact-form .btn-wrapper {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Clash Display Variable";
+  src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cameo Sans";
+  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS Outline";
+  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS";
+  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
+}
+@font-face {
+  font-family: "FTN5";
+  src: url(/fonts/FogtwoNo5.otf) format("opentype");
+}
+@font-face {
+  font-family: "Gallient";
+  src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Hookana";
+  src: url(/fonts/Hookana.otf) format("opentype");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Tenor Sans";
+  src: url(/fonts/TenorSans.ttf) format("truetype");
+}
+.social-btn {
+  font-family: "Gallient", serif;
+  font-size: 2rem;
+  color: #F8F3F1;
+  background-color: #1A1818;
+  text-align: center;
+  width: 200px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 50px;
+  border: none;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
+  transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.social-btn:hover {
+  cursor: pointer;
+  width: 250px;
+}
+
+.contact-btn {
+  font-family: "Gallient", serif;
+  font-size: 1.6rem;
+  color: #F8F3F1;
+  background-color: #1A1818;
+  text-align: center;
+  width: 130px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 50px;
+  border: none;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
+  transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.contact-btn:hover {
+  cursor: pointer;
+  width: 160px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Clash Display Variable";
+  src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cameo Sans";
+  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS Outline";
+  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS";
+  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
+}
+@font-face {
+  font-family: "FTN5";
+  src: url(/fonts/FogtwoNo5.otf) format("opentype");
+}
+@font-face {
+  font-family: "Gallient";
+  src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Hookana";
+  src: url(/fonts/Hookana.otf) format("opentype");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Tenor Sans";
+  src: url(/fonts/TenorSans.ttf) format("truetype");
+}
 .header {
   height: 150px;
   margin: 0 auto;
@@ -369,34 +614,11 @@ footer .copyright {
   font-family: "Tenor Sans";
   src: url(/fonts/TenorSans.ttf) format("truetype");
 }
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.main-container {
-  border: 2px solid black;
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.main-container .hero-container {
-  border: 2px solid black;
-  width: 85%;
+.hero-container {
+  width: 80%;
   height: 30%;
-  display: flex;
-  justify-content: center;
 }
-.main-container .hero-container .hero-wrapper {
-  border: 2px solid black;
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.main-container .hero-container .hero-wrapper .hero-heading {
+.hero-container .hero-heading {
   font-family: "Gallient", serif;
   color: #1A1818;
   font-size: 11rem;
@@ -404,8 +626,14 @@ body {
   line-height: 1.4;
   opacity: 0.9;
   position: relative;
+  padding-bottom: 10px;
 }
-.main-container .hero-container .hero-wrapper .hero-heading .writing2 {
+@media only screen and (max-width: 1100px) {
+  .hero-container .hero-heading {
+    font-size: 10rem;
+  }
+}
+.hero-container .hero-heading .hero-heading2 {
   color: #faf9f9;
   position: absolute;
   top: -10px;
@@ -413,15 +641,34 @@ body {
   opacity: 0.8;
   z-index: -10;
 }
-.main-container .hero-container .hero-wrapper .hero-subheading {
+.hero-container .hero-subheading {
   font-family: "Gallient", serif;
   color: #1A1818;
   font-weight: 600;
   font-size: 2.5rem;
   letter-spacing: 1px;
+  padding-left: 8px;
 }
-.main-container .content-container {
-  border: 2px solid red;
+@media only screen and (max-width: 1100px) {
+  .hero-container .hero-subheading {
+    font-size: 2.2rem;
+  }
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.main-container .contact-container {
   height: 60%;
   width: 85%;
   display: flex;
@@ -429,53 +676,24 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  gap: 4rem;
 }
-.main-container .content-container .contact-form {
+.main-container .contact-container .social-media-container {
+  height: 550px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container .contact-container .social-media-container h3 {
   font-family: "Gallient", serif;
-  font-size: 1.4rem;
-  letter-spacing: 2px;
-  width: 350px;
-  margin: auto;
+  font-size: 2rem;
+  letter-spacing: 1px;
 }
-.main-container .content-container .contact-form label {
-  display: block;
-  padding: 10px 0;
-}
-.main-container .content-container .contact-form .form-input {
-  display: block;
-  width: 100%;
-  border-style: none;
-  border-radius: 5px;
-  font-family: "Montserrat", sans-serif;
-}
-.main-container .content-container .contact-form .form-input:not(.form-textarea) {
-  height: 32px;
-}
-.main-container .content-container .contact-form .form-input.form-textarea {
-  resize: none;
-  height: 100px;
-}
-.main-container .content-container .contact-form .form-input:focus {
-  outline: none;
-  box-shadow: 0 0 8px 3px #bbbbbb;
-}
-.main-container .content-container .contact-form .btn {
-  text-align: center;
-}
-.main-container .content-container .contact-form .btn #submit {
-  font-family: "Gallient", serif;
-  font-size: 1.4rem;
-  letter-spacing: 2px;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  background-color: #1A1818;
-  width: auto;
-  color: #faf9f9;
-  padding: 10px 20px;
-  margin: 20px 0;
-  text-transform: uppercase;
-}
-.main-container .content-container .contact-form .btn #submit:hover {
-  cursor: pointer;
+.main-container .contact-container .social-media-container .social-links-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=contact.css.map */

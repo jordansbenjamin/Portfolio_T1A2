@@ -1,0 +1,60 @@
+@import "../1-defaults/base";
+@import "../2-components/mixins";
+@import "../2-components/buttons";
+
+
+.form-container {
+    // border: 2px solid red;
+    @include flexColumnCenter;
+    padding: 20px;
+    
+    h3 {
+        font-family: $font-gallient;
+        font-size: 2rem;
+        letter-spacing: 1px;
+        padding: 25px 0 20px 0;
+    }
+}
+
+.contact-form {
+    // border: 2px solid blue;
+    font-family: $font-gallient;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    width: 350px;
+    // margin-bottom: 40px;
+    // margin: auto;
+
+    label {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .form-input {
+        display: block;
+        width: 100%;
+        border-style: none;
+        border-radius: 5px;
+        font-family: $font-montserrat;
+
+        &:not(.form-textarea) {
+            height: 32px;
+        }
+
+        &.form-textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 0 8px 3px $circle-color1;
+        }
+    }
+
+    .btn-wrapper {
+        text-align: center;
+
+    }
+    
+}

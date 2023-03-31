@@ -10,12 +10,12 @@ body {
 }
 
 .main-container {
-	border: 2px solid green;
+	// border: 2px solid green;
 	@include flexRowCenterWrap;
 	gap: 2rem;
 	
 	.hero-container {
-		border: 2px solid blue;
+		// border: 2px solid blue;
 		width: 80%;
 		height: 30%;
 
@@ -58,7 +58,7 @@ body {
 	}
 
 	.blog-container {
-		border: 2px solid red;
+		// border: 2px solid red;
 		width: 100%;
 		margin-bottom: 50px;
 		padding: 30px;

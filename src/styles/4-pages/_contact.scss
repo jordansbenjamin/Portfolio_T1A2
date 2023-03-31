@@ -1,6 +1,8 @@
 @import "../1-defaults/base";
 @import "../2-components/mixins";
 @import "../2-components/background";
+@import "../2-components/contact-form";
+@import "../2-components/buttons";
 @import "../3-layout/header";
 @import "../3-layout/footer";
 @import "../3-layout/hero";
@@ -10,55 +12,12 @@ body {
 }
 
 .main-container {
-	border: 2px solid black;
-	@include newMainContainer;
-	// @include flexLayoutCenter;
+	// border: 2px solid green;
+	@include flexColumnCenter;
+	gap: 5rem;
 
-	.hero-container {
-		border: 2px solid black;
-        width: 85%;
-        height: 30%;
-        display: flex;
-        justify-content: center;
-
-		.hero-wrapper {
-			border: 2px solid black;
-			@include heroContentContainer;
-			position: relative;
-
-			.hero-heading {
-				font-family: $font-gallient;
-				color: $slate-color;
-				font-size: 11rem;
-				letter-spacing: 8px;
-				line-height: 1.4;
-				opacity: 0.9;
-				position: relative;
-				// padding-bottom: 5px;
-
-				.writing2 {
-					color: $secondary-color;
-					position: absolute;
-					top: -10px;
-					left: 15px;
-					opacity: 0.8;
-					z-index: -10;
-				}
-			}
-
-			.hero-subheading {
-				font-family: $font-gallient;
-				color: $slate-color;
-				font-weight: 600;
-				font-size: 2.5rem;
-				letter-spacing: 1px;
-				// padding-left: 8px;
-			}
-		}
-	}
-
-    .content-container {
-        border: 2px solid red;
+    .contact-container {
+        // border: 2px solid red;
         height: 60%;
         width: 85%;        
         display: flex;
@@ -66,67 +25,27 @@ body {
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
+		gap: 4rem;
 
-        .contact-form {
-			font-family: $font-gallient;
-			font-size: 1.4rem;
-			letter-spacing: 2px;
-			// border: 2px solid black;
-			width: 350px;
-			// margin-bottom: 40px;
-			margin: auto;
+		.social-media-container {
+			// border: 2px solid blue;
+			height: 550px;
+			width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
 
-			label {
-				display: block;
-				padding: 10px 0;
-			}
+            h3 {
+                font-family: $font-gallient;
+                font-size: 2rem;
+                letter-spacing: 1px;
+            }
 
-			.form-input {
-				display: block;
-				width: 100%;
-				border-style: none;
-				border-radius: 5px;
-				font-family: $font-montserrat;
-
-				&:not(.form-textarea) {
-					height: 32px;
-				}
-
-				&.form-textarea {
-					resize: none;
-					height: 100px;
-				}
-
-				&:focus {
-					outline: none;
-					box-shadow: 0 0 8px 3px $circle-color1;
-				}
-			}
-
-			.btn {
-				text-align: center;
-
-				#submit {
-					font-family: $font-gallient;
-					font-size: 1.4rem;
-					letter-spacing: 2px;
-					border: none;
-					outline: none;
-					border-radius: 10px;
-					background-color: $slate-color;
-					width: auto;
-					color: $secondary-color;
-					padding: 10px 20px;
-					margin: 20px 0;
-					text-transform: uppercase;
-	
-					&:hover {
-						cursor: pointer;
-	
-					}
-				}
-			}
-			
+            .social-links-wrapper {
+                width: 50%;
+                @include flexColumnCenter;
+            }
 		}
     }
 }
