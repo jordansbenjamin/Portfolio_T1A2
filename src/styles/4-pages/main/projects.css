@@ -219,18 +219,6 @@ body {
   font-family: "Tenor Sans";
   src: url(/fonts/TenorSans.ttf) format("truetype");
 }
-.animateBar1 {
-  animation: flibBar1 1s infinite;
-}
-
-.animateBar2 {
-  animation: fadeBar2 1s infinite;
-}
-
-.animateBar3 {
-  animation: flibBar3 1s infinite;
-}
-
 @keyframes flipBar1 {
   from {
     transform: rotate(0);
@@ -346,12 +334,21 @@ body {
     margin-right: 10px;
   }
 }
-.header .bar1, .header .bar2, .header .bar3 {
+.header .hamburger .bar1, .header .hamburger .bar2, .header .hamburger .bar3 {
   background-color: black;
   height: 4px;
   width: 36px;
   margin: 3px;
   border-radius: 10px;
+}
+.header .hamburger .animateBar1 {
+  animation: flipBar1 1s infinite;
+}
+.header .hamburger .animateBar2 {
+  animation: fadeBar2 1s infinite;
+}
+.header .hamburger .animateBar3 {
+  animation: flipBar3 1s infinite;
 }
 
 * {

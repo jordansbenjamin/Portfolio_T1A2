@@ -89,15 +89,25 @@
 		@media only screen and (max-width: 400px) {
 			margin-right: 10px;
 		}
-	}
-	
-	.bar1, .bar2, .bar3 {
-		background-color: black;
-		height: 4px;
-		width: 36px;
-		margin: 3px;
-		border-radius: 10px;
+
+		.bar1, .bar2, .bar3 {
+			background-color: black;
+			height: 4px;
+			width: 36px;
+			margin: 3px;
+			border-radius: 10px;
+
+		}
+
+		.animateBar1 {
+			animation: flipBar1 1s infinite;
+		}
+		.animateBar2 {
+			animation: fadeBar2 1s infinite;
+		}
+		.animateBar3 {
+			animation: flipBar3 1s infinite;
+		}
 	}
 }
 
- 
