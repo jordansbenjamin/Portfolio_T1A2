@@ -302,7 +302,7 @@ body {
   position: fixed;
   top: 0;
   right: -240px;
-  border-radius: 20px;
+  border-radius: 50px;
   transition: transform 0.3s;
 }
 .mobileNav a {

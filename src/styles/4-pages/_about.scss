@@ -1,13 +1,12 @@
 @import "../1-defaults/base";
-@import "../2-components/mixins";
 @import "../2-components/background";
+@import "../2-components/mixins";
 @import "../3-layout/header";
 @import "../3-layout/footer";
+@import "../2-components/breakpoints";
 
 body {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
+	@include bodySetUp;
 }
 
 .main-container {
@@ -84,6 +83,7 @@ body {
 				width: 100%;
 				border-radius: 25px;
 				object-fit: cover;
+				z-index: -1;
 			}
 
 			@media only screen and (max-width: 900px) {

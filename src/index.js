@@ -1,3 +1,5 @@
+// On Click event for both the animation for the hamburger menu and mobile nav pop drawer
+
 const hamburger = document.querySelector(".hamburger");
 const bar1 = document.querySelector(".bar1");
 const bar2 = document.querySelector(".bar2");

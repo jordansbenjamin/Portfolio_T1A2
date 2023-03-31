@@ -320,84 +320,6 @@ body {
   font-family: "Tenor Sans";
   src: url(/fonts/TenorSans.ttf) format("truetype");
 }
-.mobileNav {
-  width: 230px;
-  height: 100vh;
-  background-color: rgba(255, 255, 255, 0.1);
-  -webkit-backdrop-filter: blur(30px);
-          backdrop-filter: blur(30px);
-  border: 2px solid transparent;
-  background-clip: padding-box;
-  box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.03);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  right: -240px;
-  border-radius: 20px;
-  transition: transform 0.3s;
-}
-.mobileNav a {
-  font-family: "Clash Display Variable", sans-serif;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #141414;
-  transition: all 0.3s ease-in-out;
-  margin: 20px 0;
-}
-.mobileNav a:hover {
-  text-decoration: line-through;
-  letter-spacing: 2.5px;
-}
-
-.openDrawer {
-  transform: translateX(-240px);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-@font-face {
-  font-family: "Clash Display Variable";
-  src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Cameo Sans";
-  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS Outline";
-  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS";
-  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
-}
-@font-face {
-  font-family: "FTN5";
-  src: url(/fonts/FogtwoNo5.otf) format("opentype");
-}
-@font-face {
-  font-family: "Gallient";
-  src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Hookana";
-  src: url(/fonts/Hookana.otf) format("opentype");
-}
-@font-face {
-  font-family: "Nunito";
-  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Tenor Sans";
-  src: url(/fonts/TenorSans.ttf) format("truetype");
-}
 * {
   margin: 0;
   padding: 0;
@@ -522,7 +444,7 @@ body {
   position: fixed;
   top: 0;
   right: -240px;
-  border-radius: 20px;
+  border-radius: 50px;
   transition: transform 0.3s;
 }
 .mobileNav a {
