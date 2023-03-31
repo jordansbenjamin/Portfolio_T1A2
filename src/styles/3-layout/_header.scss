@@ -1,6 +1,7 @@
 @import "../1-defaults/base";
 @import "../2-components/mixins";
 @import "../2-components/hamburger-animation";
+@import "../2-components/mobile-nav";
 
 .header {
 	// border: 2px solid red;
@@ -78,6 +79,7 @@
 		height: 50px;
 		width: 50px;
 		display: none;
+		z-index: 1;
 
 		@media only screen and (max-width: 1100px) {
 			// border: 2px solid green;
@@ -100,14 +102,23 @@
 		}
 
 		.animateBar1 {
-			animation: flipBar1 1s;
+			animation: flipBar1 .5s;
+			animation-fill-mode: forwards;
 		}
 		.animateBar2 {
-			animation: fadeBar2 1s;
+			animation: fadeBar2 .5s;
+			animation-fill-mode: forwards;
 		}
 		.animateBar3 {
-			animation: flipBar3 1s;
+			animation: flipBar3 .5s;
+			animation-fill-mode: forwards;
+		}
+
+		&:hover {
+			cursor: pointer;
 		}
 	}
 }
+
+
 
