@@ -46,14 +46,14 @@
 	align-items: center;
 }
 
-// *****NEEDS TO BE REFACTORED*****
-
 // Sets up body to determine nested children containers
 @mixin bodySetUp {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 }
+
+// *****NEEDS TO BE REFACTORED*****
 
 // Main container that holds child content container
 @mixin mainContainer {

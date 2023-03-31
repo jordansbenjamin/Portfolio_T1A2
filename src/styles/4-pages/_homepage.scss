@@ -1,15 +1,13 @@
 @import "../1-defaults/base";
 @import "../2-components/background";
 @import "../2-components/mixins";
+@import "../2-components/buttons";
 @import "../3-layout/header";
 @import "../3-layout/footer";
 @import "../2-components/breakpoints";
 
 body {
-	min-height: 100vh;
-	max-width: 100%;
-	display: flex;
-	flex-direction: column;
+	@include bodySetUp;
 }
 
 .intro-container {
@@ -95,7 +93,6 @@ body {
 			&:hover {
 				cursor: pointer;
 				width: 400px;
-
 			}
 
 			@include learnMoreBp;
