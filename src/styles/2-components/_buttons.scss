@@ -2,7 +2,7 @@
 @import "../2-components/mixins";
 
 
-// ***Learn more button***
+// *** Learn more button ***
 
 .learn-more-btn {
     display: block;
@@ -11,6 +11,7 @@
     color: $bg-color;
     background-color: $slate-color;
     text-align: center;
+    text-decoration: none;
     width: 300px;
     padding: 10px 30px;
     border-radius: 40px;
@@ -25,7 +26,31 @@
     }
 }
 
-// ***Social Buttons***
+// *** Resume Button ***
+
+.resume-btn {
+    display: block;
+    font-family: $font-gallient;
+    font-size: 2rem;
+    color: $bg-color;
+    background-color: $slate-color;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    margin-top: 50px;
+    border: none;
+    box-shadow: 1px 4px 8px 0 rgba(0,0,0,0.07);
+    transition: width 0.2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+
+    &:hover {
+        cursor: pointer;
+        width: 200px;
+    }
+}
+
+// *** Social Buttons ***
 
 .social-btn {
     font-family: $font-gallient;
@@ -47,7 +72,7 @@
     }
 }
 
-// ***Contact submit button***
+// *** Contact submit button ***
 
 .contact-btn {
     font-family: $font-gallient;

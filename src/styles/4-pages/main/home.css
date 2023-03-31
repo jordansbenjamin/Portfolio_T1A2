@@ -185,6 +185,7 @@ body {
   color: #F8F3F1;
   background-color: #1A1818;
   text-align: center;
+  text-decoration: none;
   width: 300px;
   padding: 10px 30px;
   border-radius: 40px;
@@ -196,6 +197,27 @@ body {
 .learn-more-btn:hover {
   cursor: pointer;
   width: 380px;
+}
+
+.resume-btn {
+  display: block;
+  font-family: "Gallient", serif;
+  font-size: 2rem;
+  color: #F8F3F1;
+  background-color: #1A1818;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 50px;
+  border: none;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
+  transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.resume-btn:hover {
+  cursor: pointer;
+  width: 200px;
 }
 
 .social-btn {
@@ -534,35 +556,5 @@ body {
 @media only screen and (max-width: 1100px) {
   .intro-container .intro-wrapper .intro-text {
     font-size: 1rem;
-  }
-}
-.intro-container .intro-wrapper a {
-  text-decoration: none;
-}
-.intro-container .intro-wrapper .learn-more {
-  font-family: "Gallient", serif;
-  font-size: 2rem;
-  color: #F8F3F1;
-  background-color: #1A1818;
-  text-align: center;
-  width: 300px;
-  padding: 10px 30px;
-  border-radius: 40px;
-  margin-top: 50px;
-  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
-  transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.intro-container .intro-wrapper .learn-more:hover {
-  cursor: pointer;
-  width: 400px;
-}
-@media only screen and (max-width: 1100px) {
-  .intro-container .intro-wrapper .learn-more {
-    font-size: 1.8rem;
-  }
-}
-@media only screen and (max-width: 760px) {
-  .intro-container .intro-wrapper .learn-more {
-    font-size: 1.6rem;
   }
 }/*# sourceMappingURL=home.css.map */
