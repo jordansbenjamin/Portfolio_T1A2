@@ -5,10 +5,7 @@ const bar3 = document.querySelector(".bar3");
 
 hamburger.addEventListener("click", () => {
     bar1.classList.toggle("animateBar1");
+    bar2.classList.toggle("animateBar2");
+    bar3.classList.toggle("animateBar3");
 });
 
-// const hamburger = document.querySelector(".hamburger");
-
-// hamburger.addEventListener("click", () => {
-//     alert("CLICKED!");
-// })

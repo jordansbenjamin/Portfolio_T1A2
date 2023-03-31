@@ -484,13 +484,13 @@ body {
   border-radius: 10px;
 }
 .header .hamburger .animateBar1 {
-  animation: flipBar1 1s infinite;
+  animation: flipBar1 1s;
 }
 .header .hamburger .animateBar2 {
-  animation: fadeBar2 1s infinite;
+  animation: fadeBar2 1s;
 }
 .header .hamburger .animateBar3 {
-  animation: flipBar3 1s infinite;
+  animation: flipBar3 1s;
 }
 
 * {
