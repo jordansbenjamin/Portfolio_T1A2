@@ -30,6 +30,14 @@
 	align-items: center;
 }
 
+// Flex column space-between center
+@mixin flexColumBetweenCenter {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
 // Flex row center wrap
 @mixin flexRowCenterWrap {
 	display: flex;

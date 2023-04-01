@@ -2,75 +2,17 @@
 @import "../2-components/mixins";
 @import "../2-components/background";
 @import "../2-components/buttons";
+@import "../2-components/breakpoints";
 @import "../3-layout/header";
 @import "../3-layout/footer";
 @import "../3-layout/hero";
 
 body {
-	// min-height: 180vh;
-	display: flex;
-	flex-direction: column;
+	@include flexColumn;
 }
 
 .main-container {
-	// border: 2px solid black;
-	// @include newMainContainer;
-	// height: 170vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-
-	.hero-container {
-		// border: 2px solid black;
-		width: 85%;
-		height: 13%;
-		display: flex;
-		justify-content: center;
-		margin: 25px 0;
-
-		.hero-wrapper {
-			// border: 2px solid black;
-			@include heroContentContainer;
-			position: relative;
-
-			.hero-heading {
-				font-family: $font-gallient;
-				color: $slate-color;
-				font-size: 7rem;
-				letter-spacing: 8px;
-				line-height: 1.4;
-				opacity: 0.9;
-				position: relative;
-
-				.hero-heading2 {
-					color: $secondary-color;
-					position: absolute;
-					top: -10px;
-					left: 8px;
-					opacity: 0.8;
-					z-index: -10;
-				}
-			}
-
-			.hero-subheading {
-				font-family: $font-gallient;
-				color: $slate-color;
-				font-weight: 600;
-				font-size: 2.2rem;
-				letter-spacing: 1px;
-			}
-
-			.date {
-				font-family: $font-gallient;
-				color: $slate-color;
-				font-size: 1.5rem;
-				letter-spacing: 1px;
-				padding-top: 15px;
-				margin-left: 10px;
-			}
-		}
-	}
+	@include flexColumBetweenCenter;
 
 	.post-container {
 		// border: 2px solid red;
@@ -83,6 +25,7 @@ body {
 			height: 400px;
 			width: 600px;
 			margin: 20px auto 70px;
+			@include writingPostImageBp;
 
 			img {
 				width: 100%;
@@ -95,6 +38,7 @@ body {
 				font-family: $font-montserrat;
 				font-size: 1.2rem;
 				font-weight: 500;
+				@include writingPostCaptionBp;
 			}
 		}
 
@@ -120,6 +64,7 @@ body {
 				line-height: 1.8;
 				font-size: 1.2rem;
 				font-weight: 400;
+				@include blogTextBp;
 			}
 
 			.quote {
@@ -130,11 +75,14 @@ body {
 				display: block;
 				letter-spacing: 1.8px;
 				position: relative;
+				@include quoteBp;
 
 				p {
 					// border: 2px solid green;
+					font-size: 2.5rem;
 					display: inline-block;
 					padding: 0 0 0 40px;
+					@include quotePBp;
 				}
 			}
 		}

@@ -452,3 +452,111 @@ $smallMobileBp: 400px;
     }
 }
 
+// **************************
+// ****** WRITING POST PAGE ******
+// **************************
+
+// Writing post heading components
+
+@mixin writingPostHeadingBp {
+    @media only screen and (max-width: $tabletBp) {
+        font-size: 6rem;
+    }
+
+    @media only screen and (max-width: 800px) {
+        font-size: 5.5rem;
+    }
+
+    @media only screen and (max-width: 740px) {
+        font-size: 5rem;
+    }
+
+    @media only screen and (max-width: $mediumMobileBp) {
+        font-size: 3.3rem;
+    }
+}
+
+@mixin writingPostSubheadingBp {
+    @media only screen and (max-width: $tabletBp) {
+        font-size: 2rem;
+    }
+
+    @media only screen and (max-width: 800px) {
+        font-size: 1.8rem;
+    }
+
+    @media only screen and (max-width: 740px) {
+        font-size: 1.6rem;
+    }
+
+    @media only screen and (max-width: $mediumMobileBp) {
+        font-size: 1.5rem;
+    }
+}
+
+@mixin writingPostDateBp {
+    @media only screen and (max-width: $tabletBp) {
+        font-size: 1.3rem;
+    }
+
+    @media only screen and (max-width: 800px) {
+        font-size: 1.2rem;
+    }
+
+    @media only screen and (max-width: $mediumMobileBp) {
+        font-size: 1.1rem;
+    }
+}
+
+// Figure image component
+
+@mixin writingPostImageBp {
+    @media only screen and (max-width: $tabletBp) {
+        width: 550px;
+    }
+
+    @media only screen and (max-width: 800px) {
+        width: 500px;
+    }
+
+    @media only screen and (max-width: 740px) {
+        width: 450px;
+    }
+
+    @media only screen and (max-width: $mediumMobileBp) {
+        width: 400px;
+        margin-top: 70px;
+    }
+}
+
+// Caption
+@mixin writingPostCaptionBp {
+    @media only screen and (max-width: $tabletBp) {
+        font-size: 1.1rem;
+    }
+    @media only screen and (max-width: $mediumMobileBp) {
+        font-size: .9rem;
+    }
+}
+
+// Text
+@mixin blogTextBp {
+    @media only screen and (max-width: $mediumMobileBp) {
+        font-size: 1rem;
+    }
+}
+
+// Quote
+@mixin quoteBp {
+    @media only screen and (max-width: $mediumMobileBp) {
+        font-size: 2rem;
+    }
+}
+
+@mixin quotePBp {
+    @media only screen and (max-width: $mediumMobileBp) {
+        font-size: 2rem;
+    }
+}
+
+

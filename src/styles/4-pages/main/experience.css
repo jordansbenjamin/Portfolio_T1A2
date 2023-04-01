@@ -1000,6 +1000,106 @@ body {
   }
 }
 
+.writing-post-hero-container {
+  width: 85%;
+  height: 13%;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+.writing-post-hero-container .writing-post-hero-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.writing-post-hero-container .writing-post-hero-wrapper .writing-post-hero-heading {
+  font-family: "Gallient", serif;
+  color: #1A1818;
+  font-size: 7rem;
+  letter-spacing: 8px;
+  line-height: 1.4;
+  opacity: 0.9;
+  position: relative;
+}
+@media only screen and (max-width: 1030px) {
+  .writing-post-hero-container .writing-post-hero-wrapper .writing-post-hero-heading {
+    font-size: 6rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .writing-post-hero-container .writing-post-hero-wrapper .writing-post-hero-heading {
+    font-size: 5.5rem;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .writing-post-hero-container .writing-post-hero-wrapper .writing-post-hero-heading {
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .writing-post-hero-container .writing-post-hero-wrapper .writing-post-hero-heading {
+    font-size: 3.3rem;
+  }
+}
+.writing-post-hero-container .writing-post-hero-wrapper .writing-post-hero-heading .writing-post-hero-heading2 {
+  color: #faf9f9;
+  position: absolute;
+  top: -10px;
+  left: 8px;
+  opacity: 0.8;
+  z-index: -10;
+}
+.writing-post-hero-container .writing-post-hero-wrapper .writing-post-hero-subheading {
+  font-family: "Gallient", serif;
+  color: #1A1818;
+  font-weight: 600;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 1030px) {
+  .writing-post-hero-container .writing-post-hero-wrapper .writing-post-hero-subheading {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .writing-post-hero-container .writing-post-hero-wrapper .writing-post-hero-subheading {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .writing-post-hero-container .writing-post-hero-wrapper .writing-post-hero-subheading {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .writing-post-hero-container .writing-post-hero-wrapper .writing-post-hero-subheading {
+    font-size: 1.5rem;
+  }
+}
+.writing-post-hero-container .writing-post-hero-wrapper .date {
+  font-family: "Gallient", serif;
+  color: #1A1818;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  padding-top: 15px;
+  margin-left: 4px;
+}
+@media only screen and (max-width: 1030px) {
+  .writing-post-hero-container .writing-post-hero-wrapper .date {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .writing-post-hero-container .writing-post-hero-wrapper .date {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .writing-post-hero-container .writing-post-hero-wrapper .date {
+    font-size: 1.1rem;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

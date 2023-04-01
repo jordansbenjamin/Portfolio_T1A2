@@ -162,3 +162,62 @@
         @include heroSubheadingBp;
     }
 }
+
+// ********************************
+// ***** WRITING POST PAGE HERO *****
+// ********************************
+
+
+.writing-post-hero-container {
+    // border: 2px solid black;
+    width: 85%;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+
+    .writing-post-hero-wrapper {
+        // border: 2px solid black;
+        @include heroContentContainer;
+        position: relative;
+
+        .writing-post-hero-heading {
+            font-family: $font-gallient;
+            color: $slate-color;
+            font-size: 7rem;
+            letter-spacing: 8px;
+            line-height: 1.4;
+            opacity: 0.9;
+            position: relative;
+            @include writingPostHeadingBp;
+
+            .writing-post-hero-heading2 {
+                color: $secondary-color;
+                position: absolute;
+                top: -10px;
+                left: 8px;
+                opacity: 0.8;
+                z-index: -10;
+            }
+        }
+
+        .writing-post-hero-subheading {
+            font-family: $font-gallient;
+            color: $slate-color;
+            font-weight: 600;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+            @include writingPostSubheadingBp;
+        }
+
+        .date {
+            font-family: $font-gallient;
+            color: $slate-color;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+            padding-top: 15px;
+            margin-left: 4px;
+            @include writingPostDateBp;
+        }
+    }
+}
