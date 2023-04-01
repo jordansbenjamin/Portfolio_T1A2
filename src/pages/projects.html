@@ -4,27 +4,33 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- STYLESHEET -->
+		<link rel="stylesheet" href="../styles/4-pages/main/projects.css" />
+		<!-- GOOGLE FONTS -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
-			rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
+		<!-- END OF GOOGLE FONTS -->
+		<!-- FONT AWESOME CDN from: https://cdnjs.com/libraries/font-awesome -->
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer" />
-		<link rel="stylesheet" href="../styles/4-pages/main/projects.css" />
+		<!-- END FONT AWESOME CDN  -->
 		<title>Jordan's Portfolio</title>
 	</head>
 	<body>
-		<!-- START OF HEADER -->
+		<!-- HEADER -->
 		<header class="header">
+			<!-- HEADER LOGO -->
 			<div class="logo">
 				<p><a href="../index.html">JB</a><span class="jb2">JB</span></p>
 			</div>
-			<!-- START OF NAV -->
+			<!-- END OF HEADER LOGO -->
+
+			<!-- DESKTOP NAV -->
 			<nav class="nav-items">
 				<a href="./about.html">About</a>
 				<a href="./projects.html">Projects</a>
@@ -32,8 +38,9 @@
 				<a href="./writing.html">Writing</a>
 				<a href="./contact.html">Contact</a>
 			</nav>
-			<!-- END OF NAV -->
-			<!-- START OF HAMBURGER MENU -->
+			<!-- END OF DESKTOP NAV -->
+
+			<!-- HAMBURGER MENU -->
 			<div class="hamburger">
 				<div class="bar1"></div>
 				<div class="bar2"></div>
@@ -42,7 +49,8 @@
 			<!-- END OF HAMBURGER MENU -->
 		</header>
 		<!-- END OF HEADER -->
-		<!-- START OF MOBILE NAVBAR -->
+
+		<!-- MOBILE NAV -->
 		<nav class="mobileNav">
 			<a href="../../src/index.html">Home</a>
 			<a href="../pages/about.html">About</a>
@@ -51,81 +59,98 @@
 			<a href="../pages/writing.html">Writing</a>
 			<a href="../pages/contact.html">Contact</a>
 		</nav>
-		<!-- END OF MOBILE NAVBAR -->
+		<!-- END OF MOBILE NAV -->
+
+		<!-- MAIN SECTION -->
 		<main class="main-container">
-			<!-- START OF HERO -->
+			<!-- HERO SECTION -->
 			<section class="hero-container">
-				<h1 class="hero-heading">
-					Projects<span class="hero-heading2">Projects</span>
-				</h1>
+				<h1 class="hero-heading">Projects<span class="hero-heading2">Projects</span></h1>
 				<h2 class="hero-subheading">A look into my latest work.</h2>
 			</section>
-			<!-- END OF HERO -->
-			<section class="projects-container">
-				<article class="content">
-					<a href="https://stripe.com/au" target="_blank"
-						><img class="content-img" src="../../images/stripe.jpg" alt="Screenshot of Stripes website" />
-						<p class="overlay">Visit Stripe</p></a
-					>
-				</article>
-				<article class="content">
-					<a href="https://www.flyhyer.com/" target="_blank"
-						><img class="content-img" src="../../images/hyer.jpg" alt="Screenshot of Hyers website" />
-						<p class="overlay">Visit Hyer</p></a
-					>
-				</article>
-				<article class="content">
-					<a href="https://www.7h34.fr/" target="_blank"
-						><img class="content-img" src="../../images/7h34.jpg" alt="Screenshot of 7h34's website" />
-						<p class="overlay">Visit 7h34</p></a
-					>
-				</article>
-				<article class="content">
-					<a href="https://swabtheworld.com/en/" target="_blank"
-						><img
-							class="content-img"
-							src="../../images/swabtheworld.jpg"
-							alt="Screenshot of Swabs website" />
-						<p class="overlay">Visit Swab</p></a
-					>
-				</article>
-				<article class="content">
-					<a href="https://www.calm.com/" target="_blank"
-						><img class="content-img" src="../../images/calm.jpg" alt="Screenshot of Calms website" />
-						<p class="overlay">Visit Calm</p></a
-					>
-				</article>
-				<article class="content">
-					<a href="https://switchresearch.org/" target="_blank"
-						><img class="content-img" src="../../images/switch.jpg" alt="Screenshot of Switchs website" />
-						<p class="overlay">Visit Switch</p></a
-					>
-				</article>
-			</section>
-		</main>
+			<!-- END OF HERO SECTION -->
 
+			<!-- PROJECTS SHOWCASE SECTION -->
+			<section class="projects-container">
+
+				<!-- PROJECT 1 -->
+				<article class="content">
+					<!-- PROJECT IMAGE AND LINK -->
+					<a href="https://stripe.com/au" target="_blank"><img class="content-img" src="../../images/stripe.jpg" alt="Screenshot of Stripes website" />
+					<!-- PROJECT TEXT TITLE OVERLAY -->
+					<p class="overlay">Visit Stripe</p></a>
+				</article>
+
+				<!-- PROJECT 2 -->
+				<article class="content">
+					<!-- PROJECT IMAGE AND LINK -->
+					<a href="https://www.flyhyer.com/" target="_blank"><img class="content-img" src="../../images/hyer.jpg" alt="Screenshot of Hyers website" />
+					<!-- PROJECT TEXT TITLE OVERLAY -->
+					<p class="overlay">Visit Hyer</p></a>
+				</article>
+
+				<!-- PROJECT 3 -->
+				<article class="content">
+					<!-- PROJECT IMAGE AND LINK -->
+					<a href="https://www.7h34.fr/" target="_blank"><img class="content-img" src="../../images/7h34.jpg" alt="Screenshot of 7h34's website" />
+					<!-- PROJECT TEXT TITLE OVERLAY -->
+					<p class="overlay">Visit 7h34</p></a>
+				</article>
+
+				<!-- PROJECT 4 -->
+				<article class="content">
+					<!-- PROJECT IMAGE AND LINK -->
+					<a href="https://swabtheworld.com/en/" target="_blank"><img class="content-img" src="../../images/swabtheworld.jpg" alt="Screenshot of Swabs website" />
+					<!-- PROJECT TEXT TITLE OVERLAY -->
+					<p class="overlay">Visit Swab</p></a>
+				</article>
+
+				<!-- PROJECT 5 -->
+				<article class="content">
+					<!-- PROJECT IMAGE AND LINK -->
+					<a href="https://www.calm.com/" target="_blank"><img class="content-img" src="../../images/calm.jpg" alt="Screenshot of Calms website" />
+					<!-- PROJECT TEXT TITLE OVERLAY -->
+					<p class="overlay">Visit Calm</p></a>
+				</article>
+
+
+				<!-- PROJECT 6 -->
+				<article class="content">
+					<!-- PROJECT IMAGE AND LINK -->
+					<a href="https://switchresearch.org/" target="_blank"><img class="content-img" src="../../images/switch.jpg" alt="Screenshot of Switchs website" />
+					<!-- PROJECT TEXT TITLE OVERLAY -->	
+					<p class="overlay">Visit Switch</p></a>
+				</article>
+
+			</section>
+			<!-- END OF PROJECTS SHOWCASE SECTION -->
+		</main>
+		<!-- END OF MAIN SECTION -->
+
+		<!-- FOOTER -->
 		<footer>
+			<!-- COPYRIGHT -->
 			<p class="copyright">&copy; / 2023</p>
+			<!-- END OF COPYRIGHT -->
+			
+			<!-- SOCIAL MEDIA LINKS ICON -->
 			<div>
-				<a
-					href="https://www.linkedin.com/in/jordan-benjamin-399382169/"
-					target="_blank"
-					><i class="fa-brands fa-linkedin social-icons"></i
-				></a>
-				<a href="https://github.com/jordansbenjamin" target="_blank"
-					><i class="fa-brands fa-github social-icons"></i
-				></a>
-				<a href="https://twitter.com/JordanSBenjamin" target="_blank"
-					><i class="fa-brands fa-twitter social-icons"></i
-				></a>
-				<a href="https://www.instagram.com/jordansbenjamin/" target="_blank"
-					><i class="fa-brands fa-instagram social-icons"></i
-				></a>
+				<a href="https://www.linkedin.com/in/jordan-benjamin-399382169/" target="_blank"><i class="fa-brands fa-linkedin social-icons"></i></a>
+				<a href="https://github.com/jordansbenjamin" target="_blank"><i class="fa-brands fa-github social-icons"></i></a>
+				<a href="https://twitter.com/JordanSBenjamin" target="_blank"><i class="fa-brands fa-twitter social-icons"></i></a>
+				<a href="https://www.instagram.com/jordansbenjamin/" target="_blank"><i class="fa-brands fa-instagram social-icons"></i></a>
 			</div>
+			<!-- END OF SOCIAL MEDIA LINKS ICON -->
 		</footer>
+		<!-- END OF FOOTER -->
+
 		<!-- BACKGROUND ELEMENT -->
 		<div class="bg"></div>
 		<div class="bg"></div>
+		<!-- END OF BACKGROUND ELEMENT -->
+
+		<!-- SCRIPT FOR MOBILE NAV -->
 		<script src="../index.js"></script>
+		<!-- END OF SCRIPT FOR MOBILE NAV -->
 	</body>
 </html>
