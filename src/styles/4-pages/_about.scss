@@ -2,27 +2,23 @@
 @import "../2-components/background";
 @import "../2-components/mixins";
 @import "../2-components/breakpoints";
+@import "../3-layout/body-setup";
 @import "../3-layout/header";
 @import "../3-layout/hero";
 @import "../3-layout/footer";
 
-
-body {
-	@include bodySetUp;
-}
-
+// MAIN SECTION
 .main-container {
-	// border: 2px solid red;
 
+	// ABOUT TEXT BODY SECTION
 	.about-text-container {
-		// border: 2px solid black;
 		width: 80%;
 		height: 30%;
 		margin: 0 auto;
 		padding-top: 10px;
 
+		// ABOUT TEXT PARAGRAPHS
 		.about-text {
-			// border: 2px solid black;
 			width: 75%;
 			font-family: $font-montserrat;
 			font-size: 1.2rem;
@@ -32,6 +28,7 @@ body {
 			@include aboutTextBp;
 		}
 
+		// ABOUT TEXT SUBHEADINGS
 		.about-subheading3 {
 			@include subheading3;
 			@include aboutSubheadingBp;

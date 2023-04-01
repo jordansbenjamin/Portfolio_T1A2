@@ -3,19 +3,18 @@
 @import "../2-components/background";
 @import "../2-components/contact-form";
 @import "../2-components/buttons";
+@import "../3-layout/body-setup";
 @import "../3-layout/header";
 @import "../3-layout/footer";
 @import "../3-layout/hero";
 
-body {
-	@include bodySetUp;
-}
-
+// MAIN SECTION
 .main-container {
 	// border: 2px solid green;
 	@include flexColumnCenter;
 	gap: 5rem;
 
+    // CONTAINER WITH SOCIAL LINKS AND CONTACT FORM
     .contact-container {
         // border: 2px solid red;
         height: 60%;
@@ -27,6 +26,7 @@ body {
         flex-wrap: wrap;
 		gap: 2rem;
 
+        // SOCIAL MEDIA LINKS SECTION
 		.social-media-container {
 			// border: 2px solid blue;
 			height: 550px;
@@ -35,12 +35,14 @@ body {
             flex-direction: column;
             align-items: center;
 
+            // SOCIAL MEDIA TITLE
             h3 {
                 font-family: $font-gallient;
                 font-size: 2rem;
                 letter-spacing: 1px;
             }
 
+            // WRAPPER WITH LINK BUTTONS
             .social-links-wrapper {
                 width: 50%;
                 @include flexColumnCenter;

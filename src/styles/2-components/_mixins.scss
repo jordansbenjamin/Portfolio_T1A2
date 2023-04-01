@@ -68,34 +68,11 @@
 	height: 70vh;
 }
 
-@mixin newMainContainer {
-	height: 80vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	align-items: center;
-}
-
 @mixin contentMainContainer {
 	height: 70vh;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-}
-
-@mixin aboutMainContainer {
-	height: 80vh;
-}
-
-@mixin projectsMainContainer {
-	height: 80vh;
-}
-
-// Container nested within parent main container
-@mixin homepageContentContainer {
-	width: 100%;
-	max-width: 70%;
-	height: 70%;
 }
 
 @mixin contentContainer {

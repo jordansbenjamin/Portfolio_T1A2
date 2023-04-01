@@ -5,22 +5,25 @@ $tabletBp: 1030px;
 $mediumMobileBp: 508px;
 $smallMobileBp: 400px;
 
+// ****************************
 // ***** HEADER COMPONENT *****
+// ****************************
 
+// Nav items
 @mixin navItemsBp {
-    @media only screen and (max-width: $tabletBp) {
-        display: none;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		display: none;
+	}
 }
 
-// Hamburger 
+// Hamburger
 @mixin hamburgerTabletBp {
-    @media only screen and (max-width: $tabletBp) {
-        // border: 2px solid green;
-        display: block;
-        @include flexColumnCenter;
-        margin-right: 40px;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		// border: 2px solid green;
+		display: block;
+		@include flexColumnCenter;
+		margin-right: 40px;
+	}
 }
 
 // **************************
@@ -29,221 +32,215 @@ $smallMobileBp: 400px;
 
 // Hero heading
 @mixin heroHeadingBp {
-    @media only screen and (max-width: 1292px) {
-        font-size: 10rem;
-    }
+	@media only screen and (max-width: 1292px) {
+		font-size: 10rem;
+	}
 
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 9rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 9rem;
+	}
 
-    @media only screen and (max-width: 848px) {
-        font-size: 8rem;
-    }
+	@media only screen and (max-width: 848px) {
+		font-size: 8rem;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 7rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 7rem;
+	}
 
-    @media only screen and (max-width: $smallMobileBp) {
-        font-size: 5.5rem;
-    }
+	@media only screen and (max-width: $smallMobileBp) {
+		font-size: 5.5rem;
+	}
 }
 
 // Experience hero heading tweak
 @mixin experienceHeroHeadingBp {
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 8.5rem;
-    }
-    
-    @media only screen and (max-width: 800px) {
-        font-size: 7rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 8.5rem;
+	}
 
-    @media only screen and (max-width: 690px) {
-        font-size: 6rem;
-    }
+	@media only screen and (max-width: 800px) {
+		font-size: 7rem;
+	}
 
-    @media only screen and (max-width: 600px) {
-        font-size: 5rem;
-    }
+	@media only screen and (max-width: 690px) {
+		font-size: 6rem;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 4.5rem;
-    }
+	@media only screen and (max-width: 600px) {
+		font-size: 5rem;
+	}
 
-    @media only screen and (max-width: $smallMobileBp) {
-        font-size: 3rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 4.5rem;
+	}
+
+	@media only screen and (max-width: $smallMobileBp) {
+		font-size: 3rem;
+	}
 }
 
-// Hero subheading 
+// Hero subheading
 @mixin heroSubheadingBp {
-    @media only screen and (max-width: 1292px) {
-        font-size: 2.2rem;
-    }
+	@media only screen and (max-width: 1292px) {
+		font-size: 2.2rem;
+	}
 
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 2rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 2rem;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 1.9rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 1.9rem;
+	}
 
-    @media only screen and (max-width: $smallMobileBp) {
-        font-size: 1.6rem;
-    }
+	@media only screen and (max-width: $smallMobileBp) {
+		font-size: 1.6rem;
+	}
 }
-
-
 
 // experience hero subheading tweak
 @mixin experienceHeroSubheadingBp {
-    @media only screen and (max-width: $mediumMobileBp) {
-        top: -5px;
-        left: 5px;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		top: -5px;
+		left: 5px;
+	}
 }
 
-// Writing hero subheading 
-// @mixin writingHeroSubheadingBp {
-//     @media only screen and (max-width: 473px) {
-//         font-size: 1.7rem;
-//     }
-// }
-
-
-
+// *********************************
 // ***** HOME PAGE BREAKPOINTS *****
+// *********************************
 
+// INTRO WRAPPER
+@mixin introWrapperBp {
+	@media only screen and (max-width: $smallMobileBp) {
+		max-width: 80%;
+		height: 80%;
+	}
+}
 // MAIN HEADING
-
 @mixin introHeadingBp {
-    @media only screen and (max-width: $smallDesktopBp) {
-        font-size: 13.5rem;
-    }
-    
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 13rem;
-    }
+	@media only screen and (max-width: $smallDesktopBp) {
+		font-size: 13.5rem;
+	}
 
-    @media only screen and (max-width: 760px) {
-        font-size: 12rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 13rem;
+	}
 
-    @media only screen and (max-width: 660px) {
-        font-size: 10rem;
-    }
+	@media only screen and (max-width: 760px) {
+		font-size: 12rem;
+	}
 
-    @media only screen and (max-width: 570px) {
-        font-size: 9rem;
-    }
+	@media only screen and (max-width: 660px) {
+		font-size: 10rem;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 8rem;
-    }
+	@media only screen and (max-width: 570px) {
+		font-size: 9rem;
+	}
 
-    @media only screen and (max-width: $smallMobileBp) {
-        font-size: 7rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 8rem;
+	}
+
+	@media only screen and (max-width: $smallMobileBp) {
+		font-size: 7rem;
+	}
 }
 
 // SUB-HEADING
-
 @mixin introSubheadingBp {
-    @media only screen and (max-width: $smallDesktopBp) {
-        font-size: 3.75rem;
-    }
-    
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 3.65rem;
-    }
+	@media only screen and (max-width: $smallDesktopBp) {
+		font-size: 3.75rem;
+	}
 
-    @media only screen and (max-width: 760px) {
-        font-size: 3.3rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 3.65rem;
+	}
 
-    @media only screen and (max-width: 660px) {
-        font-size: 2.8rem;
-    }
+	@media only screen and (max-width: 760px) {
+		font-size: 3.3rem;
+	}
 
-    @media only screen and (max-width: 570px) {
-        font-size: 2.5rem;
-    }
+	@media only screen and (max-width: 660px) {
+		font-size: 2.8rem;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 2.25rem;
-    }
+	@media only screen and (max-width: 570px) {
+		font-size: 2.5rem;
+	}
 
-    @media only screen and (max-width: $smallMobileBp) {
-        font-size: 2.1rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 2.25rem;
+	}
+
+	@media only screen and (max-width: $smallMobileBp) {
+		font-size: 2.1rem;
+	}
 }
 
 // TEXT
-
 @mixin introTextBp {
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 1.15rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 1.15rem;
+	}
 
-    @media only screen and (max-width: 660px) {
-        font-size: 1.1rem;
-    }
+	@media only screen and (max-width: 660px) {
+		font-size: 1.1rem;
+	}
 
-    @media only screen and (max-width: $smallMobileBp) {
-        font-size: 1rem;
-    }
+	@media only screen and (max-width: $smallMobileBp) {
+		font-size: 1rem;
+	}
 }
 
 // LEARN MORE
-
 @mixin learnMoreBp {
-    @media only screen and (max-width: $smallDesktopBp) {
-        font-size: 1.9rem;
-        width: 280px;
+	@media only screen and (max-width: $smallDesktopBp) {
+		font-size: 1.9rem;
+		width: 280px;
 
-        &:hover {
-            width: 360px;
-        }
-    }
-    
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 1.8rem;
-        width: 260px;
+		&:hover {
+			width: 360px;
+		}
+	}
 
-        &:hover {
-            width: 340px;
-        }
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 1.8rem;
+		width: 260px;
 
-    @media only screen and (max-width: 760px) {
-        font-size: 1.6rem;
-        width: 240px;
+		&:hover {
+			width: 340px;
+		}
+	}
 
-        &:hover {
-            width: 300px;
-        }
-    }
-    
-    @media only screen and (max-width: 660px) {
-        font-size: 1.4rem;
-        width: 210px;
+	@media only screen and (max-width: 760px) {
+		font-size: 1.6rem;
+		width: 240px;
 
-        &:hover {
-            width: 280px;
-        }
-    }
+		&:hover {
+			width: 300px;
+		}
+	}
 
-    @media only screen and (max-width: $smallMobileBp) {
-        font-size: 1.2rem;
-        width: 180px;
+	@media only screen and (max-width: 660px) {
+		font-size: 1.4rem;
+		width: 210px;
 
-        &:hover {
-            width: 240px;
-        }
-    }
+		&:hover {
+			width: 280px;
+		}
+	}
+
+	@media only screen and (max-width: $smallMobileBp) {
+		font-size: 1.2rem;
+		width: 180px;
+
+		&:hover {
+			width: 240px;
+		}
+	}
 }
 
 // **********************************
@@ -252,179 +249,173 @@ $smallMobileBp: 400px;
 
 // Hero Container
 @mixin aboutHeroContainerBp {
-    @media only screen and (max-width: 903px) {
-        flex-direction: column;
-    }
+	@media only screen and (max-width: 903px) {
+		flex-direction: column;
+	}
 }
 
 // Hero heading
-
 @mixin aboutHeroHeadingBp {
-    @media only screen and (max-width: $smallDesktopBp) {
-        font-size: 10.5rem;
-    }
-    
-    @media only screen and (max-width: 1110px) {
-        font-size: 10rem;
-    }
+	@media only screen and (max-width: $smallDesktopBp) {
+		font-size: 10.5rem;
+	}
 
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 8.5rem;
-    }
+	@media only screen and (max-width: 1110px) {
+		font-size: 10rem;
+	}
 
-    @media only screen and (max-width: 955px) {
-        font-size: 7.5rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 8.5rem;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 6.5rem;
-    }
+	@media only screen and (max-width: 955px) {
+		font-size: 7.5rem;
+	}
 
-    @media only screen and (max-width: $smallMobileBp) {
-        font-size: 6rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 6.5rem;
+	}
+
+	@media only screen and (max-width: $smallMobileBp) {
+		font-size: 6rem;
+	}
 }
 
-// Hero subheading 
-
+// Hero subheading
 @mixin aboutHeroSubheadingBp {
-    @media only screen and (max-width: $smallDesktopBp) {
-        font-size: 2.35rem;
-    }
-    
-    @media only screen and (max-width: 1110px) {
-        font-size: 2.2rem;
-    }
+	@media only screen and (max-width: $smallDesktopBp) {
+		font-size: 2.35rem;
+	}
 
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 2rem;
-    }
+	@media only screen and (max-width: 1110px) {
+		font-size: 2.2rem;
+	}
 
-    @media only screen and (max-width: 982px) {
-        font-size: 1.9rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 2rem;
+	}
 
-    @media only screen and (max-width: 955px) {
-        font-size: 1.7rem;
-    }
+	@media only screen and (max-width: 982px) {
+		font-size: 1.9rem;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 1.5rem;
-    }
+	@media only screen and (max-width: 955px) {
+		font-size: 1.7rem;
+	}
 
-    @media only screen and (max-width: $smallMobileBp) {
-        font-size: 1.3rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 1.5rem;
+	}
+
+	@media only screen and (max-width: $smallMobileBp) {
+		font-size: 1.3rem;
+	}
 }
 
 // Image wrapper
-
 @mixin imageWrapperBp {
-    @media only screen and (max-width: 903px) {
-        align-self: center;
-    }
+	@media only screen and (max-width: 903px) {
+		align-self: center;
+	}
 }
 
-// About text 
-
+// About text
 @mixin aboutTextBp {
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 1.15rem;
-        width: 80%;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 1.15rem;
+		width: 80%;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 1.1rem;
-        width: 90%;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 1.1rem;
+		width: 90%;
+	}
 
-    @media only screen and (max-width: $smallMobileBp) {
-        font-size: 1.05rem;
-        width: 95%;
-    }
+	@media only screen and (max-width: $smallMobileBp) {
+		font-size: 1.05rem;
+		width: 95%;
+	}
 }
 
-// About subheading 
+// About subheading
 @mixin aboutSubheadingBp {
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 1.7rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 1.7rem;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 1.6rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 1.6rem;
+	}
 
-    @media only screen and (max-width: $smallMobileBp) {
-        font-size: 1.5rem;
-    }
+	@media only screen and (max-width: $smallMobileBp) {
+		font-size: 1.5rem;
+	}
 }
 
-// **************************
+// ***************************
 // ****** PROJECTS PAGE ******
-// **************************
+// ***************************
 
 @mixin projectMediumDeviceLayout {
-    @media only screen and (max-width: 848px) {
-        height: 200px;
-        width: 350px;
-    }
+	@media only screen and (max-width: 848px) {
+		height: 200px;
+		width: 350px;
+	}
 }
 
 @mixin smallMobileLayout {
-    @media only screen and (max-width: $smallMobileBp) {
-        height: 180px;
-        width: 320px;
-    }
+	@media only screen and (max-width: $smallMobileBp) {
+		height: 180px;
+		width: 320px;
+	}
 }
 
-// **************************
+// *****************************
 // ****** EXPERIENCE PAGE ******
-// **************************
+// *****************************
 
-// Skills container 
+// Skills container
 @mixin skillsContainerBP {
-    @media only screen and (max-width:740px) {
-        width: 50%;
-    }
+	@media only screen and (max-width: 740px) {
+		width: 50%;
+	}
 }
 
-// Experience text 
-
+// Experience text
 @mixin experienceTextBp {
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 1.2rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 1.2rem;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 1.15rem;
-        width: 95%;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 1.15rem;
+		width: 95%;
+	}
 
-    @media only screen and (max-width: $smallMobileBp) {
-        font-size: 1.1rem;
-    }
+	@media only screen and (max-width: $smallMobileBp) {
+		font-size: 1.1rem;
+	}
 }
 
 // Skills container
 @mixin skillsContainerBp {
-    @media only screen and (max-width: 600px) {
-        gap: 3rem;
-    }
+	@media only screen and (max-width: 600px) {
+		gap: 3rem;
+	}
 }
 
 // Skills icon
 @mixin skillIconBp {
-    @media only screen and (max-width: 600px) {
-        font-size: 3.5rem;
-    }
+	@media only screen and (max-width: 600px) {
+		font-size: 3.5rem;
+	}
 }
 
-// Resume component 
+// Resume component
 @mixin skillsContainer2Bp {
-    @media only screen and (min-width: 1205px) and (max-width: 1620px) {
-        width: 100%;
-        
-    }
+	@media only screen and (min-width: 1205px) and (max-width: 1620px) {
+		width: 100%;
+	}
 }
 
 // **************************
@@ -433,130 +424,125 @@ $smallMobileBp: 400px;
 
 // Blog card
 @mixin blogCardBp {
-    @media only screen and (max-width: 600px) {
-        height: 400px;
-        width: 300px;
-    }
+	@media only screen and (max-width: 600px) {
+		height: 400px;
+		width: 300px;
+	}
 }
 
-
 @mixin cardTitleBp {
-    @media only screen and (max-width: 600px) {
-        font-size: 2.4rem;
-    }
+	@media only screen and (max-width: 600px) {
+		font-size: 2.4rem;
+	}
 }
 
 @mixin cardDateBp {
-    @media only screen and (max-width: 600px) {
-        font-size: 1.2rem;
-    }
+	@media only screen and (max-width: 600px) {
+		font-size: 1.2rem;
+	}
 }
 
-// **************************
+// *******************************
 // ****** WRITING POST PAGE ******
-// **************************
+// *******************************
 
 // Writing post heading components
-
 @mixin writingPostHeadingBp {
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 6rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 6rem;
+	}
 
-    @media only screen and (max-width: 800px) {
-        font-size: 5.5rem;
-    }
+	@media only screen and (max-width: 800px) {
+		font-size: 5.5rem;
+	}
 
-    @media only screen and (max-width: 740px) {
-        font-size: 5rem;
-    }
+	@media only screen and (max-width: 740px) {
+		font-size: 5rem;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 3.3rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 3.3rem;
+	}
 }
 
 @mixin writingPostSubheadingBp {
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 2rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 2rem;
+	}
 
-    @media only screen and (max-width: 800px) {
-        font-size: 1.8rem;
-    }
+	@media only screen and (max-width: 800px) {
+		font-size: 1.8rem;
+	}
 
-    @media only screen and (max-width: 740px) {
-        font-size: 1.6rem;
-    }
+	@media only screen and (max-width: 740px) {
+		font-size: 1.6rem;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 1.5rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 1.5rem;
+	}
 }
 
 @mixin writingPostDateBp {
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 1.3rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 1.3rem;
+	}
 
-    @media only screen and (max-width: 800px) {
-        font-size: 1.2rem;
-    }
+	@media only screen and (max-width: 800px) {
+		font-size: 1.2rem;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 1.1rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 1.1rem;
+	}
 }
 
 // Figure image component
-
 @mixin writingPostImageBp {
-    @media only screen and (max-width: $tabletBp) {
-        width: 550px;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		width: 550px;
+	}
 
-    @media only screen and (max-width: 800px) {
-        width: 500px;
-    }
+	@media only screen and (max-width: 800px) {
+		width: 500px;
+	}
 
-    @media only screen and (max-width: 740px) {
-        width: 450px;
-    }
+	@media only screen and (max-width: 740px) {
+		width: 450px;
+	}
 
-    @media only screen and (max-width: $mediumMobileBp) {
-        width: 400px;
-        margin-top: 70px;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		width: 400px;
+		margin-top: 70px;
+	}
 }
 
 // Caption
 @mixin writingPostCaptionBp {
-    @media only screen and (max-width: $tabletBp) {
-        font-size: 1.1rem;
-    }
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: .9rem;
-    }
+	@media only screen and (max-width: $tabletBp) {
+		font-size: 1.1rem;
+	}
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 0.9rem;
+	}
 }
 
 // Text
 @mixin blogTextBp {
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 1rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 1rem;
+	}
 }
 
 // Quote
 @mixin quoteBp {
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 2rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 2rem;
+	}
 }
 
 @mixin quotePBp {
-    @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 2rem;
-    }
+	@media only screen and (max-width: $mediumMobileBp) {
+		font-size: 2rem;
+	}
 }
-
-

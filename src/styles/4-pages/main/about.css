@@ -8,36 +8,8 @@
   src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Cameo Sans";
-  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS Outline";
-  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS";
-  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
-}
-@font-face {
-  font-family: "FTN5";
-  src: url(/fonts/FogtwoNo5.otf) format("opentype");
-}
-@font-face {
   font-family: "Gallient";
   src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Hookana";
-  src: url(/fonts/Hookana.otf) format("opentype");
-}
-@font-face {
-  font-family: "Nunito";
-  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Tenor Sans";
-  src: url(/fonts/TenorSans.ttf) format("truetype");
 }
 * {
   margin: 0;
@@ -49,44 +21,14 @@
   src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Cameo Sans";
-  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS Outline";
-  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS";
-  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
-}
-@font-face {
-  font-family: "FTN5";
-  src: url(/fonts/FogtwoNo5.otf) format("opentype");
-}
-@font-face {
   font-family: "Gallient";
   src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
 }
-@font-face {
-  font-family: "Hookana";
-  src: url(/fonts/Hookana.otf) format("opentype");
-}
-@font-face {
-  font-family: "Nunito";
-  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Tenor Sans";
-  src: url(/fonts/TenorSans.ttf) format("truetype");
-}
 body {
   background-color: #F8F3F1;
-  margin: 0;
   overflow-x: hidden;
 }
-
-.bg {
+body .bg {
   position: fixed;
   z-index: -100;
   top: -50%;
@@ -101,7 +43,6 @@ body {
   opacity: 0.9;
   visibility: visible;
 }
-
 @keyframes bg-animation {
   0% {
     transform: translate(0, 0);
@@ -137,6 +78,13 @@ body {
     transform: translate(5%, 0);
   }
 }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -147,36 +95,8 @@ body {
   src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Cameo Sans";
-  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS Outline";
-  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS";
-  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
-}
-@font-face {
-  font-family: "FTN5";
-  src: url(/fonts/FogtwoNo5.otf) format("opentype");
-}
-@font-face {
   font-family: "Gallient";
   src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Hookana";
-  src: url(/fonts/Hookana.otf) format("opentype");
-}
-@font-face {
-  font-family: "Nunito";
-  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Tenor Sans";
-  src: url(/fonts/TenorSans.ttf) format("truetype");
 }
 * {
   margin: 0;
@@ -188,36 +108,8 @@ body {
   src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Cameo Sans";
-  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS Outline";
-  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS";
-  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
-}
-@font-face {
-  font-family: "FTN5";
-  src: url(/fonts/FogtwoNo5.otf) format("opentype");
-}
-@font-face {
   font-family: "Gallient";
   src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Hookana";
-  src: url(/fonts/Hookana.otf) format("opentype");
-}
-@font-face {
-  font-family: "Nunito";
-  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Tenor Sans";
-  src: url(/fonts/TenorSans.ttf) format("truetype");
 }
 @keyframes flipBar1 {
   from {
@@ -255,36 +147,8 @@ body {
   src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Cameo Sans";
-  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS Outline";
-  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS";
-  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
-}
-@font-face {
-  font-family: "FTN5";
-  src: url(/fonts/FogtwoNo5.otf) format("opentype");
-}
-@font-face {
   font-family: "Gallient";
   src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Hookana";
-  src: url(/fonts/Hookana.otf) format("opentype");
-}
-@font-face {
-  font-family: "Nunito";
-  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Tenor Sans";
-  src: url(/fonts/TenorSans.ttf) format("truetype");
 }
 .mobileNav {
   width: 230px;
@@ -448,36 +312,8 @@ body {
   src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Cameo Sans";
-  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS Outline";
-  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS";
-  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
-}
-@font-face {
-  font-family: "FTN5";
-  src: url(/fonts/FogtwoNo5.otf) format("opentype");
-}
-@font-face {
   font-family: "Gallient";
   src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Hookana";
-  src: url(/fonts/Hookana.otf) format("opentype");
-}
-@font-face {
-  font-family: "Nunito";
-  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Tenor Sans";
-  src: url(/fonts/TenorSans.ttf) format("truetype");
 }
 .hero-container {
   width: 80%;
@@ -878,36 +714,8 @@ body {
   src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Cameo Sans";
-  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS Outline";
-  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS";
-  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
-}
-@font-face {
-  font-family: "FTN5";
-  src: url(/fonts/FogtwoNo5.otf) format("opentype");
-}
-@font-face {
   font-family: "Gallient";
   src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Hookana";
-  src: url(/fonts/Hookana.otf) format("opentype");
-}
-@font-face {
-  font-family: "Nunito";
-  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Tenor Sans";
-  src: url(/fonts/TenorSans.ttf) format("truetype");
 }
 footer {
   margin: auto 0 0 0;
@@ -930,12 +738,6 @@ footer .social-icons {
 footer .social-icons:hover {
   cursor: pointer;
   color: #faf9f9;
-}
-
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 .main-container .about-text-container {

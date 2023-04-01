@@ -1,20 +1,21 @@
 @import "../1-defaults/base";
 @import "../2-components/mixins";
 
-
+// FOOTER SECTION
 footer {
     margin: auto 0 0 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 
+    // COPYRIGHT TEXT
     .copyright {
         font-family: $font-clashDisplayVariable;
         font-size: 1rem;
         color: $slate-color;
         padding: 10px 20px;
     }
-
+    // SOCIAL MEDIA ICONS AND LINKS
     .social-icons {
         color: $slate-color;
         font-size: 1.3rem;

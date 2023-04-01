@@ -1,0 +1,6 @@
+@import "../2-components/mixins";
+
+// Main body setup to hold elements together like the footer
+body {
+	@include bodySetUp;
+}

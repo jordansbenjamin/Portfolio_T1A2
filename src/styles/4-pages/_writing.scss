@@ -2,29 +2,26 @@
 @import "../2-components/mixins";
 @import "../2-components/background";
 @import "../2-components/breakpoints";
+@import "../3-layout/body-setup";
 @import "../3-layout/header";
 @import "../3-layout/hero";
 @import "../3-layout/footer";
 
-body {
-	@include bodySetUp;
-}
-
+// MAIN SECTION
 .main-container {
-	// border: 2px solid green;
 	@include flexRowCenterWrap;
 	gap: 2rem;
 
+	// BLOGS SECTION
 	.blog-container {
-		// border: 2px solid red;
 		width: 100%;
 		margin-bottom: 50px;
 		padding: 30px;
 		@include flexRowCenterWrap;
 		gap: 2rem;
 
+		// BLOGS AS CARDS
 		.blog-card {
-			// border: 2px solid blue;
 			height: 500px;
 			width: 350px;
 			position: relative;
@@ -34,6 +31,7 @@ body {
 
 			@include blogCardBp;
 
+			// BLOG CARDS IMAGE
 			.content-img {
 				border-radius: 10px;
 				object-fit: cover;
@@ -41,6 +39,7 @@ body {
 				height: 100%;
 			}
 
+			// BLOG CONTAINER WITH TITLE AND DATES
 			.blog-post-container {
 				position: absolute;
 				width: 100%;
@@ -72,7 +71,8 @@ body {
 				@include hover2;
 			}
 		}
-					
+
+		// BLOG SUBHEADING TEXT OVERLAY
 		.overlay {
 			font-family: $font-clashDisplayVariable;
 			font-size: 1.3rem;

@@ -2,29 +2,25 @@
 @import "../2-components/background";
 @import "../2-components/mixins";
 @import "../2-components/buttons";
+@import "../3-layout/body-setup";
 @import "../3-layout/header";
 @import "../3-layout/footer";
 @import "../2-components/breakpoints";
 
-body {
-	@include bodySetUp;
-}
 
+// INTRO SECTION
 .intro-container {
-	// border: 2px solid red;
 	height: 70vh;
 	@include flexCenter;
 
 	.intro-wrapper {
-		// border: 2px solid blue;
 		width: 100%;
 		max-width: 70%;
 		height: 70%;
 
-		@media only screen and (max-width: 400px) {
-			max-width: 80%;
-			height: 80%;
-		}
+		@include introWrapperBp;
+
+		// MAIN TITLE
 
 		.intro-heading {
 			font-family: $font-gallient;
@@ -38,6 +34,8 @@ body {
 
 			@include introHeadingBp;
 
+			// MAIN TITLE LAYER
+
 			.intro-heading-2 {
 				color: $secondary-color;
 				position: absolute;
@@ -48,6 +46,8 @@ body {
 			}
 		}
 
+		// SUBHEADING
+
 		.intro-subheading {
 			font-family: $font-gallient;
 			font-weight: 600;
@@ -57,6 +57,8 @@ body {
 
 			@include introSubheadingBp;
 		}
+
+		// INTRODUCTORY TEXT
 
 		.intro-text {
 			font-family: $font-montserrat;

@@ -2,29 +2,26 @@
 @import "../2-components/mixins";
 @import "../2-components/background";
 @import "../2-components/breakpoints";
+@import "../3-layout/body-setup";
 @import "../3-layout/header";
 @import "../3-layout/hero";
 @import "../3-layout/footer";
 
-body {
-	@include bodySetUp;
-}
-
+// MAIN SECTION
 .main-container {
-	// border: 2px solid red;
 	@include flexColumnCenter;
 	gap: 3em;
 
+	// PROJECTS SHOWCASE SECTION
 	.projects-container {
-		// border: 2px solid red;
 		width: 100%;
 		margin-bottom: 50px;
 		padding: 30px;
 		@include flexRowCenterWrap;
 		gap: 3em;
 
+		// PROJECT CONTENT AS CARDS
 		.content {
-			// border: 2px solid blue;
 			height: 260px;
 			width: 400px;
 			position: relative;
@@ -33,6 +30,7 @@ body {
 			@include transition1;
 			@include smallMobileLayout;
 
+			// PROJECT IMAGE
 			.content-img {
 				border-radius: 10px;
 				object-fit: cover;
@@ -43,6 +41,7 @@ body {
 			@include hover1;
 		}
 
+		// PROJECT TEXT TITLE OVERLAY
 		.overlay {
 			font-family: $font-clashDisplayVariable;
 			font-size: 2rem;
@@ -58,7 +57,6 @@ body {
 			position: absolute;
 			top: 0;
 			left: 0;
-			display: flex;
 			@include flexCenter;
 			opacity: 0;
 			transition: all 0.25s ease;

@@ -6,11 +6,12 @@
 // ***** MAIN HERO *****
 // *********************
 
+// HERO SECTION
 .hero-container {
-    // border: 2px solid blue;
     width: 80%;
     height: 30%;
 
+    // HERO TITLE
     .hero-heading {
         font-family: $font-gallient;
         color: $slate-color;
@@ -22,7 +23,6 @@
         padding-bottom: 10px;
 
         @include heroHeadingBp;
-        // @include projectHeroHeadingBp;
 
         .hero-heading2 {
             color: $secondary-color;
@@ -31,12 +31,10 @@
             left: 15px;
             opacity: 0.8;
             z-index: -10;
-
-            // @include projectHeroSubheadingBp;
-            // @include writingHeroSubheadingBp;
         }
     }
 
+    // HERO SUBHEADING
     .hero-subheading {
         font-family: $font-gallient;
         color: $slate-color;
@@ -53,8 +51,8 @@
 // ***** ABOUT PAGE HERO *****
 // ***************************
 
+// HERO SECTION
 .about-hero-container {
-    // border: 2px solid black;
     width: 80%;
     height: 30%;
     margin: 20px auto 0;
@@ -68,6 +66,7 @@
     .about-hero-wrapper {
         @include flexColumn;
 
+        // HERO TITLE
         .about-hero-heading {
             font-family: $font-gallient;
             color: $slate-color;
@@ -90,6 +89,7 @@
             }
         }
 
+        // HERO SUBHEADING
         .about-hero-subheading {
             font-family: $font-gallient;
             color: $slate-color;
@@ -102,6 +102,7 @@
         }
     }
     
+    // ABOUT PAGE HERO IMAGE
     .image-wrapper {
         position: relative;
         // border: 2px solid red;
@@ -122,11 +123,12 @@
 // ***** EXPERIENCE PAGE HERO *****
 // ********************************
 
+// HERO SECTION
 .experience-hero-container {
-    // border: 2px solid blue;
     width: 80%;
     height: 30%;
 
+    // HERO TITLE
     .experience-hero-heading {
         font-family: $font-gallient;
         color: $slate-color;
@@ -151,6 +153,7 @@
         }
     }
 
+    // HERO SUBHEADING
     .experience-hero-subheading {
         font-family: $font-gallient;
         color: $slate-color;
@@ -163,13 +166,12 @@
     }
 }
 
-// ********************************
+// **********************************
 // ***** WRITING POST PAGE HERO *****
-// ********************************
+// **********************************
 
-
+// HERO SECTION
 .writing-post-hero-container {
-    // border: 2px solid black;
     width: 85%;
     height: 13%;
     display: flex;
@@ -177,10 +179,10 @@
     margin: 25px 0;
 
     .writing-post-hero-wrapper {
-        // border: 2px solid black;
         @include heroContentContainer;
         position: relative;
 
+        // HERO TITLE
         .writing-post-hero-heading {
             font-family: $font-gallient;
             color: $slate-color;
@@ -201,6 +203,7 @@
             }
         }
 
+        // HERO SUBHEADING
         .writing-post-hero-subheading {
             font-family: $font-gallient;
             color: $slate-color;
@@ -209,7 +212,7 @@
             letter-spacing: 1px;
             @include writingPostSubheadingBp;
         }
-
+        
         .date {
             font-family: $font-gallient;
             color: $slate-color;
