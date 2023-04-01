@@ -100,6 +100,13 @@ $smallMobileBp: 400px;
     }
 }
 
+// Writing hero subheading 
+// @mixin writingHeroSubheadingBp {
+//     @media only screen and (max-width: 473px) {
+//         font-size: 1.7rem;
+//     }
+// }
+
 
 
 // ***** HOME PAGE BREAKPOINTS *****
@@ -413,3 +420,29 @@ $smallMobileBp: 400px;
         
     }
 }
+
+// **************************
+// ****** WRITING PAGE ******
+// **************************
+
+// Blog card
+@mixin blogCardBp {
+    @media only screen and (max-width: 600px) {
+        height: 400px;
+        width: 300px;
+    }
+}
+
+
+@mixin cardTitleBp {
+    @media only screen and (max-width: 600px) {
+        font-size: 2.4rem;
+    }
+}
+
+@mixin cardDateBp {
+    @media only screen and (max-width: 600px) {
+        font-size: 1.2rem;
+    }
+}
+
