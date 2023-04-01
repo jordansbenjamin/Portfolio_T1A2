@@ -22,6 +22,7 @@
         padding-bottom: 10px;
 
         @include heroHeadingBp;
+        @include projectHeroHeadingBp;
 
         .hero-heading2 {
             color: $secondary-color;
@@ -30,6 +31,8 @@
             left: 15px;
             opacity: 0.8;
             z-index: -10;
+
+            @include projectHeroSubheadingBp;
         }
     }
 
@@ -113,3 +116,46 @@
         @include imageWrapperBp;
     }
 }
+
+// *********************
+// ***** PROJECTS PAGE HERO *****
+// *********************
+
+// .hero-container {
+//     // border: 2px solid blue;
+//     width: 80%;
+//     height: 30%;
+
+//     .hero-heading {
+//         font-family: $font-gallient;
+//         color: $slate-color;
+//         font-size: 11rem;
+//         letter-spacing: 8px;
+//         line-height: 1.4;
+//         opacity: 0.9;
+//         position: relative;
+//         padding-bottom: 10px;
+
+//         @include heroHeadingBp;
+
+//         .hero-heading2 {
+//             color: $secondary-color;
+//             position: absolute;
+//             top: -10px;
+//             left: 15px;
+//             opacity: 0.8;
+//             z-index: -10;
+//         }
+//     }
+
+//     .hero-subheading {
+//         font-family: $font-gallient;
+//         color: $slate-color;
+//         font-weight: 600;
+//         font-size: 2.5rem;
+//         letter-spacing: 1px;
+//         padding-left: 8px;
+
+//         @include heroSubheadingBp;
+//     }
+// }

@@ -711,59 +711,6 @@ body {
   font-family: "Tenor Sans";
   src: url(/fonts/TenorSans.ttf) format("truetype");
 }
-footer {
-  margin: auto 0 0 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-}
-footer .copyright {
-  font-family: "Clash Display Variable", sans-serif;
-  font-size: 0.9rem;
-  padding: 10px 20px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-@font-face {
-  font-family: "Clash Display Variable";
-  src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Cameo Sans";
-  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS Outline";
-  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
-}
-@font-face {
-  font-family: "HTS";
-  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
-}
-@font-face {
-  font-family: "FTN5";
-  src: url(/fonts/FogtwoNo5.otf) format("opentype");
-}
-@font-face {
-  font-family: "Gallient";
-  src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Hookana";
-  src: url(/fonts/Hookana.otf) format("opentype");
-}
-@font-face {
-  font-family: "Nunito";
-  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Tenor Sans";
-  src: url(/fonts/TenorSans.ttf) format("truetype");
-}
 .hero-container {
   width: 80%;
   height: 30%;
@@ -803,6 +750,31 @@ footer .copyright {
     font-size: 5.5rem;
   }
 }
+@media only screen and (max-width: 800px) {
+  .hero-container .hero-heading {
+    font-size: 7rem;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .hero-container .hero-heading {
+    font-size: 6rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-container .hero-heading {
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .hero-container .hero-heading {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero-container .hero-heading {
+    font-size: 3rem;
+  }
+}
 .hero-container .hero-heading .hero-heading2 {
   color: #faf9f9;
   position: absolute;
@@ -810,6 +782,12 @@ footer .copyright {
   left: 15px;
   opacity: 0.8;
   z-index: -10;
+}
+@media only screen and (max-width: 508px) {
+  .hero-container .hero-heading .hero-heading2 {
+    top: -5px;
+    left: 5px;
+  }
 }
 .hero-container .hero-subheading {
   font-family: "Gallient", serif;
@@ -966,6 +944,59 @@ footer .copyright {
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Clash Display Variable";
+  src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cameo Sans";
+  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS Outline";
+  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS";
+  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
+}
+@font-face {
+  font-family: "FTN5";
+  src: url(/fonts/FogtwoNo5.otf) format("opentype");
+}
+@font-face {
+  font-family: "Gallient";
+  src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Hookana";
+  src: url(/fonts/Hookana.otf) format("opentype");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Tenor Sans";
+  src: url(/fonts/TenorSans.ttf) format("truetype");
+}
+footer {
+  margin: auto 0 0 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+footer .copyright {
+  font-family: "Clash Display Variable", sans-serif;
+  font-size: 0.9rem;
+  padding: 10px 20px;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -979,55 +1010,31 @@ body {
   align-items: center;
   gap: 2rem;
 }
-.main-container .hero-container {
-  width: 80%;
-  height: 30%;
-}
-.main-container .hero-container .hero-heading {
-  font-family: "Gallient", serif;
-  color: #1A1818;
-  font-size: 11rem;
-  letter-spacing: 8px;
-  line-height: 1.4;
-  opacity: 0.9;
-  position: relative;
-  padding-bottom: 10px;
-}
-@media only screen and (max-width: 1100px) {
-  .main-container .hero-container .hero-heading {
-    font-size: 10rem;
-  }
-}
-.main-container .hero-container .hero-heading .hero-heading2 {
-  color: #faf9f9;
-  position: absolute;
-  top: -10px;
-  left: 15px;
-  opacity: 0.8;
-  z-index: -10;
-}
-.main-container .hero-container .hero-subheading {
-  font-family: "Gallient", serif;
-  color: #1A1818;
-  font-weight: 600;
-  font-size: 2.5rem;
-  letter-spacing: 1px;
-  padding-left: 8px;
-}
-@media only screen and (max-width: 1100px) {
-  .main-container .hero-container .hero-subheading {
-    font-size: 2.2rem;
-  }
-}
 .main-container .experience-text {
   width: 60%;
 }
 .main-container .experience-text .text {
-  width: 100%;
+  width: 110%;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.08rem;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 400;
   margin: 30px 0;
+}
+@media only screen and (max-width: 1030px) {
+  .main-container .experience-text .text {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .main-container .experience-text .text {
+    font-size: 1.15rem;
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main-container .experience-text .text {
+    font-size: 1.1rem;
+  }
 }
 .main-container .skills-container {
   width: 80%;
@@ -1039,9 +1046,19 @@ body {
   flex-wrap: wrap;
   gap: 2rem;
 }
+@media only screen and (max-width: 600px) {
+  .main-container .skills-container {
+    gap: 3rem;
+  }
+}
+@media only screen and (min-width: 1205px) and (max-width: 1620px) {
+  .main-container .skills-container {
+    width: 100%;
+  }
+}
 .main-container .skills-container .skills-content {
   height: 250px;
-  width: 400px;
+  width: 300px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1076,6 +1093,11 @@ body {
   font-size: 4rem;
   padding: 12px;
   color: #1A1818;
+}
+@media only screen and (max-width: 600px) {
+  .main-container .skills-container .skills-content .skills .skills-icon {
+    font-size: 3.5rem;
+  }
 }
 .main-container .skills-container .skills-content .skills .skills-icon:hover {
   color: none;

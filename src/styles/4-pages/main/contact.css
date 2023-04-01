@@ -1123,6 +1123,31 @@ footer .copyright {
     font-size: 5.5rem;
   }
 }
+@media only screen and (max-width: 800px) {
+  .hero-container .hero-heading {
+    font-size: 7rem;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .hero-container .hero-heading {
+    font-size: 6rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-container .hero-heading {
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .hero-container .hero-heading {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero-container .hero-heading {
+    font-size: 3rem;
+  }
+}
 .hero-container .hero-heading .hero-heading2 {
   color: #faf9f9;
   position: absolute;
@@ -1130,6 +1155,12 @@ footer .copyright {
   left: 15px;
   opacity: 0.8;
   z-index: -10;
+}
+@media only screen and (max-width: 508px) {
+  .hero-container .hero-heading .hero-heading2 {
+    top: -5px;
+    left: 5px;
+  }
 }
 .hero-container .hero-subheading {
   font-family: "Gallient", serif;

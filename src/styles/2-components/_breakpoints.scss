@@ -50,6 +50,29 @@ $smallMobileBp: 400px;
     }
 }
 
+// Project hero heading tweak
+@mixin projectHeroHeadingBp {
+    @media only screen and (max-width: 800px) {
+        font-size: 7rem;
+    }
+
+    @media only screen and (max-width: 690px) {
+        font-size: 6rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+        font-size: 5rem;
+    }
+
+    @media only screen and (max-width: $mediumMobileBp) {
+        font-size: 4rem;
+    }
+
+    @media only screen and (max-width: $smallMobileBp) {
+        font-size: 3rem;
+    }
+}
+
 // Hero subheading 
 @mixin heroSubheadingBp {
     @media only screen and (max-width: 1292px) {
@@ -66,6 +89,14 @@ $smallMobileBp: 400px;
 
     @media only screen and (max-width: $smallMobileBp) {
         font-size: 1.6rem;
+    }
+}
+
+// Project hero subheading 
+@mixin projectHeroSubheadingBp {
+    @media only screen and (max-width: $mediumMobileBp) {
+        top: -5px;
+        left: 5px;
     }
 }
 
@@ -283,7 +314,7 @@ $smallMobileBp: 400px;
 
 // About text 
 
-@mixin abouTextBp {
+@mixin aboutTextBp {
     @media only screen and (max-width: $tabletBp) {
         font-size: 1.2rem;
         width: 80%;
@@ -316,7 +347,7 @@ $smallMobileBp: 400px;
 }
 
 // **************************
-// ****** PROJECT PAGE ******
+// ****** PROJECTS PAGE ******
 // **************************
 
 @mixin projectMediumDeviceLayout {
@@ -330,5 +361,55 @@ $smallMobileBp: 400px;
     @media only screen and (max-width: $smallMobileBp) {
         height: 180px;
         width: 320px;
+    }
+}
+
+// **************************
+// ****** EXPERIENCE PAGE ******
+// **************************
+
+// Skills container 
+@mixin skillsContainerBP {
+    @media only screen and (max-width:740px) {
+        width: 50%;
+    }
+}
+
+// Experience text 
+
+@mixin experienceTextBp {
+    @media only screen and (max-width: $tabletBp) {
+        font-size: 1.2rem;
+    }
+
+    @media only screen and (max-width: $mediumMobileBp) {
+        font-size: 1.15rem;
+        width: 95%;
+    }
+
+    @media only screen and (max-width: $smallMobileBp) {
+        font-size: 1.1rem;
+    }
+}
+
+// Skills container
+@mixin skillsContainerBp {
+    @media only screen and (max-width: 600px) {
+        gap: 3rem;
+    }
+}
+
+// Skills icon
+@mixin skillIconBp {
+    @media only screen and (max-width: 600px) {
+        font-size: 3.5rem;
+    }
+}
+
+// Resume component 
+@mixin skillsContainer2Bp {
+    @media only screen and (min-width: 1205px) and (max-width: 1620px) {
+        width: 100%;
+        
     }
 }

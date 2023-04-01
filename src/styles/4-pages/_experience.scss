@@ -2,9 +2,10 @@
 @import "../2-components/mixins";
 @import "../2-components/background";
 @import "../2-components/buttons";
+@import "../2-components/breakpoints";
 @import "../3-layout/header";
-@import "../3-layout/footer";
 @import "../3-layout/hero";
+@import "../3-layout/footer";
 
 body {
 	@include bodySetUp;
@@ -15,60 +16,18 @@ body {
 	@include flexColumnCenter;
 	gap: 2rem;
 
-	.hero-container {
-		// border: 2px solid blue;
-		width: 80%;
-		height: 30%;
-
-		.hero-heading {
-			font-family: $font-gallient;
-			color: $slate-color;
-			font-size: 11rem;
-			letter-spacing: 8px;
-			line-height: 1.4;
-			opacity: 0.9;
-			position: relative;
-			padding-bottom: 10px;
-
-			@media only screen and (max-width: 1100px) {
-				font-size: 10rem;
-			}
-
-			.hero-heading2 {
-				color: $secondary-color;
-				position: absolute;
-				top: -10px;
-				left: 15px;
-				opacity: 0.8;
-				z-index: -10;
-			}
-		}
-
-		.hero-subheading {
-			font-family: $font-gallient;
-			color: $slate-color;
-			font-weight: 600;
-			font-size: 2.5rem;
-			letter-spacing: 1px;
-			padding-left: 8px;
-
-			@media only screen and (max-width: 1100px) {
-				font-size: 2.2rem;
-			}
-		}
-	}
-
 	.experience-text {
 		// border: 2px solid purple;
 		width: 60%;
-		// margin-right: 260px;
 
 		.text {
-			width: 100%;
+			width: 110%;
 			font-family: $font-montserrat;
-			font-size: 1.08rem;
-			font-weight: 700;
+			font-size: 1.3rem;
+			font-weight: 400;
 			margin: 30px 0;
+
+			@include experienceTextBp;
 		}
 	}
 
@@ -79,10 +38,13 @@ body {
 		@include flexRowCenterWrap;
 		gap: 2rem;
 
+		@include skillsContainerBp;
+		@include skillsContainer2Bp;
+
 		.skills-content {
 			// border: 2px solid blue;
 			height: 250px;
-			width: 400px;
+			width: 300px;
 			position: relative;
 			@include flexColumnAlignCenter;
 			gap: 1rem;
@@ -123,6 +85,8 @@ body {
 					padding: 12px;
 					color: $slate-color;
 
+					@include skillIconBp;
+
 					&:hover {
 						color: none;
 					}
@@ -141,7 +105,6 @@ body {
 			height: 100px;
 			margin-bottom: 50px;
 			@include flexCenter;
-
 		}
 	}
 }
