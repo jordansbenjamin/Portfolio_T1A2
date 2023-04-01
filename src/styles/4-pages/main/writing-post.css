@@ -534,7 +534,6 @@ body {
   position: fixed;
   top: 0;
   right: -240px;
-  border-radius: 25px;
   transition: transform 0.3s;
   z-index: 1;
 }
@@ -545,7 +544,7 @@ body {
   letter-spacing: 1px;
   text-decoration: none;
   color: #1A1818;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   margin: 20px 0;
 }
 .mobileNav a:hover {
@@ -581,7 +580,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 @media only screen and (max-width: 400px) {
   .header .logo {
@@ -616,11 +615,12 @@ body {
 }
 .header .nav-items a {
   font-family: "Clash Display Variable", sans-serif;
+  font-weight: 500;
   font-size: 1.1rem;
   letter-spacing: 1px;
   text-decoration: none;
   color: #141414;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .header .nav-items a:hover {
   text-decoration: line-through;
@@ -714,13 +714,24 @@ body {
 footer {
   margin: auto 0 0 0;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-end;
 }
 footer .copyright {
   font-family: "Clash Display Variable", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  color: #1A1818;
   padding: 10px 20px;
+}
+footer .social-icons {
+  color: #1A1818;
+  font-size: 1.3rem;
+  padding: 10px 18px;
+  transition: all 0.2s ease-in-out;
+}
+footer .social-icons:hover {
+  cursor: pointer;
+  color: #faf9f9;
 }
 
 * {

@@ -1,16 +1,29 @@
 @import "../1-defaults/base";
+@import "../2-components/mixins";
 
 
 footer {
-    // border: 2px solid black;
     margin: auto 0 0 0;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-end;
 
     .copyright {
         font-family: $font-clashDisplayVariable;
-        font-size: .9rem;
+        font-size: 1rem;
+        color: $slate-color;
         padding: 10px 20px;
+    }
+
+    .social-icons {
+        color: $slate-color;
+        font-size: 1.3rem;
+        padding: 10px 18px;
+        @include transition5;
+
+        &:hover {
+            cursor: pointer;
+            color: $secondary-color;
+        }
     }
 }
