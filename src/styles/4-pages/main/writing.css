@@ -518,31 +518,6 @@ body {
     font-size: 5.5rem;
   }
 }
-@media only screen and (max-width: 800px) {
-  .hero-container .hero-heading {
-    font-size: 7rem;
-  }
-}
-@media only screen and (max-width: 690px) {
-  .hero-container .hero-heading {
-    font-size: 6rem;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .hero-container .hero-heading {
-    font-size: 5rem;
-  }
-}
-@media only screen and (max-width: 508px) {
-  .hero-container .hero-heading {
-    font-size: 4rem;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .hero-container .hero-heading {
-    font-size: 3rem;
-  }
-}
 .hero-container .hero-heading .hero-heading2 {
   color: #faf9f9;
   position: absolute;
@@ -550,12 +525,6 @@ body {
   left: 15px;
   opacity: 0.8;
   z-index: -10;
-}
-@media only screen and (max-width: 508px) {
-  .hero-container .hero-heading .hero-heading2 {
-    top: -5px;
-    left: 5px;
-  }
 }
 .hero-container .hero-subheading {
   font-family: "Gallient", serif;
@@ -709,6 +678,93 @@ body {
 @media only screen and (max-width: 903px) {
   .about-hero-container .image-wrapper {
     align-self: center;
+  }
+}
+
+.experience-hero-container {
+  width: 80%;
+  height: 30%;
+}
+.experience-hero-container .experience-hero-heading {
+  font-family: "Gallient", serif;
+  color: #1A1818;
+  font-size: 11rem;
+  letter-spacing: 8px;
+  line-height: 1.4;
+  opacity: 0.9;
+  position: relative;
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 1030px) {
+  .experience-hero-container .experience-hero-heading {
+    font-size: 8.5rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .experience-hero-container .experience-hero-heading {
+    font-size: 7rem;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .experience-hero-container .experience-hero-heading {
+    font-size: 6rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .experience-hero-container .experience-hero-heading {
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .experience-hero-container .experience-hero-heading {
+    font-size: 4.5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .experience-hero-container .experience-hero-heading {
+    font-size: 3rem;
+  }
+}
+.experience-hero-container .experience-hero-heading .experience-hero-heading2 {
+  color: #faf9f9;
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  opacity: 0.8;
+  z-index: -10;
+}
+@media only screen and (max-width: 508px) {
+  .experience-hero-container .experience-hero-heading .experience-hero-heading2 {
+    top: -5px;
+    left: 5px;
+  }
+}
+.experience-hero-container .experience-hero-subheading {
+  font-family: "Gallient", serif;
+  color: #1A1818;
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  padding-left: 8px;
+}
+@media only screen and (max-width: 1292px) {
+  .experience-hero-container .experience-hero-subheading {
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .experience-hero-container .experience-hero-subheading {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .experience-hero-container .experience-hero-subheading {
+    font-size: 1.9rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .experience-hero-container .experience-hero-subheading {
+    font-size: 1.6rem;
   }
 }
 

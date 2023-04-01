@@ -50,8 +50,12 @@ $smallMobileBp: 400px;
     }
 }
 
-// Project hero heading tweak
-@mixin projectHeroHeadingBp {
+// Experience hero heading tweak
+@mixin experienceHeroHeadingBp {
+    @media only screen and (max-width: $tabletBp) {
+        font-size: 8.5rem;
+    }
+    
     @media only screen and (max-width: 800px) {
         font-size: 7rem;
     }
@@ -65,7 +69,7 @@ $smallMobileBp: 400px;
     }
 
     @media only screen and (max-width: $mediumMobileBp) {
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
 
     @media only screen and (max-width: $smallMobileBp) {
@@ -92,8 +96,10 @@ $smallMobileBp: 400px;
     }
 }
 
-// Project hero subheading 
-@mixin projectHeroSubheadingBp {
+
+
+// experience hero subheading tweak
+@mixin experienceHeroSubheadingBp {
     @media only screen and (max-width: $mediumMobileBp) {
         top: -5px;
         left: 5px;
