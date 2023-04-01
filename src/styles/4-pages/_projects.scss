@@ -1,9 +1,10 @@
 @import "../1-defaults/base";
 @import "../2-components/mixins";
 @import "../2-components/background";
+@import "../2-components/breakpoints";
 @import "../3-layout/header";
-@import "../3-layout/footer";
 @import "../3-layout/hero";
+@import "../3-layout/footer";
 
 body {
 	@include bodySetUp;
@@ -13,49 +14,6 @@ body {
 	// border: 2px solid red;
 	@include flexColumnCenter;
 	gap: 3em;
-	
-	.hero-container {
-		// border: 2px solid black;
-		width: 80%;
-		height: 30%;
-
-		.hero-heading {
-			font-family: $font-gallient;
-			color: $slate-color;
-			font-size: 11rem;
-			letter-spacing: 8px;
-			line-height: 1.4;
-			opacity: 0.9;
-			position: relative;
-			padding-bottom: 10px;
-
-			@media only screen and (max-width: 1100px) {
-				font-size: 10rem;
-			}
-
-			.hero-heading2 {
-				color: $secondary-color;
-				position: absolute;
-				top: -10px;
-				left: 15px;
-				opacity: 0.8;
-				z-index: -10;
-			}
-		}
-
-		.hero-subheading {
-			font-family: $font-gallient;
-			color: $slate-color;
-			font-weight: 600;
-			font-size: 2.5rem;
-			letter-spacing: 1px;
-			padding-left: 8px;
-
-			@media only screen and (max-width: 1100px) {
-				font-size: 2.2rem;
-			}
-		}
-	}
 
 	.projects-container {
 		// border: 2px solid red;
@@ -73,6 +31,7 @@ body {
 			border-radius: 10px;
 			@include boxShadow1;
 			@include transition1;
+			@include smallMobileLayout;
 
 			.content-img {
 				border-radius: 10px;
