@@ -1,5 +1,6 @@
 @import "../1-defaults/base";
 @import "../2-components/mixins";
+@import "../2-components/breakpoints";
 
 
 // *** Learn more button ***
@@ -20,9 +21,13 @@
     box-shadow: 1px 4px 8px 0 rgba(0,0,0,0.07);
     transition: width 0.2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 
+    @include learnMoreBp;
+
     &:hover {
         cursor: pointer;
         width: 380px;
+
+        @include learnMoreBp;
     }
 }
 

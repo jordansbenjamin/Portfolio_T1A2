@@ -377,7 +377,7 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1030px) {
   .header .nav-items {
     display: none;
   }
@@ -400,7 +400,7 @@ body {
   display: none;
   z-index: 2;
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1030px) {
   .header .hamburger {
     display: block;
     display: flex;

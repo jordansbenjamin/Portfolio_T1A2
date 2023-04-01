@@ -235,9 +235,99 @@ body {
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
   transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+@media only screen and (max-width: 1250px) {
+  .learn-more-btn {
+    font-size: 1.9rem;
+    width: 280px;
+  }
+  .learn-more-btn:hover {
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .learn-more-btn {
+    font-size: 1.8rem;
+    width: 260px;
+  }
+  .learn-more-btn:hover {
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .learn-more-btn {
+    font-size: 1.6rem;
+    width: 240px;
+  }
+  .learn-more-btn:hover {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .learn-more-btn {
+    font-size: 1.4rem;
+    width: 210px;
+  }
+  .learn-more-btn:hover {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .learn-more-btn {
+    font-size: 1.2rem;
+    width: 180px;
+  }
+  .learn-more-btn:hover {
+    width: 240px;
+  }
+}
 .learn-more-btn:hover {
   cursor: pointer;
   width: 380px;
+}
+@media only screen and (max-width: 1250px) {
+  .learn-more-btn:hover {
+    font-size: 1.9rem;
+    width: 280px;
+  }
+  .learn-more-btn:hover:hover {
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .learn-more-btn:hover {
+    font-size: 1.8rem;
+    width: 260px;
+  }
+  .learn-more-btn:hover:hover {
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .learn-more-btn:hover {
+    font-size: 1.6rem;
+    width: 240px;
+  }
+  .learn-more-btn:hover:hover {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .learn-more-btn:hover {
+    font-size: 1.4rem;
+    width: 210px;
+  }
+  .learn-more-btn:hover:hover {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .learn-more-btn:hover {
+    font-size: 1.2rem;
+    width: 180px;
+  }
+  .learn-more-btn:hover:hover {
+    width: 240px;
+  }
 }
 
 .resume-btn {
@@ -424,9 +514,99 @@ body {
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.07);
   transition: width 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+@media only screen and (max-width: 1250px) {
+  .learn-more-btn {
+    font-size: 1.9rem;
+    width: 280px;
+  }
+  .learn-more-btn:hover {
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .learn-more-btn {
+    font-size: 1.8rem;
+    width: 260px;
+  }
+  .learn-more-btn:hover {
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .learn-more-btn {
+    font-size: 1.6rem;
+    width: 240px;
+  }
+  .learn-more-btn:hover {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .learn-more-btn {
+    font-size: 1.4rem;
+    width: 210px;
+  }
+  .learn-more-btn:hover {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .learn-more-btn {
+    font-size: 1.2rem;
+    width: 180px;
+  }
+  .learn-more-btn:hover {
+    width: 240px;
+  }
+}
 .learn-more-btn:hover {
   cursor: pointer;
   width: 380px;
+}
+@media only screen and (max-width: 1250px) {
+  .learn-more-btn:hover {
+    font-size: 1.9rem;
+    width: 280px;
+  }
+  .learn-more-btn:hover:hover {
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .learn-more-btn:hover {
+    font-size: 1.8rem;
+    width: 260px;
+  }
+  .learn-more-btn:hover:hover {
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .learn-more-btn:hover {
+    font-size: 1.6rem;
+    width: 240px;
+  }
+  .learn-more-btn:hover:hover {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .learn-more-btn:hover {
+    font-size: 1.4rem;
+    width: 210px;
+  }
+  .learn-more-btn:hover:hover {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .learn-more-btn:hover {
+    font-size: 1.2rem;
+    width: 180px;
+  }
+  .learn-more-btn:hover:hover {
+    width: 240px;
+  }
 }
 
 .resume-btn {
@@ -749,7 +929,7 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1030px) {
   .header .nav-items {
     display: none;
   }
@@ -772,7 +952,7 @@ body {
   display: none;
   z-index: 2;
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1030px) {
   .header .hamburger {
     display: block;
     display: flex;

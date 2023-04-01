@@ -2,6 +2,7 @@
 @import "../2-components/mixins";
 @import "../2-components/hamburger-animation";
 @import "../2-components/mobile-nav";
+@import "../2-components/breakpoints";
 
 .header {
 	// border: 2px solid red;
@@ -56,9 +57,7 @@
 		display: flex;
 		justify-content: space-evenly;
 		
-		@media only screen and (max-width: 1100px) {
-			display: none;
-		}
+		@include navItemsBp;
 
 		a {
 			font-family: $font-clashDisplayVariable;
@@ -81,12 +80,7 @@
 		display: none;
 		z-index: 2;
 
-		@media only screen and (max-width: 1100px) {
-			// border: 2px solid green;
-			display: block;
-			@include flexColumnCenter;
-			margin-right: 40px;
-		}
+		@include hamburgerTabletBp;
 
 		@media only screen and (max-width: 400px) {
 			margin-right: 10px;
