@@ -761,14 +761,14 @@ body {
   font-weight: 600;
   font-size: 2.2rem;
   letter-spacing: 1px;
-  padding-top: 10px;
 }
 .main-container .hero-container .hero-wrapper .date {
   font-family: "Gallient", serif;
   color: #1A1818;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   letter-spacing: 1px;
-  padding-top: 20px;
+  padding-top: 15px;
+  margin-left: 10px;
 }
 .main-container .post-container {
   height: 80%;
@@ -789,6 +789,7 @@ body {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
+  font-weight: 500;
 }
 .main-container .post-container .post {
   width: 90%;
@@ -801,13 +802,16 @@ body {
 .main-container .post-container .post .subheading3 {
   font-family: "Gallient", serif;
   font-weight: 600;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
   padding: 16px 0;
 }
 .main-container .post-container .post .blog-text {
+  width: 105%;
   margin: 0 0 20px 0;
   line-height: 1.8;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 .main-container .post-container .post .quote {
   font-family: "Gallient", serif;
