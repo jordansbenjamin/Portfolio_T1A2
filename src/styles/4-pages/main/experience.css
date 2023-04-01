@@ -833,6 +833,11 @@ footer .copyright {
   position: relative;
   padding-bottom: 10px;
 }
+@media only screen and (max-width: 1250px) {
+  .hero-container .hero-wrapper .hero-heading {
+    font-size: 10.5rem;
+  }
+}
 @media only screen and (max-width: 1110px) {
   .hero-container .hero-wrapper .hero-heading {
     font-size: 10rem;
@@ -873,6 +878,11 @@ footer .copyright {
   font-size: 2.5rem;
   letter-spacing: 1px;
   padding-left: 8px;
+}
+@media only screen and (max-width: 1250px) {
+  .hero-container .hero-wrapper .hero-subheading {
+    font-size: 2.35rem;
+  }
 }
 @media only screen and (max-width: 1110px) {
   .hero-container .hero-wrapper .hero-subheading {
