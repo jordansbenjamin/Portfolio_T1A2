@@ -1,9 +1,11 @@
-$smallDesktop: 1250px;
+// Breakpoint variables at specific screen sizes (width)
+
+$smallDesktopBp: 1250px;
 $tabletBp: 1030px;
 $mediumMobileBp: 508px;
 $smallMobileBp: 400px;
 
-// ***** HEADER *****
+// ***** HEADER COMPONENT *****
 
 @mixin navItemsBp {
     @media only screen and (max-width: $tabletBp) {
@@ -22,12 +24,12 @@ $smallMobileBp: 400px;
 }
 
 
-// ***** HOMEPAGE *****
+// ***** HOME PAGE BREAKPOINTS *****
 
 // MAIN HEADING
 
 @mixin introHeadingBp {
-    @media only screen and (max-width: $smallDesktop) {
+    @media only screen and (max-width: $smallDesktopBp) {
         font-size: 13.5rem;
     }
     
@@ -59,7 +61,7 @@ $smallMobileBp: 400px;
 // SUB-HEADING
 
 @mixin introSubheadingBp {
-    @media only screen and (max-width: $smallDesktop) {
+    @media only screen and (max-width: $smallDesktopBp) {
         font-size: 3.75rem;
     }
     
@@ -107,7 +109,7 @@ $smallMobileBp: 400px;
 // LEARN MORE
 
 @mixin learnMoreBp {
-    @media only screen and (max-width: $smallDesktop) {
+    @media only screen and (max-width: $smallDesktopBp) {
         font-size: 1.9rem;
         width: 280px;
 
@@ -150,5 +152,110 @@ $smallMobileBp: 400px;
         &:hover {
             width: 240px;
         }
+    }
+}
+
+// **********************************
+// ***** ABOUT PAGE BREAKPOINTS *****
+// **********************************
+
+// Hero Container
+@mixin heroContainerBp {
+    @media only screen and (max-width: 903px) {
+        flex-direction: column;
+    }
+}
+
+// Hero heading
+
+@mixin heroHeadingBp {
+    @media only screen and (max-width: 1110px) {
+        font-size: 10rem;
+    }
+
+    @media only screen and (max-width: $tabletBp) {
+        font-size: 8.5rem;
+    }
+
+    @media only screen and (max-width: 955px) {
+        font-size: 7.5rem;
+    }
+
+    @media only screen and (max-width: $mediumMobileBp) {
+        font-size: 6.5rem;
+    }
+
+    @media only screen and (max-width: $smallMobileBp) {
+        font-size: 6rem;
+    }
+}
+
+// Hero subheading 
+
+@mixin heroSubheadingBp {
+    @media only screen and (max-width: 1110px) {
+        font-size: 2.2rem;
+    }
+
+    @media only screen and (max-width: $tabletBp) {
+        font-size: 2rem;
+    }
+
+    @media only screen and (max-width: 982px) {
+        font-size: 1.9rem;
+    }
+
+    @media only screen and (max-width: 955px) {
+        font-size: 1.7rem;
+    }
+
+    @media only screen and (max-width: $mediumMobileBp) {
+        font-size: 1.5rem;
+    }
+
+    @media only screen and (max-width: $smallMobileBp) {
+        font-size: 1.3rem;
+    }
+}
+
+// Image wrapper
+
+@mixin imageWrapperBp {
+    @media only screen and (max-width: 903px) {
+        align-self: center;
+    }
+}
+
+// About text 
+
+@mixin abouTextBp {
+    @media only screen and (max-width: $tabletBp) {
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    @media only screen and (max-width: $mediumMobileBp) {
+        font-size: 1.15rem;
+        width: 90%;
+    }
+
+    @media only screen and (max-width: $smallMobileBp) {
+        font-size: 1.1rem;
+        width: 95%;
+    }
+}
+
+// About subheading 
+@mixin aboutSubheadingBp {
+    @media only screen and (max-width: $tabletBp) {
+        font-size: 1.7rem;
+    }
+
+    @media only screen and (max-width: $mediumMobileBp) {
+        font-size: 1.6rem;
+    }
+
+    @media only screen and (max-width: $smallMobileBp) {
+        font-size: 1.5rem;
     }
 }

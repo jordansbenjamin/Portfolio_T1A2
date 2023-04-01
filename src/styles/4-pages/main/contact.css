@@ -1125,6 +1125,122 @@ footer .copyright {
   }
 }
 
+.hero-container {
+  width: 80%;
+  height: 30%;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2em;
+}
+@media only screen and (max-width: 903px) {
+  .hero-container {
+    flex-direction: column;
+  }
+}
+.hero-container .hero-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.hero-container .hero-wrapper .hero-heading {
+  font-family: "Gallient", serif;
+  color: #1A1818;
+  font-size: 11rem;
+  letter-spacing: 8px;
+  line-height: 1.4;
+  opacity: 0.9;
+  position: relative;
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 1110px) {
+  .hero-container .hero-wrapper .hero-heading {
+    font-size: 10rem;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .hero-container .hero-wrapper .hero-heading {
+    font-size: 8.5rem;
+  }
+}
+@media only screen and (max-width: 955px) {
+  .hero-container .hero-wrapper .hero-heading {
+    font-size: 7.5rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .hero-container .hero-wrapper .hero-heading {
+    font-size: 6.5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero-container .hero-wrapper .hero-heading {
+    font-size: 6rem;
+  }
+}
+.hero-container .hero-wrapper .hero-heading .hero-heading2 {
+  color: #faf9f9;
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  opacity: 0.8;
+  z-index: -10;
+}
+.hero-container .hero-wrapper .hero-subheading {
+  font-family: "Gallient", serif;
+  color: #1A1818;
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  padding-left: 8px;
+}
+@media only screen and (max-width: 1110px) {
+  .hero-container .hero-wrapper .hero-subheading {
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .hero-container .hero-wrapper .hero-subheading {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 982px) {
+  .hero-container .hero-wrapper .hero-subheading {
+    font-size: 1.9rem;
+  }
+}
+@media only screen and (max-width: 955px) {
+  .hero-container .hero-wrapper .hero-subheading {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .hero-container .hero-wrapper .hero-subheading {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero-container .hero-wrapper .hero-subheading {
+    font-size: 1.3rem;
+  }
+}
+.hero-container .image-wrapper {
+  position: relative;
+  width: 300px;
+  display: flex;
+}
+.hero-container .image-wrapper .profile-photo {
+  width: 100%;
+  border-radius: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media only screen and (max-width: 903px) {
+  .hero-container .image-wrapper {
+    align-self: center;
+  }
+}
+
 body {
   min-height: 100vh;
   display: flex;

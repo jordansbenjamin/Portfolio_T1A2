@@ -1,9 +1,11 @@
 @import "../1-defaults/base";
 @import "../2-components/background";
 @import "../2-components/mixins";
-@import "../3-layout/header";
-@import "../3-layout/footer";
 @import "../2-components/breakpoints";
+@import "../3-layout/header";
+@import "../3-layout/hero";
+@import "../3-layout/footer";
+
 
 body {
 	@include bodySetUp;
@@ -11,85 +13,6 @@ body {
 
 .main-container {
 	// border: 2px solid red;
-	
-	.hero-container {
-		// border: 2px solid black;
-		width: 80%;
-		height: 30%;
-		margin: 20px auto 0;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		gap: 2em;
-
-		@media only screen and (max-width: 900px) {
-			flex-direction: column;
-		}
-
-		.heading-wrapper {
-			display: flex;
-			flex-direction: column;
-
-			.hero-heading {
-				font-family: $font-gallient;
-				color: $slate-color;
-				font-size: 11rem;
-				letter-spacing: 8px;
-				line-height: 1.4;
-				opacity: 0.9;
-				position: relative;
-				padding-bottom: 10px;
-
-				@media only screen and (max-width: 1100px) {
-					font-size: 10rem;
-				}
-	
-				.hero-heading2 {
-					color: $secondary-color;
-					position: absolute;
-					top: -10px;
-					left: 15px;
-					opacity: 0.8;
-					z-index: -10;
-				}
-			}
-	
-			.hero-subheading {
-				font-family: $font-gallient;
-				color: $slate-color;
-				font-weight: 600;
-				font-size: 2.5rem;
-				letter-spacing: 1px;
-				padding-left: 8px;
-
-				@media only screen and (max-width: 1100px) {
-					font-size: 2.2rem;
-				}
-			}
-		}
-		
-
-		.image-wrapper {
-			position: relative;
-			// border: 2px solid red;
-			width: 300px;
-			display: flex;
-
-			// @media only screen and (max-width: 1116px) {
-			// 	width: 200px;
-			// }
-
-			.profile-photo {
-				width: 100%;
-				border-radius: 25px;
-				object-fit: cover;
-			}
-
-			@media only screen and (max-width: 900px) {
-				align-self: center;
-			}
-		}
-	}
 
 	.about-text-container {
 		// border: 2px solid black;
@@ -102,14 +25,16 @@ body {
 			// border: 2px solid black;
 			width: 75%;
 			font-family: $font-montserrat;
-			font-size: 1.2rem;
-			font-weight: 700;
+			font-size: 1.3rem;
+			font-weight: 400;
 			margin: 30px 0;
+
+			@include abouTextBp;
 		}
 
 		.about-subheading3 {
 			@include subheading3;
+			@include aboutSubheadingBp;
 		}
 	}
-	
 }

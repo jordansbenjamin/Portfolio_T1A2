@@ -479,6 +479,204 @@ body {
   font-family: "Tenor Sans";
   src: url(/fonts/TenorSans.ttf) format("truetype");
 }
+.hero-container {
+  width: 80%;
+  height: 30%;
+}
+.hero-container .hero-heading {
+  font-family: "Gallient", serif;
+  color: #1A1818;
+  font-size: 11rem;
+  letter-spacing: 8px;
+  line-height: 1.4;
+  opacity: 0.9;
+  position: relative;
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 1100px) {
+  .hero-container .hero-heading {
+    font-size: 10rem;
+  }
+}
+.hero-container .hero-heading .hero-heading2 {
+  color: #faf9f9;
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  opacity: 0.8;
+  z-index: -10;
+}
+.hero-container .hero-subheading {
+  font-family: "Gallient", serif;
+  color: #1A1818;
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  padding-left: 8px;
+}
+@media only screen and (max-width: 1100px) {
+  .hero-container .hero-subheading {
+    font-size: 2.2rem;
+  }
+}
+
+.hero-container {
+  width: 80%;
+  height: 30%;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2em;
+}
+@media only screen and (max-width: 903px) {
+  .hero-container {
+    flex-direction: column;
+  }
+}
+.hero-container .hero-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.hero-container .hero-wrapper .hero-heading {
+  font-family: "Gallient", serif;
+  color: #1A1818;
+  font-size: 11rem;
+  letter-spacing: 8px;
+  line-height: 1.4;
+  opacity: 0.9;
+  position: relative;
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 1110px) {
+  .hero-container .hero-wrapper .hero-heading {
+    font-size: 10rem;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .hero-container .hero-wrapper .hero-heading {
+    font-size: 8.5rem;
+  }
+}
+@media only screen and (max-width: 955px) {
+  .hero-container .hero-wrapper .hero-heading {
+    font-size: 7.5rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .hero-container .hero-wrapper .hero-heading {
+    font-size: 6.5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero-container .hero-wrapper .hero-heading {
+    font-size: 6rem;
+  }
+}
+.hero-container .hero-wrapper .hero-heading .hero-heading2 {
+  color: #faf9f9;
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  opacity: 0.8;
+  z-index: -10;
+}
+.hero-container .hero-wrapper .hero-subheading {
+  font-family: "Gallient", serif;
+  color: #1A1818;
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  padding-left: 8px;
+}
+@media only screen and (max-width: 1110px) {
+  .hero-container .hero-wrapper .hero-subheading {
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .hero-container .hero-wrapper .hero-subheading {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 982px) {
+  .hero-container .hero-wrapper .hero-subheading {
+    font-size: 1.9rem;
+  }
+}
+@media only screen and (max-width: 955px) {
+  .hero-container .hero-wrapper .hero-subheading {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .hero-container .hero-wrapper .hero-subheading {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero-container .hero-wrapper .hero-subheading {
+    font-size: 1.3rem;
+  }
+}
+.hero-container .image-wrapper {
+  position: relative;
+  width: 300px;
+  display: flex;
+}
+.hero-container .image-wrapper .profile-photo {
+  width: 100%;
+  border-radius: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media only screen and (max-width: 903px) {
+  .hero-container .image-wrapper {
+    align-self: center;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Clash Display Variable";
+  src: url(/fonts/ClashDisplay-Variable.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cameo Sans";
+  src: url(/fonts/CameoSansDEMO.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS Outline";
+  src: url(/fonts/Hunny\ Straw\ Sans\ Outline.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HTS";
+  src: url(/fonts/Hunny\ Straw\ Sans.ttf) format("truetype");
+}
+@font-face {
+  font-family: "FTN5";
+  src: url(/fonts/FogtwoNo5.otf) format("opentype");
+}
+@font-face {
+  font-family: "Gallient";
+  src: url(/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Hookana";
+  src: url(/fonts/Hookana.otf) format("opentype");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/fonts/NunitoSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Tenor Sans";
+  src: url(/fonts/TenorSans.ttf) format("truetype");
+}
 footer {
   margin: auto 0 0 0;
   display: flex;
@@ -497,76 +695,6 @@ body {
   flex-direction: column;
 }
 
-.main-container .hero-container {
-  width: 80%;
-  height: 30%;
-  margin: 20px auto 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 2em;
-}
-@media only screen and (max-width: 900px) {
-  .main-container .hero-container {
-    flex-direction: column;
-  }
-}
-.main-container .hero-container .heading-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-.main-container .hero-container .heading-wrapper .hero-heading {
-  font-family: "Gallient", serif;
-  color: #1A1818;
-  font-size: 11rem;
-  letter-spacing: 8px;
-  line-height: 1.4;
-  opacity: 0.9;
-  position: relative;
-  padding-bottom: 10px;
-}
-@media only screen and (max-width: 1100px) {
-  .main-container .hero-container .heading-wrapper .hero-heading {
-    font-size: 10rem;
-  }
-}
-.main-container .hero-container .heading-wrapper .hero-heading .hero-heading2 {
-  color: #faf9f9;
-  position: absolute;
-  top: -10px;
-  left: 15px;
-  opacity: 0.8;
-  z-index: -10;
-}
-.main-container .hero-container .heading-wrapper .hero-subheading {
-  font-family: "Gallient", serif;
-  color: #1A1818;
-  font-weight: 600;
-  font-size: 2.5rem;
-  letter-spacing: 1px;
-  padding-left: 8px;
-}
-@media only screen and (max-width: 1100px) {
-  .main-container .hero-container .heading-wrapper .hero-subheading {
-    font-size: 2.2rem;
-  }
-}
-.main-container .hero-container .image-wrapper {
-  position: relative;
-  width: 300px;
-  display: flex;
-}
-.main-container .hero-container .image-wrapper .profile-photo {
-  width: 100%;
-  border-radius: 25px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-@media only screen and (max-width: 900px) {
-  .main-container .hero-container .image-wrapper {
-    align-self: center;
-  }
-}
 .main-container .about-text-container {
   width: 80%;
   height: 30%;
@@ -576,14 +704,47 @@ body {
 .main-container .about-text-container .about-text {
   width: 75%;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 400;
   margin: 30px 0;
+}
+@media only screen and (max-width: 1030px) {
+  .main-container .about-text-container .about-text {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .main-container .about-text-container .about-text {
+    font-size: 1.15rem;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main-container .about-text-container .about-text {
+    font-size: 1.1rem;
+    width: 95%;
+  }
 }
 .main-container .about-text-container .about-subheading3 {
   font-family: "Gallient", serif;
   font-weight: 600;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   letter-spacing: 1px;
   padding: 16px 0 0 0;
+}
+@media only screen and (max-width: 1030px) {
+  .main-container .about-text-container .about-subheading3 {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .main-container .about-text-container .about-subheading3 {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main-container .about-text-container .about-subheading3 {
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=about.css.map */
