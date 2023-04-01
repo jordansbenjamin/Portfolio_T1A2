@@ -49,7 +49,7 @@
 
 // ***** ABOUT PAGE HERO *****
 
-.hero-container {
+.about-hero-container {
     // border: 2px solid black;
     width: 80%;
     height: 30%;
@@ -61,10 +61,10 @@
 
     @include heroContainerBp;
 
-    .hero-wrapper {
+    .about-hero-wrapper {
         @include flexColumn;
 
-        .hero-heading {
+        .about-hero-heading {
             font-family: $font-gallient;
             color: $slate-color;
             font-size: 11rem;
@@ -76,7 +76,7 @@
 
             @include heroHeadingBp;
 
-            .hero-heading2 {
+            .about-hero-heading2 {
                 color: $secondary-color;
                 position: absolute;
                 top: -10px;
@@ -86,7 +86,7 @@
             }
         }
 
-        .hero-subheading {
+        .about-hero-subheading {
             font-family: $font-gallient;
             color: $slate-color;
             font-weight: 600;

@@ -520,7 +520,7 @@ body {
   }
 }
 
-.hero-container {
+.about-hero-container {
   width: 80%;
   height: 30%;
   margin: 20px auto 0;
@@ -530,15 +530,15 @@ body {
   gap: 2em;
 }
 @media only screen and (max-width: 903px) {
-  .hero-container {
+  .about-hero-container {
     flex-direction: column;
   }
 }
-.hero-container .hero-wrapper {
+.about-hero-container .about-hero-wrapper {
   display: flex;
   flex-direction: column;
 }
-.hero-container .hero-wrapper .hero-heading {
+.about-hero-container .about-hero-wrapper .about-hero-heading {
   font-family: "Gallient", serif;
   color: #1A1818;
   font-size: 11rem;
@@ -549,36 +549,36 @@ body {
   padding-bottom: 10px;
 }
 @media only screen and (max-width: 1250px) {
-  .hero-container .hero-wrapper .hero-heading {
+  .about-hero-container .about-hero-wrapper .about-hero-heading {
     font-size: 10.5rem;
   }
 }
 @media only screen and (max-width: 1110px) {
-  .hero-container .hero-wrapper .hero-heading {
+  .about-hero-container .about-hero-wrapper .about-hero-heading {
     font-size: 10rem;
   }
 }
 @media only screen and (max-width: 1030px) {
-  .hero-container .hero-wrapper .hero-heading {
+  .about-hero-container .about-hero-wrapper .about-hero-heading {
     font-size: 8.5rem;
   }
 }
 @media only screen and (max-width: 955px) {
-  .hero-container .hero-wrapper .hero-heading {
+  .about-hero-container .about-hero-wrapper .about-hero-heading {
     font-size: 7.5rem;
   }
 }
 @media only screen and (max-width: 508px) {
-  .hero-container .hero-wrapper .hero-heading {
+  .about-hero-container .about-hero-wrapper .about-hero-heading {
     font-size: 6.5rem;
   }
 }
 @media only screen and (max-width: 400px) {
-  .hero-container .hero-wrapper .hero-heading {
+  .about-hero-container .about-hero-wrapper .about-hero-heading {
     font-size: 6rem;
   }
 }
-.hero-container .hero-wrapper .hero-heading .hero-heading2 {
+.about-hero-container .about-hero-wrapper .about-hero-heading .about-hero-heading2 {
   color: #faf9f9;
   position: absolute;
   top: -10px;
@@ -586,7 +586,7 @@ body {
   opacity: 0.8;
   z-index: -10;
 }
-.hero-container .hero-wrapper .hero-subheading {
+.about-hero-container .about-hero-wrapper .about-hero-subheading {
   font-family: "Gallient", serif;
   color: #1A1818;
   font-weight: 600;
@@ -595,53 +595,53 @@ body {
   padding-left: 8px;
 }
 @media only screen and (max-width: 1250px) {
-  .hero-container .hero-wrapper .hero-subheading {
+  .about-hero-container .about-hero-wrapper .about-hero-subheading {
     font-size: 2.35rem;
   }
 }
 @media only screen and (max-width: 1110px) {
-  .hero-container .hero-wrapper .hero-subheading {
+  .about-hero-container .about-hero-wrapper .about-hero-subheading {
     font-size: 2.2rem;
   }
 }
 @media only screen and (max-width: 1030px) {
-  .hero-container .hero-wrapper .hero-subheading {
+  .about-hero-container .about-hero-wrapper .about-hero-subheading {
     font-size: 2rem;
   }
 }
 @media only screen and (max-width: 982px) {
-  .hero-container .hero-wrapper .hero-subheading {
+  .about-hero-container .about-hero-wrapper .about-hero-subheading {
     font-size: 1.9rem;
   }
 }
 @media only screen and (max-width: 955px) {
-  .hero-container .hero-wrapper .hero-subheading {
+  .about-hero-container .about-hero-wrapper .about-hero-subheading {
     font-size: 1.7rem;
   }
 }
 @media only screen and (max-width: 508px) {
-  .hero-container .hero-wrapper .hero-subheading {
+  .about-hero-container .about-hero-wrapper .about-hero-subheading {
     font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 400px) {
-  .hero-container .hero-wrapper .hero-subheading {
+  .about-hero-container .about-hero-wrapper .about-hero-subheading {
     font-size: 1.3rem;
   }
 }
-.hero-container .image-wrapper {
+.about-hero-container .image-wrapper {
   position: relative;
   width: 300px;
   display: flex;
 }
-.hero-container .image-wrapper .profile-photo {
+.about-hero-container .image-wrapper .profile-photo {
   width: 100%;
   border-radius: 25px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media only screen and (max-width: 903px) {
-  .hero-container .image-wrapper {
+  .about-hero-container .image-wrapper {
     align-self: center;
   }
 }
