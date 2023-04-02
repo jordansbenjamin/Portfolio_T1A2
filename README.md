@@ -67,6 +67,9 @@ Simple animations are used throughout the website, and increases functionality o
 ---
 
 ## Sitemap
+<p align="center">
+    <img src=./docs/Sitemaps/Sitemap-v4.0.png>
+</p>
 
 ---
 
