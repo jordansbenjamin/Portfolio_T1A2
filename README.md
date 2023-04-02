@@ -4,7 +4,7 @@
 
 Welcome to my portfolio website, this is my first attempt in creating a website of any kind and here I will guide you through a high level overview of how the site was created! Thank you and enjoy.
 
-- [Netlify site]()
+- [Netlify site](https://jordansbenjamin.netlify.app/)
 
 - [Github Repository](https://github.com/jordansbenjamin/Portfolio_T1A2)
 
