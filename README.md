@@ -8,7 +8,7 @@ Welcome to my portfolio website, this is my first attempt in creating a website 
 
 - [Github Repository](https://github.com/jordansbenjamin/Portfolio_T1A2)
 
-- [Presentation clip]()
+- [Presentation clip](https://www.youtube.com/watch?v=XJEf4wHYvIQ)
 
 ---
 ## Purpose
@@ -90,7 +90,7 @@ Simple animations are used throughout the website, and increases functionality o
 ## Sitemap
 
 <p align="center">
-    <img src="./docs/Sitemaps/Sitemap-v4.0.png" height="650">
+    <img src="./docs/Sitemaps/Sitemap-v4.0.png" height="450">
 </p>
 
 ---
