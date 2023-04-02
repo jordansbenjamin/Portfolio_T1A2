@@ -85,7 +85,7 @@ Simple animations are used throughout the website, and increases functionality o
 ## Sitemap
 
 <p align="center">
-    <img src=./docs/Sitemaps/Sitemap-v4.0.png>
+    <img src="./docs/Sitemaps/Sitemap-v4.0.png" height="370">
 </p>
 
 ---
@@ -94,7 +94,12 @@ Simple animations are used throughout the website, and increases functionality o
 
 ---
 
-## Screenshots
+## Screenshots of deployed site
 
----
-
+![Home - Desktop](/docs/Screenshots/home.jpg)
+![About - Desktop](/docs/Screenshots/about.jpg)
+![Projects - Desktop](/docs/Screenshots/projects.jpg)
+![Experience - Desktop](/docs/Screenshots/experience.jpg)
+![Writing - Desktop](/docs/Screenshots/writing.jpg)
+![Writing Post - Desktop](/docs/Screenshots/writing-post.jpg)
+![Home - Desktop](/docs/Screenshots/contact.jpg)
