@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to my portfolio website, this is my first attempt in creating a website of any kind and here I will guide you through a high level overview of how the site was created! Thank you and enjoy.
+Welcome to my portfolio website, this is my first attempt in creating a website of any kind and here I will guide you through a high level overview of how the site was created! Thank you and enjoy 😄
 
 - [Netlify site](https://jordansbenjamin.netlify.app/)
 
@@ -13,7 +13,7 @@ Welcome to my portfolio website, this is my first attempt in creating a website 
 ---
 ## Purpose
 
-The portfolio website was created to showcase a variety of skills, they include the following:
+The portfolio website was created to showcase a variety of skills as web developer or IT professional, they include the following:
 
 - Writing readable but most importnatly syntactically and semantically valid HTML.
 - Creating a responsive website with three different device layouts.
@@ -30,8 +30,7 @@ On a side note, this website all offers interest to web developers or programmer
 
 ---
 ## Functionality & Features
-
-Test
+Both the design and technical features of the website are integrated as seamlessly as possible for the best possible user experience. 
 
 ### Design
 
@@ -68,6 +67,10 @@ Simple animations are used throughout the website, and increases functionality o
 
 - The background element itself is animated, it's animated to add a subtle static noise that adds texture to the website and huge component in design choice. 
 
+#### Cards
+- Cards that presents projects and blog posts are animated to increase user engagement when hovering and interacting with each individual card element.
+- One card lifts up, while the other presses in to give a different effect when interacting.
+- Each card element also have a text overlay with a subtle colour overlay to make the text stand out further when hovering.
 #### Buttons
 
 - Buttons are animated to increase interactive functionality to engage the visitor of the site, it's subtle but used throughout the website enough that it's character and is apart of the design.
@@ -79,27 +82,35 @@ Simple animations are used throughout the website, and increases functionality o
 - CSS3 / SCSS
 - JavaScript
 - GitHub
+- Netlify
+- Figma
 
 ---
 
 ## Sitemap
 
 <p align="center">
-    <img src="./docs/Sitemaps/Sitemap-v4.0.png" height="370">
+    <img src="./docs/Sitemaps/Sitemap-v4.0.png" height="650">
 </p>
 
 ---
 
 ## Wireframes
+![Home](/docs/Wireframes/Wireframes%203/home-wireframe.png)
+![About](/docs/Wireframes/Wireframes%203/about-wireframe.png)
+![Projects](/docs/Wireframes/Wireframes%203/projects-wireframe.png)
+![Experience](/docs/Wireframes/Wireframes%203/experience-wireframe.png)
+![Writing](/docs/Wireframes/Wireframes%203/writing-wireframe.png)
+![Writing Post](/docs/Wireframes/Wireframes%203/blogpost-wireframe.png)
+![Contact](/docs/Wireframes/Wireframes%203/contact-wireframe.png)
 
 ---
-
 ## Screenshots of deployed site
 
-![Home - Desktop](/docs/Screenshots/home.jpg)
-![About - Desktop](/docs/Screenshots/about.jpg)
-![Projects - Desktop](/docs/Screenshots/projects.jpg)
-![Experience - Desktop](/docs/Screenshots/experience.jpg)
-![Writing - Desktop](/docs/Screenshots/writing.jpg)
-![Writing Post - Desktop](/docs/Screenshots/writing-post.jpg)
-![Home - Desktop](/docs/Screenshots/contact.jpg)
+![Home](/docs/Screenshots/home.jpg)
+![About](/docs/Screenshots/about.jpg)
+![Projects](/docs/Screenshots/projects.jpg)
+![Experience](/docs/Screenshots/experience.jpg)
+![Writing](/docs/Screenshots/writing.jpg)
+![Writing Post](/docs/Screenshots/writing-post.jpg)
+![Contact](/docs/Screenshots/contact.jpg)
