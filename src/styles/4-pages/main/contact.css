@@ -5,11 +5,11 @@
 
 @font-face {
   font-family: "Clash Display Variable";
-  src: url(/src/fonts/ClashDisplay-Variable.ttf) format("truetype");
+  src: url(../../fonts/ClashDisplay-Variable.woff2) format("truetype");
 }
 @font-face {
   font-family: "Gallient";
-  src: url(/src/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+  src: url(../../fonts/GallientRegular-eZoMp.woff2) format("truetype");
 }
 * {
   margin: 0;
@@ -18,11 +18,11 @@
 
 @font-face {
   font-family: "Clash Display Variable";
-  src: url(/src/fonts/ClashDisplay-Variable.ttf) format("truetype");
+  src: url(../../fonts/ClashDisplay-Variable.woff2) format("truetype");
 }
 @font-face {
   font-family: "Gallient";
-  src: url(/src/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+  src: url(../../fonts/GallientRegular-eZoMp.woff2) format("truetype");
 }
 body {
   background-color: #F8F3F1;
@@ -86,11 +86,11 @@ body .bg {
 
 @font-face {
   font-family: "Clash Display Variable";
-  src: url(/src/fonts/ClashDisplay-Variable.ttf) format("truetype");
+  src: url(../../fonts/ClashDisplay-Variable.woff2) format("truetype");
 }
 @font-face {
   font-family: "Gallient";
-  src: url(/src/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+  src: url(../../fonts/GallientRegular-eZoMp.woff2) format("truetype");
 }
 * {
   margin: 0;
@@ -99,11 +99,11 @@ body .bg {
 
 @font-face {
   font-family: "Clash Display Variable";
-  src: url(/src/fonts/ClashDisplay-Variable.ttf) format("truetype");
+  src: url(../../fonts/ClashDisplay-Variable.woff2) format("truetype");
 }
 @font-face {
   font-family: "Gallient";
-  src: url(/src/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+  src: url(../../fonts/GallientRegular-eZoMp.woff2) format("truetype");
 }
 .learn-more-btn {
   display: block;
@@ -349,11 +349,11 @@ body .bg {
 
 @font-face {
   font-family: "Clash Display Variable";
-  src: url(/src/fonts/ClashDisplay-Variable.ttf) format("truetype");
+  src: url(../../fonts/ClashDisplay-Variable.woff2) format("truetype");
 }
 @font-face {
   font-family: "Gallient";
-  src: url(/src/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+  src: url(../../fonts/GallientRegular-eZoMp.woff2) format("truetype");
 }
 .learn-more-btn {
   display: block;
@@ -559,11 +559,11 @@ body {
 
 @font-face {
   font-family: "Clash Display Variable";
-  src: url(/src/fonts/ClashDisplay-Variable.ttf) format("truetype");
+  src: url(../../fonts/ClashDisplay-Variable.woff2) format("truetype");
 }
 @font-face {
   font-family: "Gallient";
-  src: url(/src/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+  src: url(../../fonts/GallientRegular-eZoMp.woff2) format("truetype");
 }
 * {
   margin: 0;
@@ -572,11 +572,11 @@ body {
 
 @font-face {
   font-family: "Clash Display Variable";
-  src: url(/src/fonts/ClashDisplay-Variable.ttf) format("truetype");
+  src: url(../../fonts/ClashDisplay-Variable.woff2) format("truetype");
 }
 @font-face {
   font-family: "Gallient";
-  src: url(/src/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+  src: url(../../fonts/GallientRegular-eZoMp.woff2) format("truetype");
 }
 @keyframes flipBar1 {
   from {
@@ -611,11 +611,11 @@ body {
 
 @font-face {
   font-family: "Clash Display Variable";
-  src: url(/src/fonts/ClashDisplay-Variable.ttf) format("truetype");
+  src: url(../../fonts/ClashDisplay-Variable.woff2) format("truetype");
 }
 @font-face {
   font-family: "Gallient";
-  src: url(/src/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+  src: url(../../fonts/GallientRegular-eZoMp.woff2) format("truetype");
 }
 .mobileNav {
   width: 230px;
@@ -776,11 +776,11 @@ body {
 
 @font-face {
   font-family: "Clash Display Variable";
-  src: url(/src/fonts/ClashDisplay-Variable.ttf) format("truetype");
+  src: url(../../fonts/ClashDisplay-Variable.woff2) format("truetype");
 }
 @font-face {
   font-family: "Gallient";
-  src: url(/src/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+  src: url(../../fonts/GallientRegular-eZoMp.woff2) format("truetype");
 }
 footer {
   margin: auto 0 0 0;
@@ -812,11 +812,11 @@ footer .social-icons:hover {
 
 @font-face {
   font-family: "Clash Display Variable";
-  src: url(/src/fonts/ClashDisplay-Variable.ttf) format("truetype");
+  src: url(../../fonts/ClashDisplay-Variable.woff2) format("truetype");
 }
 @font-face {
   font-family: "Gallient";
-  src: url(/src/fonts/GallientRegular-eZoMp.ttf) format("truetype");
+  src: url(../../fonts/GallientRegular-eZoMp.woff2) format("truetype");
 }
 .hero-container {
   width: 80%;
