@@ -4,6 +4,7 @@ $smallDesktopBp: 1250px;
 $tabletBp: 1030px;
 $mediumMobileBp: 508px;
 $smallMobileBp: 400px;
+$xtraSmallMobileBp: 375px;
 
 // ****************************
 // ***** HEADER COMPONENT *****
@@ -23,6 +24,25 @@ $smallMobileBp: 400px;
 		display: block;
 		@include flexColumnCenter;
 		margin-right: 40px;
+	}
+}
+
+// ****************************
+// ***** FOOTER COMPONENT *****
+// ****************************
+
+// Copyright text
+@mixin footerCopyrightBp {
+	@media only screen and (max-width: $xtraSmallMobileBp) {
+		font-size: .8rem;
+	}
+}
+
+// Social media icon
+@mixin footerSocialBp {
+	@media only screen and (max-width: $xtraSmallMobileBp) {
+		font-size: 1rem;
+		padding: 10px 10px;
 	}
 }
 
@@ -117,6 +137,11 @@ $smallMobileBp: 400px;
 		max-width: 80%;
 		height: 80%;
 	}
+
+	@media only screen and (max-width: $xtraSmallMobileBp) {
+		max-width: 90%;
+		height: 100%;
+	}
 }
 // MAIN HEADING
 @mixin introHeadingBp {
@@ -142,10 +167,6 @@ $smallMobileBp: 400px;
 
 	@media only screen and (max-width: $mediumMobileBp) {
 		font-size: 8rem;
-	}
-
-	@media only screen and (max-width: $smallMobileBp) {
-		font-size: 7rem;
 	}
 }
 
@@ -236,6 +257,16 @@ $smallMobileBp: 400px;
 	@media only screen and (max-width: $smallMobileBp) {
 		font-size: 1.2rem;
 		width: 180px;
+
+		&:hover {
+			width: 240px;
+		}
+	}
+
+	@media only screen and (max-width: $xtraSmallMobileBp) {
+		font-size: 1.2rem;
+		width: 180px;
+		margin-top: 0px;
 
 		&:hover {
 			width: 240px;
