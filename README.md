@@ -8,7 +8,7 @@ Welcome to my portfolio website, this is my first attempt in creating a website 
 
 - [Github Repository](https://github.com/jordansbenjamin/Portfolio_T1A2)
 
-- [Presentation clip](https://www.youtube.com/watch?v=XJEf4wHYvIQ)
+- Presentation clip (Provided to CoderAcademy)
 
 ---
 ## Purpose
